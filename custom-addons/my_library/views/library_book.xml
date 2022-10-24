@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
 <!-- Data records go here -->
-    <menuitem name="LIB"
-        id="menu_finance_mmm"
-        web_icon="account,static/description/icon.png"
-        sequence="40" />
-        <menuitem id="menu_board_journal_la" name="Dashboard" action="library_book_action" parent="menu_finance_mmm"/>
-
 <record id='library_book_action' model='ir.actions.act_window'>
 <field name="name">Library Books</field>
 <field name="res_model">library.book</field>
 <field name="view_mode">tree,form</field>
 </record>
+
+<menuitem name="My Library" id="library_base_menu" />
+<menuitem name="Books" id="library_book_menu"
+parent="library_base_menu" action="library_book_action"/>
 
 </odoo>
