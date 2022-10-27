@@ -1,0 +1,67 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.ss
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [{
+        "name": "odoo14",
+        "type": "python",
+        "request": "launch",
+        "stopOnEntry": false,   
+        "python": "/home/trungt/odoo-dev/venv-odoo-14.0/bin/python3",
+        "program": "/home/trungt/odoo-dev/odoo/odoo-bin",
+        // "gevent": truedef start_button,ss
+        "args": [ 
+            "-c", // config file
+            "/home/trungt/odoo-dev/odoo_14.cfg",
+            "-u", // updatse/
+            ",my_library,",
+            // "-i", //install
+            // "erpvn_hr_leave_management,erpvn_hr_payroll_vn,erpvn_org_chart,rpvn_scan_production,erpvn_planning_stock",
+            "--dev",
+            "xml,js",
+        ],
+        "cwd": "/home/trungt/odoo-dev/odoo",
+        "console": "integratedTerminal",
+    // }, {
+    //     "name": "odoo15",
+    //     "type": "python",
+    //     "request": "launch",
+    //     "stopOnEntry": false,
+    //     "python": "/home/manhnv/odoo/venv/bin/python3",
+    //     "program": "/home/manhnv/odoo/src/d8_15/odoo/odoo-bin",
+    //     // "gevent": true,
+    //     "args": [
+    //         "-c", // config file
+    //         "/home/manhnv/odoo/configs/odoo_15.cfg",
+    //         "-u", // update/
+    //         ",odb_purchase_product_configurator,",
+    //         // "-i", //install
+    //         // "erpvn_hr_leave_management,erpvn_hr_payroll_vn,erpvn_org_chart,rpvn_scan_production,erpvn_planning_stock",
+    //         "--dev",
+    //         "xml,js",
+    //     ],
+    //     "cwd": "/home/manhnv/odoo/src/d8_15/odoo",
+    //     "console": "integratedTerminal",
+    // }, {
+    //     "name": "cis",
+    //     "type": "python",
+    //     "request": "launch",
+    //     "stopOnEntry": false,
+    //     "python": "/home/manhnv/odoo/venv/bin/python3",
+    //     "program": "/home/manhnv/odoo/src/cis_14/odoo/odoo-bin",
+    //     // "gevent": true,
+    //     "args": [
+    //         "-c", // config file
+    //         "/home/manhnv/odoo/configs/cis.cfg",
+    //         "-u", // update/
+    //         "erpvn_product_request,",
+    //         // "-i", //install
+    //         // ",connector,",
+    //         "--dev",
+    //         "xml,js",
+    //     ],
+    //     "cwd": "/home/manhnv/odoo/src/cis_14/odoo",
+    //     "console": "integratedTerminal",
+    // }]
+}

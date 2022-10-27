@@ -1,0 +1,30 @@
+{
+    ////"terminal.integrated.shell.linux": "D:\\CentOS7\\CentOS7.exe",
+    //"terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+    //"terminal.integrated.shell.windows": "C:\\Windows\\System32\\bash.exe",
+    //"terminal.integrated.shell.windows": "${workspaceFolder}\\03.Tools\\PowerShell\\pwsh.exe",
+    "git.enabled": true,
+    "git.autofetch": true,
+    "python.linting.mypyEnabled": false,
+    "python.linting.pydocstyleEnabled": false,
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "python.formatting.provider": "autopep8",
+    "python.linting.pylintPath": "/home/manhnv/odoo/venv/lib/python3.8/site-packages/pylint", 
+    "jupyter.debugJustMyCode": false,
+
+    "workbench.colorCustomizations": {
+        "list.inactiveSelectionBackground": "#000000",
+        "sideBar.background": "#000000",
+        "sideBar.foreground": "#FFFFFF",
+        "editor.background": "#000000",
+        "editor.foreground": "#FFFFFF",
+        "sideBarSectionHeader.background": "#000000",
+        "sideBarSectionHeader.foreground": "#81CA91",
+        "activityBar.border": "#000000",
+        "statusBar.background": "#000000",
+        "scrollbarSlider.activeBackground": "#81CA91",
+        "scrollbarSlider.hoverBackground": "#81CA91",
+        "badge.background": "#81CA91"
+    }
+}

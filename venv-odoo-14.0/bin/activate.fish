@@ -29,7 +29,7 @@ end
 # unset irrelevant variables
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/home/trungteh/venv-odoo-14.0"
+set -gx VIRTUAL_ENV "/home/trungt/odoo-dev/venv-odoo-14.0"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH

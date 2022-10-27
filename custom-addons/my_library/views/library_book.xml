@@ -18,7 +18,6 @@
                     <field name="author_ids" widget="many2many_tags"/>
                     </group>
                     <group>
-                    <field name="date_release_aa"/>
                     <field name="date_release"/>
                     </group>
                     </group>
