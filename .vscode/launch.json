@@ -23,6 +23,8 @@
         ],
         "cwd": "/home/trungt/odoo-dev/odoo",
         "console": "integratedTerminal",
+    }]
+}
     // }, {
     //     "name": "odoo15",
     //     "type": "python",
@@ -64,4 +66,4 @@
     //     "cwd": "/home/manhnv/odoo/src/cis_14/odoo",
     //     "console": "integratedTerminal",
     // }]
-}
+// }

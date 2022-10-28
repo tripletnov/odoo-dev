@@ -29,3 +29,32 @@ class LibraryBook(models.Model):
     short_name = fields.Char('Short Title', required=True)
     date_release = fields.Date('Release Date')
     author_ids = fields.Many2many('res.partner', string='Authors')
+
+    notes = fields.Text('Internal Notes')
+    state = fields.Selection(
+    [('draft', 'Not Available'),
+    ('available', 'Available'),
+    ('lost', 'Lost')],
+    'State')
+    description = fields.Html('Description')
+    cover = fields.Binary('Book Cover')
+    out_of_print = fields.Boolean('Out of Print?')
+    date_release = fields.Date('Release Date')
+    date_updated = fields.Datetime('Last Updated')
+    pages = fields.Integer('Number of Pages')
+    reader_rating = fields.Float(
+    'Reader Average Rating',
+    digits=(14, 4), # Optional precision decimals,
+    )
+    cost_price = fields.Float('Book Cost', digits='Book Price')
+
+    currency_id = fields.Many2one('res.currency', string='Currency')
+    retail_price = fields.Monetary('Retail Price',# optional: currency_field='currency_id',
+    )
+    # def log_all_library_members(self):
+    #     # This is an empty recordset of model library.
+    #     # member
+    #     library_member_model = self.env['library.member']
+    #     all_members = library_member_model.search([])
+    #     print("ALL MEMBERS:", all_members)
+    #     return True
