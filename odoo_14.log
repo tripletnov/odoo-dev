@@ -696,3 +696,304 @@
 2022-10-31 02:04:48,531 2712 INFO odoo-test odoo.modules.loading: loading partner_autocomplete/security/ir.model.access.csv 
 2022-10-31 02:04:48,550 2712 INFO odoo-test odoo.modules.loading: loading partner_autocomplete/views/partner_autocomplete_assets.xml 
 2022-10-31 02:04:48,621 2712 INFO odoo-test odoo.modules.loading: loading partner_autocomplete/views/res_partner_views.xml 
+2022-10-31 02:04:48,694 2712 INFO odoo-test odoo.modules.loading: loading partner_autocomplete/views/res_company_views.xml 
+2022-10-31 02:04:48,713 2712 INFO odoo-test odoo.modules.loading: loading partner_autocomplete/views/res_config_settings_views.xml 
+2022-10-31 02:04:48,783 2712 INFO odoo-test odoo.modules.loading: loading partner_autocomplete/data/cron.xml 
+2022-10-31 02:04:48,792 2712 INFO odoo-test odoo.modules.loading: Module partner_autocomplete: loading demo 
+2022-10-31 02:04:48,814 2712 INFO odoo-test odoo.modules.loading: Module partner_autocomplete loaded in 0.65s, 336 queries 
+2022-10-31 02:04:48,814 2712 INFO odoo-test odoo.modules.loading: Loading module portal (25/37) 
+2022-10-31 02:04:48,973 2712 INFO odoo-test odoo.modules.registry: module portal: creating or updating database tables 
+2022-10-31 02:04:49,310 2712 INFO odoo-test odoo.modules.loading: loading portal/security/ir.model.access.csv 
+2022-10-31 02:04:49,327 2712 INFO odoo-test odoo.modules.loading: loading portal/data/portal_data.xml 
+2022-10-31 02:04:49,344 2712 INFO odoo-test odoo.modules.loading: loading portal/views/assets.xml 
+2022-10-31 02:04:49,416 2712 INFO odoo-test odoo.modules.loading: loading portal/views/portal_templates.xml 
+2022-10-31 02:04:49,632 2712 INFO odoo-test odoo.modules.loading: loading portal/wizard/portal_share_views.xml 
+2022-10-31 02:04:49,649 2712 INFO odoo-test odoo.modules.loading: loading portal/wizard/portal_wizard_views.xml 
+2022-10-31 02:04:49,667 2712 INFO odoo-test odoo.modules.loading: Module portal: loading demo 
+2022-10-31 02:04:49,686 2712 INFO odoo-test odoo.modules.loading: Module portal loaded in 0.87s, 678 queries 
+2022-10-31 02:04:49,687 2712 INFO odoo-test odoo.modules.loading: Loading module sms (26/37) 
+2022-10-31 02:04:49,870 2712 INFO odoo-test odoo.modules.registry: module sms: creating or updating database tables 
+2022-10-31 02:04:50,205 2712 INFO odoo-test odoo.models: Storing computed values of res.partner.phone_sanitized 
+2022-10-31 02:04:50,382 2712 INFO odoo-test odoo.addons.phone_validation.tools.phone_validation: The `phonenumbers` Python module is not installed, contact numbers will not be verified. Please install the `phonenumbers` Python module. 
+2022-10-31 02:04:50,450 2712 INFO odoo-test odoo.modules.loading: loading sms/data/ir_cron_data.xml 
+2022-10-31 02:04:50,459 2712 INFO odoo-test odoo.modules.loading: loading sms/wizard/sms_cancel_views.xml 
+2022-10-31 02:04:50,478 2712 INFO odoo-test odoo.modules.loading: loading sms/wizard/sms_composer_views.xml 
+2022-10-31 02:04:50,499 2712 INFO odoo-test odoo.modules.loading: loading sms/wizard/sms_template_preview_views.xml 
+2022-10-31 02:04:50,522 2712 INFO odoo-test odoo.modules.loading: loading sms/wizard/sms_resend_views.xml 
+2022-10-31 02:04:50,540 2712 INFO odoo-test odoo.modules.loading: loading sms/views/ir_actions_views.xml 
+2022-10-31 02:04:50,574 2712 INFO odoo-test odoo.modules.loading: loading sms/views/mail_notification_views.xml 
+2022-10-31 02:04:50,601 2712 INFO odoo-test odoo.modules.loading: loading sms/views/res_config_settings_views.xml 
+2022-10-31 02:04:50,670 2712 INFO odoo-test odoo.modules.loading: loading sms/views/res_partner_views.xml 
+2022-10-31 02:04:50,736 2712 INFO odoo-test odoo.modules.loading: loading sms/views/assets.xml 
+2022-10-31 02:04:50,781 2712 INFO odoo-test odoo.modules.loading: loading sms/views/sms_sms_views.xml 
+2022-10-31 02:04:50,818 2712 INFO odoo-test odoo.modules.loading: loading sms/views/sms_template_views.xml 
+2022-10-31 02:04:50,860 2712 INFO odoo-test odoo.modules.loading: loading sms/security/ir.model.access.csv 
+2022-10-31 02:04:50,898 2712 INFO odoo-test odoo.modules.loading: loading sms/security/sms_security.xml 
+2022-10-31 02:04:50,907 2712 INFO odoo-test odoo.modules.loading: Module sms: loading demo 
+2022-10-31 02:04:50,907 2712 INFO odoo-test odoo.modules.loading: loading sms/data/sms_demo.xml 
+2022-10-31 02:04:50,911 2712 INFO odoo-test odoo.modules.loading: loading sms/data/mail_demo.xml 
+2022-10-31 02:04:50,988 2712 INFO odoo-test odoo.modules.loading: Module sms loaded in 1.30s, 882 queries 
+2022-10-31 02:04:50,988 2712 INFO odoo-test odoo.modules.loading: Loading module snailmail (27/37) 
+2022-10-31 02:04:51,138 2712 INFO odoo-test odoo.modules.registry: module snailmail: creating or updating database tables 
+2022-10-31 02:04:51,495 2712 INFO odoo-test odoo.modules.loading: loading snailmail/data/snailmail_data.xml 
+2022-10-31 02:04:51,506 2712 INFO odoo-test odoo.modules.loading: loading snailmail/views/report_assets.xml 
+2022-10-31 02:04:51,541 2712 INFO odoo-test odoo.modules.loading: loading snailmail/views/snailmail_views.xml 
+2022-10-31 02:04:51,573 2712 INFO odoo-test odoo.modules.loading: loading snailmail/views/assets.xml 
+2022-10-31 02:04:51,637 2712 INFO odoo-test odoo.modules.loading: loading snailmail/wizard/snailmail_confirm_views.xml 
+2022-10-31 02:04:51,648 2712 INFO odoo-test odoo.modules.loading: loading snailmail/wizard/snailmail_letter_cancel_views.xml 
+2022-10-31 02:04:51,662 2712 INFO odoo-test odoo.modules.loading: loading snailmail/wizard/snailmail_letter_format_error_views.xml 
+2022-10-31 02:04:51,677 2712 INFO odoo-test odoo.modules.loading: loading snailmail/wizard/snailmail_letter_missing_required_fields_views.xml 
+2022-10-31 02:04:51,693 2712 INFO odoo-test odoo.modules.loading: loading snailmail/security/ir.model.access.csv 
+2022-10-31 02:04:51,717 2712 INFO odoo-test odoo.modules.loading: Module snailmail: loading demo 
+2022-10-31 02:04:51,737 2712 INFO odoo-test odoo.modules.loading: Module snailmail loaded in 0.75s, 506 queries 
+2022-10-31 02:04:51,738 2712 INFO odoo-test odoo.modules.loading: Loading module auth_totp_portal (28/37) 
+2022-10-31 02:04:51,857 2712 INFO odoo-test odoo.modules.loading: loading auth_totp_portal/security/security.xml 
+2022-10-31 02:04:52,013 2712 INFO odoo-test odoo.modules.loading: loading auth_totp_portal/views/templates.xml 
+2022-10-31 02:04:52,067 2712 INFO odoo-test odoo.modules.loading: Module auth_totp_portal: loading demo 
+2022-10-31 02:04:52,082 2712 INFO odoo-test odoo.modules.loading: Module auth_totp_portal loaded in 0.34s, 107 queries 
+2022-10-31 02:04:52,082 2712 INFO odoo-test odoo.modules.loading: Loading module digest (29/37) 
+2022-10-31 02:04:52,208 2712 INFO odoo-test odoo.modules.registry: module digest: creating or updating database tables 
+2022-10-31 02:04:52,507 2712 INFO odoo-test odoo.modules.loading: loading digest/security/ir.model.access.csv 
+2022-10-31 02:04:52,525 2712 INFO odoo-test odoo.modules.loading: loading digest/data/digest_data.xml 
+2022-10-31 02:04:52,559 2712 INFO odoo-test odoo.modules.loading: loading digest/data/digest_tips_data.xml 
+2022-10-31 02:04:52,577 2712 INFO odoo-test odoo.modules.loading: loading digest/data/ir_cron_data.xml 
+2022-10-31 02:04:52,586 2712 INFO odoo-test odoo.modules.loading: loading digest/data/res_config_settings_data.xml 
+2022-10-31 02:04:52,592 2712 INFO odoo-test odoo.modules.loading: loading digest/views/digest_views.xml 
+2022-10-31 02:04:52,697 2712 INFO odoo-test odoo.modules.loading: loading digest/views/digest_templates.xml 
+2022-10-31 02:04:52,706 2712 INFO odoo-test odoo.modules.loading: loading digest/views/res_config_settings_views.xml 
+2022-10-31 02:04:52,777 2712 INFO odoo-test odoo.modules.loading: Module digest: loading demo 
+2022-10-31 02:04:52,797 2712 INFO odoo-test odoo.modules.loading: Module digest loaded in 0.72s, 430 queries 
+2022-10-31 02:04:52,797 2712 INFO odoo-test odoo.modules.loading: Loading module account (30/37) 
+2022-10-31 02:04:53,206 2712 INFO odoo-test odoo.modules.registry: module account: creating or updating database tables 
+2022-10-31 02:04:55,226 2712 INFO odoo-test odoo.models: Storing computed values of res.company.account_tax_fiscal_country_id 
+2022-10-31 02:04:56,950 2712 INFO odoo-test odoo.modules.loading: loading account/security/account_security.xml 
+2022-10-31 02:04:57,287 2712 INFO odoo-test odoo.modules.loading: loading account/security/ir.model.access.csv 
+2022-10-31 02:04:57,687 2712 INFO odoo-test odoo.modules.loading: loading account/data/data_account_type.xml 
+2022-10-31 02:04:57,764 2712 INFO odoo-test odoo.modules.loading: loading account/data/account_data.xml 
+2022-10-31 02:04:57,843 2712 INFO odoo-test odoo.modules.loading: loading account/data/digest_data.xml 
+2022-10-31 02:04:57,850 2712 INFO odoo-test odoo.modules.loading: loading account/views/account_payment_view.xml 
+2022-10-31 02:04:57,985 2712 INFO odoo-test odoo.modules.loading: loading account/wizard/account_automatic_entry_wizard_views.xml 
+2022-10-31 02:04:58,008 2712 INFO odoo-test odoo.modules.loading: loading account/wizard/account_unreconcile_view.xml 
+2022-10-31 02:04:58,022 2712 INFO odoo-test odoo.modules.loading: loading account/wizard/account_move_reversal_view.xml 
+2022-10-31 02:04:58,040 2712 INFO odoo-test odoo.modules.loading: loading account/wizard/account_resequence_views.xml 
+2022-10-31 02:04:58,055 2712 INFO odoo-test odoo.modules.loading: loading account/wizard/account_payment_register_views.xml 
+2022-10-31 02:04:58,077 2712 INFO odoo-test odoo.modules.loading: loading account/views/account_move_views.xml 
+2022-10-31 02:04:58,808 2712 INFO odoo-test odoo.modules.loading: loading account/wizard/setup_wizards_view.xml 
+2022-10-31 02:04:58,849 2712 INFO odoo-test odoo.modules.loading: loading account/wizard/pos_box.xml 
+2022-10-31 02:04:58,862 2712 INFO odoo-test odoo.modules.loading: loading account/views/partner_view.xml 
+2022-10-31 02:04:59,049 2712 INFO odoo-test odoo.modules.loading: loading account/views/account_account_type_views.xml 
+2022-10-31 02:04:59,078 2712 INFO odoo-test odoo.modules.loading: loading account/views/account_account_views.xml 
+2022-10-31 02:04:59,133 2712 INFO odoo-test odoo.modules.loading: loading account/views/account_group_views.xml 
+2022-10-31 02:04:59,164 2712 INFO odoo-test odoo.modules.loading: loading account/views/account_journal_views.xml 
+2022-10-31 02:04:59,267 2712 INFO odoo-test odoo.modules.loading: loading account/views/account_account_tag_views.xml 
+2022-10-31 02:04:59,295 2712 INFO odoo-test odoo.modules.loading: loading account/views/account_bank_statement_views.xml 
+2022-10-31 02:04:59,478 2712 INFO odoo-test odoo.modules.loading: loading account/views/account_reconcile_model_views.xml 
+2022-10-31 02:04:59,548 2712 INFO odoo-test odoo.modules.loading: loading account/views/account_tax_views.xml 
+2022-10-31 02:04:59,640 2712 INFO odoo-test odoo.modules.loading: loading account/views/account_full_reconcile_views.xml 
+2022-10-31 02:04:59,651 2712 INFO odoo-test odoo.modules.loading: loading account/views/account_payment_term_views.xml 
+2022-10-31 02:04:59,715 2712 INFO odoo-test odoo.modules.loading: loading account/views/account_chart_template_views.xml 
+2022-10-31 02:04:59,843 2712 INFO odoo-test odoo.modules.loading: loading account/views/res_partner_bank_views.xml 
+2022-10-31 02:04:59,863 2712 INFO odoo-test odoo.modules.loading: loading account/views/report_statement.xml 
+2022-10-31 02:04:59,875 2712 INFO odoo-test odoo.modules.loading: loading account/views/account_report.xml 
+2022-10-31 02:04:59,894 2712 INFO odoo-test odoo.modules.loading: loading account/data/mail_template_data.xml 
+2022-10-31 02:04:59,899 2712 INFO odoo-test odoo.modules.loading: loading account/wizard/account_validate_move_view.xml 
+2022-10-31 02:04:59,913 2712 INFO odoo-test odoo.modules.loading: loading account/views/res_company_views.xml 
+2022-10-31 02:04:59,938 2712 INFO odoo-test odoo.modules.loading: loading account/views/product_view.xml 
+2022-10-31 02:05:00,006 2712 INFO odoo-test odoo.modules.loading: loading account/views/account_analytic_view.xml 
+2022-10-31 02:05:00,067 2712 INFO odoo-test odoo.modules.loading: loading account/views/account.xml 
+2022-10-31 02:05:00,171 2712 INFO odoo-test odoo.modules.loading: loading account/views/report_invoice.xml 
+2022-10-31 02:05:00,208 2712 INFO odoo-test odoo.modules.loading: loading account/report/account_invoice_report_view.xml 
+2022-10-31 02:05:00,274 2712 INFO odoo-test odoo.modules.loading: loading account/views/account_cash_rounding_view.xml 
+2022-10-31 02:05:00,306 2712 INFO odoo-test odoo.modules.loading: loading account/wizard/account_report_common_view.xml 
+2022-10-31 02:05:00,317 2712 INFO odoo-test odoo.modules.loading: loading account/views/report_journal.xml 
+2022-10-31 02:05:00,328 2712 INFO odoo-test odoo.modules.loading: loading account/views/tax_adjustments.xml 
+2022-10-31 02:05:00,332 2712 INFO odoo-test odoo.modules.loading: loading account/wizard/wizard_tax_adjustments_view.xml 
+2022-10-31 02:05:00,348 2712 INFO odoo-test odoo.modules.loading: loading account/views/res_config_settings_views.xml 
+2022-10-31 02:05:00,481 2712 INFO odoo-test odoo.modules.loading: loading account/views/account_journal_dashboard_view.xml 
+2022-10-31 02:05:00,530 2712 INFO odoo-test odoo.modules.loading: loading account/views/account_portal_templates.xml 
+2022-10-31 02:05:00,592 2712 INFO odoo-test odoo.modules.loading: loading account/views/report_payment_receipt_templates.xml 
+2022-10-31 02:05:00,610 2712 INFO odoo-test odoo.modules.loading: loading account/data/payment_receipt_data.xml 
+2022-10-31 02:05:00,620 2712 INFO odoo-test odoo.modules.loading: loading account/views/account_onboarding_templates.xml 
+2022-10-31 02:05:00,709 2712 INFO odoo-test odoo.modules.loading: loading account/data/service_cron.xml 
+2022-10-31 02:05:00,717 2712 INFO odoo-test odoo.modules.loading: loading account/views/account_incoterms_view.xml 
+2022-10-31 02:05:00,749 2712 INFO odoo-test odoo.modules.loading: loading account/data/account_incoterms_data.xml 
+2022-10-31 02:05:00,768 2712 INFO odoo-test odoo.modules.loading: loading account/views/digest_views.xml 
+2022-10-31 02:05:00,817 2712 INFO odoo-test odoo.modules.loading: loading account/wizard/account_invoice_send_views.xml 
+2022-10-31 02:05:00,841 2712 INFO odoo-test odoo.modules.loading: loading account/views/account_tax_report_views.xml 
+2022-10-31 02:05:00,890 2712 INFO odoo-test odoo.modules.loading: loading account/report/account_hash_integrity_templates.xml 
+2022-10-31 02:05:00,901 2712 INFO odoo-test odoo.modules.loading: loading account/views/res_currency.xml 
+2022-10-31 02:05:00,918 2712 INFO odoo-test odoo.modules.loading: loading account/views/account_menuitem.xml 
+2022-10-31 02:05:01,153 2712 INFO odoo-test odoo.modules.loading: loading account/views/account_analytic_default_view.xml 
+2022-10-31 02:05:01,211 2712 INFO odoo-test odoo.modules.loading: loading account/wizard/account_tour_upload_bill.xml 
+2022-10-31 02:05:01,234 2712 INFO odoo-test odoo.modules.loading: Module account: loading demo 
+2022-10-31 02:05:01,234 2712 INFO odoo-test odoo.modules.loading: loading account/demo/account_demo.xml 
+2022-10-31 02:05:01,549 2712 INFO odoo-test odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['Check Printing Base', 'United States - Accounting'] to user __system__ #1 via 127.0.0.1 
+2022-10-31 02:05:01,709 2712 INFO odoo-test odoo.modules.loading: Module account loaded in 8.91s, 8037 queries 
+2022-10-31 02:05:01,709 2712 INFO odoo-test odoo.modules.loading: Loading module account_edi (31/37) 
+2022-10-31 02:05:01,934 2712 INFO odoo-test odoo.modules.registry: module account_edi: creating or updating database tables 
+2022-10-31 02:05:02,433 2712 INFO odoo-test odoo.modules.loading: loading account_edi/security/ir.model.access.csv 
+2022-10-31 02:05:02,452 2712 INFO odoo-test odoo.modules.loading: loading account_edi/wizard/account_invoice_send_views.xml 
+2022-10-31 02:05:02,475 2712 INFO odoo-test odoo.modules.loading: loading account_edi/views/account_edi_document_views.xml 
+2022-10-31 02:05:02,488 2712 INFO odoo-test odoo.modules.loading: loading account_edi/views/account_move_views.xml 
+2022-10-31 02:05:02,618 2712 INFO odoo-test odoo.modules.loading: loading account_edi/views/account_payment_views.xml 
+2022-10-31 02:05:02,665 2712 INFO odoo-test odoo.modules.loading: loading account_edi/views/account_journal_views.xml 
+2022-10-31 02:05:02,706 2712 INFO odoo-test odoo.modules.loading: loading account_edi/data/cron.xml 
+2022-10-31 02:05:02,714 2712 INFO odoo-test odoo.modules.loading: Module account_edi: loading demo 
+2022-10-31 02:05:02,733 2712 INFO odoo-test odoo.modules.loading: Module account_edi loaded in 1.02s, 389 queries 
+2022-10-31 02:05:02,733 2712 INFO odoo-test odoo.modules.loading: Loading module payment (32/37) 
+2022-10-31 02:05:02,969 2712 INFO odoo-test odoo.modules.registry: module payment: creating or updating database tables 
+2022-10-31 02:05:03,821 2712 INFO odoo-test odoo.modules.loading: loading payment/data/account_data.xml 
+2022-10-31 02:05:03,827 2712 INFO odoo-test odoo.modules.loading: loading payment/data/payment_icon_data.xml 
+2022-10-31 02:05:04,003 2712 INFO odoo-test odoo.modules.loading: loading payment/data/payment_acquirer_data.xml 
+2022-10-31 02:05:04,178 2712 INFO odoo-test odoo.modules.loading: loading payment/data/payment_cron.xml 
+2022-10-31 02:05:04,187 2712 INFO odoo-test odoo.modules.loading: loading payment/views/payment_views.xml 
+2022-10-31 02:05:04,378 2712 INFO odoo-test odoo.modules.loading: loading payment/views/account_payment_views.xml 
+2022-10-31 02:05:04,428 2712 INFO odoo-test odoo.modules.loading: loading payment/views/account_invoice_views.xml 
+2022-10-31 02:05:04,561 2712 INFO odoo-test odoo.modules.loading: loading payment/views/payment_acquirer_onboarding_templates.xml 
+2022-10-31 02:05:04,588 2712 INFO odoo-test odoo.modules.loading: loading payment/views/payment_templates.xml 
+2022-10-31 02:05:04,634 2712 INFO odoo-test odoo.modules.loading: loading payment/views/payment_portal_templates.xml 
+2022-10-31 02:05:04,679 2712 INFO odoo-test odoo.modules.loading: loading payment/views/assets.xml 
+2022-10-31 02:05:04,702 2712 INFO odoo-test odoo.modules.loading: loading payment/views/res_partner_views.xml 
+2022-10-31 02:05:04,785 2712 INFO odoo-test odoo.modules.loading: loading payment/security/ir.model.access.csv 
+2022-10-31 02:05:04,831 2712 INFO odoo-test odoo.modules.loading: loading payment/security/payment_security.xml 
+2022-10-31 02:05:04,866 2712 INFO odoo-test odoo.modules.loading: loading payment/wizards/payment_link_wizard_views.xml 
+2022-10-31 02:05:04,884 2712 INFO odoo-test odoo.modules.loading: Module payment: loading demo 
+2022-10-31 02:05:04,907 2712 INFO odoo-test odoo.modules.loading: Module payment loaded in 2.17s, 1174 queries 
+2022-10-31 02:05:04,907 2712 INFO odoo-test odoo.modules.loading: Loading module snailmail_account (33/37) 
+2022-10-31 02:05:05,134 2712 INFO odoo-test odoo.modules.registry: module snailmail_account: creating or updating database tables 
+2022-10-31 02:05:05,529 2712 INFO odoo-test odoo.modules.loading: loading snailmail_account/views/res_config_settings_views.xml 
+2022-10-31 02:05:05,691 2712 INFO odoo-test odoo.modules.loading: loading snailmail_account/views/assets.xml 
+2022-10-31 02:05:05,718 2712 INFO odoo-test odoo.modules.loading: loading snailmail_account/wizard/account_invoice_send_views.xml 
+2022-10-31 02:05:05,749 2712 INFO odoo-test odoo.modules.loading: loading snailmail_account/security/ir.model.access.csv 
+2022-10-31 02:05:05,759 2712 INFO odoo-test odoo.modules.loading: Module snailmail_account: loading demo 
+2022-10-31 02:05:05,776 2712 INFO odoo-test odoo.modules.loading: Module snailmail_account loaded in 0.87s, 223 queries 
+2022-10-31 02:05:05,776 2712 INFO odoo-test odoo.modules.loading: Loading module account_edi_facturx (34/37) 
+2022-10-31 02:05:05,963 2712 INFO odoo-test odoo.modules.registry: module account_edi_facturx: creating or updating database tables 
+2022-10-31 02:05:06,002 2712 INFO odoo-test odoo.modules.loading: loading account_edi_facturx/data/account_edi_data.xml 
+2022-10-31 02:05:06,339 2712 INFO odoo-test odoo.modules.loading: loading account_edi_facturx/data/facturx_templates.xml 
+2022-10-31 02:05:06,391 2712 INFO odoo-test odoo.modules.loading: Module account_edi_facturx: loading demo 
+2022-10-31 02:05:06,397 2712 INFO odoo-test odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['Import/Export electronic invoices with UBL/CII'] to user __system__ #1 via 127.0.0.1 
+2022-10-31 02:05:06,524 2712 INFO odoo-test odoo.modules.loading: Module account_edi_facturx loaded in 0.75s, 170 queries 
+2022-10-31 02:05:06,525 2712 INFO odoo-test odoo.modules.loading: Loading module account_edi_ubl (35/37) 
+2022-10-31 02:05:06,719 2712 INFO odoo-test odoo.modules.registry: module account_edi_ubl: creating or updating database tables 
+2022-10-31 02:05:06,847 2712 INFO odoo-test odoo.modules.loading: loading account_edi_ubl/data/ubl_templates.xml 
+2022-10-31 02:05:07,163 2712 INFO odoo-test odoo.modules.loading: Module account_edi_ubl: loading demo 
+2022-10-31 02:05:07,202 2712 INFO odoo-test odoo.modules.loading: Module account_edi_ubl loaded in 0.68s, 97 queries 
+2022-10-31 02:05:07,202 2712 INFO odoo-test odoo.modules.loading: Loading module payment_fix_register_token (36/37) 
+2022-10-31 02:05:07,392 2712 INFO odoo-test odoo.modules.registry: module payment_fix_register_token: creating or updating database tables 
+2022-10-31 02:05:07,727 2712 INFO odoo-test odoo.modules.loading: loading payment_fix_register_token/views/account_payment_register_views.xml 
+2022-10-31 02:05:07,767 2712 INFO odoo-test odoo.modules.loading: Module payment_fix_register_token: loading demo 
+2022-10-31 02:05:07,781 2712 INFO odoo-test odoo.modules.loading: Module payment_fix_register_token loaded in 0.58s, 73 queries 
+2022-10-31 02:05:07,781 2712 INFO odoo-test odoo.modules.loading: Loading module payment_transfer (37/37) 
+2022-10-31 02:05:07,970 2712 INFO odoo-test odoo.modules.registry: module payment_transfer: creating or updating database tables 
+2022-10-31 02:05:08,301 2712 INFO odoo-test odoo.modules.loading: loading payment_transfer/views/payment_views.xml 
+2022-10-31 02:05:08,341 2712 INFO odoo-test odoo.modules.loading: loading payment_transfer/views/payment_transfer_templates.xml 
+2022-10-31 02:05:08,350 2712 INFO odoo-test odoo.modules.loading: loading payment_transfer/data/payment_acquirer_data.xml 
+2022-10-31 02:05:08,369 2712 INFO odoo-test odoo.modules.loading: Module payment_transfer: loading demo 
+2022-10-31 02:05:08,392 2712 INFO odoo-test odoo.modules.loading: Module payment_transfer loaded in 0.61s, 119 queries 
+2022-10-31 02:05:08,392 2712 INFO odoo-test odoo.modules.loading: 37 modules loaded in 35.56s, 24373 queries (+0 extra) 
+2022-10-31 02:05:08,396 2712 INFO odoo-test odoo.modules.loading: loading 41 modules... 
+2022-10-31 02:05:08,396 2712 INFO odoo-test odoo.modules.loading: Loading module account_check_printing (31/41) 
+2022-10-31 02:05:08,632 2712 INFO odoo-test odoo.modules.registry: module account_check_printing: creating or updating database tables 
+2022-10-31 02:05:09,233 2712 INFO odoo-test odoo.modules.loading: loading account_check_printing/security/ir.model.access.csv 
+2022-10-31 02:05:09,242 2712 INFO odoo-test odoo.modules.loading: loading account_check_printing/data/account_check_printing_data.xml 
+2022-10-31 02:05:09,253 2712 INFO odoo-test odoo.modules.loading: loading account_check_printing/views/account_journal_views.xml 
+2022-10-31 02:05:09,341 2712 INFO odoo-test odoo.modules.loading: loading account_check_printing/views/account_move_views.xml 
+2022-10-31 02:05:09,363 2712 INFO odoo-test odoo.modules.loading: loading account_check_printing/views/account_payment_views.xml 
+2022-10-31 02:05:09,439 2712 INFO odoo-test odoo.modules.loading: loading account_check_printing/views/res_config_settings_views.xml 
+2022-10-31 02:05:09,568 2712 INFO odoo-test odoo.modules.loading: loading account_check_printing/views/res_partner_views.xml 
+2022-10-31 02:05:09,641 2712 INFO odoo-test odoo.modules.loading: loading account_check_printing/wizard/print_prenumbered_checks_views.xml 
+2022-10-31 02:05:09,652 2712 INFO odoo-test odoo.modules.loading: Module account_check_printing: loading demo 
+2022-10-31 02:05:09,668 2712 INFO odoo-test odoo.modules.loading: Module account_check_printing loaded in 1.27s, 525 queries 
+2022-10-31 02:05:09,668 2712 INFO odoo-test odoo.modules.loading: Loading module l10n_generic_coa (33/41) 
+2022-10-31 02:05:09,866 2712 INFO odoo-test odoo.modules.loading: loading l10n_generic_coa/data/l10n_generic_coa.xml 
+2022-10-31 02:05:10,180 2712 INFO odoo-test odoo.modules.loading: loading l10n_generic_coa/data/account.account.template.csv 
+2022-10-31 02:05:10,290 2712 INFO odoo-test odoo.modules.loading: loading l10n_generic_coa/data/l10n_generic_coa_post.xml 
+2022-10-31 02:05:10,714 2712 INFO odoo-test odoo.modules.loading: Module l10n_generic_coa: loading demo 
+2022-10-31 02:05:10,715 2712 INFO odoo-test odoo.modules.loading: loading l10n_generic_coa/demo/account_bank_statement_demo.xml 
+2022-10-31 02:05:11,478 2712 INFO odoo-test odoo.modules.loading: loading l10n_generic_coa/demo/account_invoice_demo.xml 
+2022-10-31 02:05:14,619 2712 INFO odoo-test odoo.tests: skip sending email in test mode 
+2022-10-31 02:05:14,620 2712 INFO odoo-test odoo.addons.mail.models.mail_mail: Mail with ID 1 and Message-Id '<480073645571302.1667181914.561102867126465-openerp-message-notify@trungt-GF63-Thin-10SC>' successfully sent 
+2022-10-31 02:05:14,635 2712 INFO odoo-test odoo.models.unlink: User #1 deleted mail.mail records with IDs: [1] 
+2022-10-31 02:05:14,635 2712 INFO odoo-test odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2022-10-31 02:05:14,743 2712 INFO odoo-test odoo.tests: skip sending email in test mode 
+2022-10-31 02:05:14,744 2712 INFO odoo-test odoo.addons.mail.models.mail_mail: Mail with ID 2 and Message-Id '<466167827384774.1667181914.691728830337524-openerp-message-notify@trungt-GF63-Thin-10SC>' successfully sent 
+2022-10-31 02:05:14,758 2712 INFO odoo-test odoo.models.unlink: User #1 deleted mail.mail records with IDs: [2] 
+2022-10-31 02:05:14,758 2712 INFO odoo-test odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2022-10-31 02:05:14,874 2712 INFO odoo-test odoo.tests: skip sending email in test mode 
+2022-10-31 02:05:14,875 2712 INFO odoo-test odoo.addons.mail.models.mail_mail: Mail with ID 3 and Message-Id '<833277665918061.1667181914.822483301162720-openerp-message-notify@trungt-GF63-Thin-10SC>' successfully sent 
+2022-10-31 02:05:14,887 2712 INFO odoo-test odoo.models.unlink: User #1 deleted mail.mail records with IDs: [3] 
+2022-10-31 02:05:14,887 2712 INFO odoo-test odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2022-10-31 02:05:14,992 2712 INFO odoo-test odoo.tests: skip sending email in test mode 
+2022-10-31 02:05:14,993 2712 INFO odoo-test odoo.addons.mail.models.mail_mail: Mail with ID 4 and Message-Id '<004491359834258.1667181914.941251516342163-openerp-message-notify@trungt-GF63-Thin-10SC>' successfully sent 
+2022-10-31 02:05:15,005 2712 INFO odoo-test odoo.models.unlink: User #1 deleted mail.mail records with IDs: [4] 
+2022-10-31 02:05:15,005 2712 INFO odoo-test odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2022-10-31 02:05:15,013 2712 INFO odoo-test odoo.modules.loading: loading l10n_generic_coa/demo/account_reconcile_model.xml 
+2022-10-31 02:05:15,050 2712 INFO odoo-test odoo.modules.loading: Module l10n_generic_coa loaded in 5.38s, 2653 queries (+1 other) 
+2022-10-31 02:05:15,050 2712 INFO odoo-test odoo.modules.loading: Loading module account_edi_ubl_cii (38/41) 
+2022-10-31 02:05:15,416 2712 INFO odoo-test odoo.modules.registry: module account_edi_ubl_cii: creating or updating database tables 
+2022-10-31 02:05:15,768 2712 INFO odoo-test odoo.modules.loading: loading account_edi_ubl_cii/data/account_edi_data.xml 
+2022-10-31 02:05:15,797 2712 INFO odoo-test odoo.modules.loading: loading account_edi_ubl_cii/data/cii_22_templates.xml 
+2022-10-31 02:05:15,853 2712 INFO odoo-test odoo.modules.loading: loading account_edi_ubl_cii/data/ubl_20_templates.xml 
+2022-10-31 02:05:15,936 2712 INFO odoo-test odoo.modules.loading: loading account_edi_ubl_cii/data/ubl_21_templates.xml 
+2022-10-31 02:05:15,965 2712 INFO odoo-test odoo.modules.loading: Module account_edi_ubl_cii: loading demo 
+2022-10-31 02:05:15,993 2712 INFO odoo-test odoo.modules.loading: Module account_edi_ubl_cii loaded in 0.94s, 282 queries 
+2022-10-31 02:05:15,994 2712 INFO odoo-test odoo.modules.loading: Loading module l10n_us (39/41) 
+2022-10-31 02:05:16,182 2712 INFO odoo-test odoo.modules.registry: module l10n_us: creating or updating database tables 
+2022-10-31 02:05:16,546 2712 INFO odoo-test odoo.modules.loading: loading l10n_us/data/res_company_data.xml 
+2022-10-31 02:05:16,568 2712 INFO odoo-test odoo.modules.loading: loading l10n_us/views/res_partner_bank_views.xml 
+2022-10-31 02:05:16,594 2712 INFO odoo-test odoo.modules.loading: Module l10n_us: loading demo 
+2022-10-31 02:05:16,608 2712 INFO odoo-test odoo.modules.loading: Module l10n_us loaded in 0.61s, 82 queries 
+2022-10-31 02:05:16,608 2712 INFO odoo-test odoo.modules.loading: 41 modules loaded in 8.21s, 3542 queries (+1 extra) 
+2022-10-31 02:05:17,285 2712 INFO odoo-test odoo.modules.loading: Modules loaded. 
+2022-10-31 02:05:17,301 2712 INFO odoo-test odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2022-10-31 02:05:17,305 2712 INFO odoo-test odoo.modules.registry: Registry changed, signaling through the database 
+2022-10-31 02:05:17,306 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 02:05:17] "POST /web/dataset/call_button HTTP/1.1" 200 - 29629 12.044 33.633
+2022-10-31 02:05:17,318 2712 INFO odoo-test odoo.addons.base.models.ir_http: Generating routing map for key None 
+2022-10-31 02:05:20,599 2712 INFO odoo-test odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2022-10-31 02:05:20,600 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 02:05:20] "GET /web HTTP/1.1" 200 - 449 0.143 3.141
+2022-10-31 02:05:20,664 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 02:05:20] "GET /web/content/403-f640d8c/web.assets_backend.css HTTP/1.1" 200 - 4 0.006 0.039
+2022-10-31 02:05:20,664 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 02:05:20] "GET /web/content/402-71107e5/web.assets_common.css HTTP/1.1" 200 - 3 0.005 0.043
+2022-10-31 02:05:20,668 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 02:05:20] "GET /web/content/404-71107e5/web.assets_common.js HTTP/1.1" 200 - 2 0.005 0.041
+2022-10-31 02:05:20,669 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 02:05:20] "GET /web/content/405-f640d8c/web.assets_backend.js HTTP/1.1" 200 - 2 0.004 0.039
+2022-10-31 02:05:20,672 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 02:05:20] "GET /web/content/406-95f2e37/web.assets_backend_prod_only.js HTTP/1.1" 200 - 2 0.003 0.035
+2022-10-31 02:05:20,904 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 02:05:20] "GET /web/webclient/load_menus/afb9a74978830aeb005140989865ae829d36845ce5716375eecf67359120d616 HTTP/1.1" 200 - 120 0.038 0.184
+2022-10-31 02:05:20,918 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 02:05:20] "GET /web/webclient/qweb/c655793e6c005993e97ef82f7e719270856d878c997c7c6a00bfd47c261e9e4e?mods=base,web,base_setup,bus,web_tour,mail,product,web_editor,http_routing,auth_signup,portal,resource,digest,account,account_check_printing,auth_totp,auth_totp_portal,base_import,iap,l10n_generic_coa,l10n_us,mail_bot,partner_autocomplete,payment,payment_transfer,sms,snailmail,snailmail_account,web_kanban_gauge,web_unsplash HTTP/1.1" 200 - 1 0.001 0.091
+2022-10-31 02:05:20,961 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 02:05:20] "GET /web/webclient/translations/5227498d9df4b403b0244c75aac21e0c091e50ce?mods=base%2Cweb%2Cbase_setup%2Cbus%2Cweb_tour%2Cmail%2Cproduct%2Cweb_editor%2Chttp_routing%2Cauth_signup%2Cportal%2Cresource%2Cdigest%2Caccount%2Caccount_check_printing%2Cauth_totp%2Cauth_totp_portal%2Cbase_import%2Ciap%2Cl10n_generic_coa%2Cl10n_us%2Cmail_bot%2Cpartner_autocomplete%2Cpayment%2Cpayment_transfer%2Csms%2Csnailmail%2Csnailmail_account%2Cweb_kanban_gauge%2Cweb_unsplash&lang=en_US HTTP/1.1" 200 - 3 0.002 0.006
+2022-10-31 02:05:21,036 2712 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2022 02:05:21] "GET /web/static/src/xml/debug.xml?debug=1667181921018 HTTP/1.1" 200 - - - -
+2022-10-31 02:05:21,036 2712 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2022 02:05:21] "GET /web/static/src/img/user_menu_avatar.png HTTP/1.1" 200 - - - -
+2022-10-31 02:05:21,043 2712 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2022-10-31 02:05:21,076 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 02:05:21] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 2 0.007 0.031
+2022-10-31 02:05:21,094 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 02:05:21] "POST /web/dataset/call_kw/ir.rule/check_access_rights HTTP/1.1" 200 - 1 0.003 0.042
+2022-10-31 02:05:21,099 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 02:05:21] "POST /web/dataset/call_kw/ir.model.access/check_access_rights HTTP/1.1" 200 - 1 0.001 0.045
+2022-10-31 02:05:21,106 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 02:05:21] "GET /web/image?model=res.users&field=image_128&id=1 HTTP/1.1" 200 - 5 0.016 0.047
+2022-10-31 02:05:21,119 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 02:05:21] "POST /web/dataset/call_kw/ir.ui.view/check_access_rights HTTP/1.1" 200 - 1 0.003 0.013
+2022-10-31 02:05:21,125 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 02:05:21] "POST /mail/init_messaging HTTP/1.1" 200 - 50 0.070 0.057
+2022-10-31 02:05:21,150 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 02:05:21] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 - 2 0.001 0.009
+2022-10-31 02:05:21,172 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 02:05:21] "POST /longpolling/im_status HTTP/1.1" 200 - 3 0.002 0.007
+2022-10-31 02:05:21,198 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 02:05:21] "POST /web/action/load HTTP/1.1" 200 - 9 0.008 0.022
+2022-10-31 02:05:21,251 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 02:05:21] "POST /web/dataset/call_kw/mail.message/load_views HTTP/1.1" 200 - 21 0.012 0.034
+2022-10-31 02:05:21,321 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 02:05:21] "POST /web/dataset/call_kw/mail.message/message_fetch HTTP/1.1" 200 - 5 0.001 0.006
+2022-10-31 02:05:55,011 2712 INFO odoo-test odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
+2022-10-31 02:05:55,041 2712 INFO odoo-test odoo.addons.base.models.ir_cron: Job `Post process payment transactions` done. 
+2022-10-31 02:05:55,043 2712 INFO odoo-test odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2022-10-31 02:05:55,061 2712 INFO odoo-test odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2022-10-31 02:05:55,062 2712 INFO odoo-test odoo.addons.base.models.ir_cron: Starting job `Notification: Delete Notifications older than 6 Month`. 
+2022-10-31 02:05:55,076 2712 INFO odoo-test odoo.addons.base.models.ir_cron: Job `Notification: Delete Notifications older than 6 Month` done. 
+2022-10-31 02:05:55,077 2712 INFO odoo-test odoo.addons.base.models.ir_cron: Starting job `Users: Notify About Unregistered Users`. 
+2022-10-31 02:05:55,092 2712 INFO odoo-test odoo.addons.base.models.ir_cron: Job `Users: Notify About Unregistered Users` done. 
+2022-10-31 02:05:55,092 2712 INFO odoo-test odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2022-10-31 02:05:55,105 2712 INFO odoo-test odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2022-10-31 02:05:55,106 2712 INFO odoo-test odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2022-10-31 02:05:55,119 2712 INFO odoo-test odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2022-10-31 02:05:55,120 2712 INFO odoo-test odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2022-10-31 02:05:55,132 2712 INFO odoo-test odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2022-10-31 02:05:55,133 2712 INFO odoo-test odoo.addons.base.models.ir_cron: Starting job `Mail: Notify channel moderators`. 
+2022-10-31 02:05:55,145 2712 INFO odoo-test odoo.addons.base.models.ir_cron: Job `Mail: Notify channel moderators` done. 
+2022-10-31 02:06:11,043 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 02:06:11] "POST /longpolling/poll HTTP/1.1" 200 - 8 0.008 50.031
+2022-10-31 02:06:12,063 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 02:06:12] "POST /longpolling/im_status HTTP/1.1" 200 - 3 0.001 0.004
+2022-10-31 02:07:03,091 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 02:07:03] "POST /longpolling/poll HTTP/1.1" 200 - 8 0.005 50.020
+2022-10-31 02:07:06,133 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 02:07:06] "POST /longpolling/im_status HTTP/1.1" 200 - 3 0.004 0.017
+2022-10-31 02:07:21,031 2712 INFO odoo-test odoo.service.server: Initiating shutdown 
+2022-10-31 02:07:21,031 2712 INFO odoo-test odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2022-10-31 02:07:21,131 2712 INFO odoo-test odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 6 connections  
