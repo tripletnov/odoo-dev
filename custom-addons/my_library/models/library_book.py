@@ -51,6 +51,17 @@ class LibraryBook(models.Model):
     currency_id = fields.Many2one('res.currency', string='Currency')
     retail_price = fields.Monetary('Retail Price',# optional: currency_field='currency_id',
     )
+
+    publisher_id = fields.Many2one('res.partner', string='Publisher', ondelete='set null', context={},domain=[], )
+
+
+class ResPartner(models.Model):
+    _inherit = 'res.partner'
+    published_book_ids = fields.One2many(
+    'library.book', 'publisher_id',
+    string='Published Books')
+
+    authored_book_ids = fields.Many2many('library.book', string='Authored Books',)
     # def log_all_library_members(self):
     #     # This is an empty recordset of model library.
     #     # member
