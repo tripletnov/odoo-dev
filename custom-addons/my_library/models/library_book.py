@@ -5,8 +5,21 @@ from odoo import models, fields, api
 from odoo.exceptions import ValidationError
 
 
+class BaseArchive(models.AbstractModel):
+    _name = 'base.archive'
+    _description = 'Abstract Archive'
+
+    active = fields.Boolean(default=True)
+
+    def do_archive(self):
+        for record in self:
+            record.active = not record.active
+
+
 class LibraryBook(models.Model):
     _name = 'library.book'
+    _inherit = ['base.archive']
+
     _description = 'Library Book'
 
     _order = 'date_release desc, name'
@@ -138,7 +151,7 @@ class LibraryMember(models.Model):
 
     _description = 'Library Member'
 
-    partner_id = fields.Many2one('res.partner', required=True, ondelete='cascade')
+    partner_id = fields.Many2one('res.partner', ondelete='cascade')
     date_start = fields.Date('Member Since')
     date_end = fields.Date('Termination Date')
     member_number = fields.Char()
