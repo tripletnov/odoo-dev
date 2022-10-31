@@ -24,5 +24,3 @@ Description related to library.
     #     'demo.xml'
     # ],
 }
-
-
