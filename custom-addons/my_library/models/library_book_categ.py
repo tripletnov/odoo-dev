@@ -7,7 +7,6 @@ class BookCategory(models.Model):
     _name = 'library.book.category'
     _description = 'Library Book Category'
 
-
     _parent_store = True
     _parent_name = "parent_id"  # optional if field is 'parent_id'
 
