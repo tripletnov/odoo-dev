@@ -15,7 +15,7 @@
             "-c", // config file
             "/home/trungt/odoo-dev/odoo_14.cfg",
             "-u", // updatse/
-            ",my_library,",
+            ",my_library,my_module",
             // "-i", //install
             // "erpvn_hr_leave_management,erpvn_hr_payroll_vn,erpvn_org_chart,rpvn_scan_production,erpvn_planning_stock",
             "--dev",

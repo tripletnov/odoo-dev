@@ -1,999 +1,338 @@
-2022-10-28 08:31:26,292 11267 INFO ? odoo: Odoo version 14.0 
-2022-10-28 08:31:26,292 11267 INFO ? odoo: Using configuration file at /home/trungt/odoo-dev/odoo_14.cfg 
-2022-10-28 08:31:26,292 11267 INFO ? odoo: addons paths: ['/home/trungt/odoo-dev/odoo/odoo/addons', '/home/trungt/odoo-dev/filestores/addons/14.0', '/home/trungt/odoo-dev/odoo/addons', '/home/trungt/odoo-dev/custom-addons', '/home/trungt/odoo-dev/odoo'] 
-2022-10-28 08:31:26,292 11267 INFO ? odoo: database: trungt@localhost:5432 
-2022-10-28 08:31:26,561 11267 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
-2022-10-28 08:31:26,771 11267 INFO ? odoo.service.server: HTTP service (werkzeug) running on localhost:8014 
-2022-10-28 08:31:26,779 11267 INFO odoo-test odoo.modules.loading: loading 1 modules... 
-2022-10-28 08:31:26,796 11267 INFO odoo-test odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries (+0 extra) 
-2022-10-28 08:31:26,917 11267 INFO odoo-test odoo.modules.loading: updating modules list 
-2022-10-28 08:31:26,920 11267 INFO odoo-test odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
-2022-10-28 08:31:27,832 11267 WARNING odoo-test odoo.modules.loading: invalid module names, ignored:  
-2022-10-28 08:31:27,839 11267 INFO odoo-test odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['My Library'] to user __system__ #1 via n/a 
-2022-10-28 08:31:27,839 11267 INFO odoo-test odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['My Library'] to user __system__ #1 via n/a 
-2022-10-28 08:31:28,589 11267 INFO odoo-test odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user __system__ #1 via n/a 
-2022-10-28 08:31:28,619 11267 INFO odoo-test odoo.modules.loading: loading 8 modules... 
-2022-10-28 08:31:28,619 11267 INFO odoo-test odoo.modules.loading: Loading module my_library (2/8) 
-2022-10-28 08:31:28,662 11267 INFO odoo-test odoo.modules.registry: module my_library: creating or updating database tables 
-2022-10-28 08:31:28,806 11267 INFO odoo-test odoo.modules.loading: loading my_library/security/groups.xml 
-2022-10-28 08:31:28,869 11267 INFO odoo-test odoo.modules.loading: loading my_library/security/ir.model.access.csv 
-2022-10-28 08:31:28,908 11267 INFO odoo-test odoo.modules.loading: loading my_library/views/library_book.xml 
-2022-10-28 08:31:28,968 11267 INFO odoo-test odoo.modules.loading: Module my_library loaded in 0.35s, 155 queries 
-2022-10-28 08:31:29,041 11267 INFO odoo-test odoo.modules.loading: 8 modules loaded in 0.42s, 155 queries (+0 extra) 
-2022-10-28 08:31:29,231 11267 INFO odoo-test odoo.modules.registry: verifying fields for every extended model 
-2022-10-28 08:31:29,319 11267 INFO odoo-test odoo.modules.loading: Modules loaded. 
-2022-10-28 08:37:59,776 12205 INFO ? odoo: Odoo version 14.0 
-2022-10-28 08:37:59,776 12205 INFO ? odoo: Using configuration file at /home/trungt/odoo-dev/odoo_14.cfg 
-2022-10-28 08:37:59,776 12205 INFO ? odoo: addons paths: ['/home/trungt/odoo-dev/odoo/odoo/addons', '/home/trungt/odoo-dev/filestores/addons/14.0', '/home/trungt/odoo-dev/odoo/addons', '/home/trungt/odoo-dev/custom-addons', '/home/trungt/odoo-dev/odoo'] 
-2022-10-28 08:37:59,777 12205 INFO ? odoo: database: trungt@localhost:5432 
-2022-10-28 08:37:59,971 12205 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
-2022-10-28 08:38:00,109 12205 INFO ? odoo.service.server: HTTP service (werkzeug) running on localhost:8014 
-2022-10-28 08:38:00,116 12205 INFO odoo-test odoo.modules.loading: loading 1 modules... 
-2022-10-28 08:38:00,133 12205 INFO odoo-test odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries (+0 extra) 
-2022-10-28 08:38:00,244 12205 INFO odoo-test odoo.modules.loading: updating modules list 
-2022-10-28 08:38:00,247 12205 INFO odoo-test odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
-2022-10-28 08:38:00,989 12205 WARNING odoo-test odoo.modules.loading: invalid module names, ignored:  
-2022-10-28 08:38:00,995 12205 INFO odoo-test odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['My Library'] to user __system__ #1 via n/a 
-2022-10-28 08:38:00,995 12205 INFO odoo-test odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['My Library'] to user __system__ #1 via n/a 
-2022-10-28 08:38:01,683 12205 INFO odoo-test odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user __system__ #1 via n/a 
-2022-10-28 08:38:01,714 12205 INFO odoo-test odoo.modules.loading: loading 8 modules... 
-2022-10-28 08:38:01,714 12205 INFO odoo-test odoo.modules.loading: Loading module my_library (2/8) 
-2022-10-28 08:38:01,760 12205 INFO odoo-test odoo.modules.registry: module my_library: creating or updating database tables 
-2022-10-28 08:38:01,964 12205 INFO odoo-test odoo.modules.loading: loading my_library/security/groups.xml 
-2022-10-28 08:38:02,036 12205 INFO odoo-test odoo.modules.loading: loading my_library/security/ir.model.access.csv 
-2022-10-28 08:38:02,076 12205 INFO odoo-test odoo.modules.loading: loading my_library/views/library_book.xml 
-2022-10-28 08:38:02,172 12205 INFO odoo-test odoo.modules.loading: Module my_library loaded in 0.46s, 190 queries 
-2022-10-28 08:38:02,227 12205 INFO odoo-test odoo.modules.loading: 8 modules loaded in 0.51s, 190 queries (+0 extra) 
-2022-10-28 08:38:02,450 12205 INFO odoo-test odoo.modules.registry: verifying fields for every extended model 
-2022-10-28 08:38:02,604 12205 INFO odoo-test odoo.modules.loading: Modules loaded. 
-2022-10-28 08:38:10,023 12205 INFO ? odoo.http: HTTP Configuring static files 
-2022-10-28 08:38:10,029 12205 INFO odoo-test odoo.addons.base.models.ir_http: Generating routing map for key None 
-2022-10-28 08:38:10,756 12205 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:10] "GET /web HTTP/1.1" 200 - 250 0.085 0.645
-2022-10-28 08:38:10,792 12205 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:10] "GET /web/content/205-3cfd167/web.assets_common.js HTTP/1.1" 304 - 2 0.002 0.024
-2022-10-28 08:38:10,813 12205 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:10] "GET /web/content/198-3cfd167/web.assets_common.css HTTP/1.1" 304 - 2 0.004 0.029
-2022-10-28 08:38:10,814 12205 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:10] "GET /web/content/206-65e9648/web.assets_backend.js HTTP/1.1" 304 - 2 0.006 0.035
-2022-10-28 08:38:10,816 12205 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:10] "GET /web/content/207-803b2ae/web.assets_backend_prod_only.js HTTP/1.1" 304 - 2 0.003 0.032
-2022-10-28 08:38:10,817 12205 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:10] "GET /web/content/204-65e9648/web.assets_backend.css HTTP/1.1" 304 - 2 0.006 0.024
-2022-10-28 08:38:10,829 12205 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:10] "GET /web/webclient/load_menus/3d002ceb957949e7111c1c2f68c5463c8d5eefc0fa9f3b2baf2866732a9adec1 HTTP/1.1" 200 - 1 0.000 0.006
-2022-10-28 08:38:10,912 12205 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:10] "GET /web/webclient/qweb/2e7b81bbe436b652dea55a392b998f3993bf113a9de59d9428e159e32f729522?mods=base,web,auth_totp,base_import,web_editor,web_kanban_gauge,web_tour HTTP/1.1" 200 - 1 0.000 0.016
-2022-10-28 08:38:10,974 12205 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:10] "GET /web/static/src/xml/debug.xml?debug=1666946290969 HTTP/1.1" 200 - - - -
-2022-10-28 08:38:10,982 12205 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:10] "GET /web/static/src/img/user_menu_avatar.png HTTP/1.1" 200 - - - -
-2022-10-28 08:38:11,022 12205 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:11] "POST /web/dataset/call_kw/ir.rule/check_access_rights HTTP/1.1" 200 - 1 0.000 0.019
-2022-10-28 08:38:11,025 12205 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:11] "POST /web/dataset/call_kw/ir.ui.view/check_access_rights HTTP/1.1" 200 - 1 0.001 0.009
-2022-10-28 08:38:11,027 12205 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:11] "POST /web/dataset/call_kw/ir.model.access/check_access_rights HTTP/1.1" 200 - 1 0.001 0.018
-2022-10-28 08:38:11,034 12205 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:11] "GET /web/image?model=res.users&field=image_128&id=1 HTTP/1.1" 200 - 4 0.020 0.033
-2022-10-28 08:38:11,159 12205 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:11] "POST /web/action/load HTTP/1.1" 200 - 26 0.019 0.108
-2022-10-28 08:38:11,300 12205 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:11] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 - 65 0.041 0.094
-2022-10-28 08:38:11,359 12205 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:11] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 40 0.015 0.027
-2022-10-28 08:38:11,376 12205 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:11] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.002 0.010
-2022-10-28 08:38:11,414 12205 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:11] "GET /sale_management/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:38:11,418 12205 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:11] "GET /account/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:38:11,423 12205 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:11] "GET /crm/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:38:11,426 12205 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:11] "GET /base/static/img/icons/mrp_workorder.png HTTP/1.1" 304 - - - -
-2022-10-28 08:38:11,427 12205 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:11] "GET /website/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:38:11,429 12205 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:11] "GET /stock/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:38:11,447 12205 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:11] "GET /base/static/img/icons/account_accountant.png HTTP/1.1" 304 - - - -
-2022-10-28 08:38:11,449 12205 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:11] "GET /purchase/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:38:11,451 12205 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:11] "GET /point_of_sale/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:38:11,464 12205 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:11] "GET /project/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:38:11,469 12205 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:11] "GET /website_sale/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:38:11,477 12205 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:11] "GET /mrp/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:38:11,483 12205 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:11] "GET /mass_mailing/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:38:11,488 12205 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:11] "GET /base/static/img/icons/timesheet_grid.png HTTP/1.1" 304 - - - -
-2022-10-28 08:38:11,489 12205 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:11] "GET /hr_expense/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:38:11,497 12205 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:11] "GET /website_slides/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:38:11,497 12205 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:11] "GET /base/static/img/icons/web_studio.png HTTP/1.1" 304 - - - -
-2022-10-28 08:38:11,500 12205 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:11] "GET /base/static/img/icons/mrp_plm.png HTTP/1.1" 304 - - - -
-2022-10-28 08:38:11,514 12205 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:11] "GET /hr_holidays/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:38:11,516 12205 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:11] "GET /hr_recruitment/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:38:11,520 12205 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:11] "GET /hr/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:38:11,523 12205 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:11] "GET /maintenance/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:38:11,528 12205 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:11] "GET /im_livechat/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:38:11,532 12205 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:11] "GET /base/static/img/icons/sale_subscription.png HTTP/1.1" 304 - - - -
-2022-10-28 08:38:11,533 12205 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:11] "GET /survey/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:38:11,536 12205 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:11] "GET /base/static/img/icons/web_mobile.png HTTP/1.1" 304 - - - -
-2022-10-28 08:38:11,540 12205 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:11] "GET /hr_attendance/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:38:11,541 12205 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:11] "GET /base/static/img/icons/sign.png HTTP/1.1" 304 - - - -
-2022-10-28 08:38:11,546 12205 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:11] "GET /base/static/img/icons/helpdesk.png HTTP/1.1" 304 - - - -
-2022-10-28 08:38:11,548 12205 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:11] "GET /base/static/img/icons/quality_control.png HTTP/1.1" 304 - - - -
-2022-10-28 08:38:11,549 12205 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:11] "GET /mail/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:38:11,559 12205 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:11] "GET /contacts/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:38:11,564 12205 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:11] "GET /base/static/img/icons/hr_appraisal.png HTTP/1.1" 304 - - - -
-2022-10-28 08:38:11,566 12205 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:11] "GET /fleet/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:38:11,576 12205 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:11] "GET /website_hr_recruitment/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:38:11,578 12205 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:11] "GET /base/static/img/icons/marketing_automation.png HTTP/1.1" 304 - - - -
-2022-10-28 08:38:11,584 12205 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:11] "GET /base/static/img/icons/sale_ebay.png HTTP/1.1" 304 - - - -
-2022-10-28 08:38:11,591 12205 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:11] "GET /base/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:38:11,592 12205 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:11] "GET /payment_authorize/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:38:11,594 12205 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:11] "GET /payment_buckaroo/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:38:11,597 12205 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:11] "GET /payment_payumoney/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:38:11,599 12205 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:11] "GET /payment_stripe/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:38:11,603 12205 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:11] "GET /base/static/img/icons/planning.png HTTP/1.1" 304 - - - -
-2022-10-28 08:38:11,606 12205 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:11] "GET /website_event/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:38:11,615 12205 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:11] "GET /calendar/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:38:11,619 12205 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:11] "GET /website_blog/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:38:11,625 12205 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:11] "GET /hr_skills/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:38:11,627 12205 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:11] "GET /base/static/img/icons/voip.png HTTP/1.1" 304 - - - -
-2022-10-28 08:38:11,629 12205 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:11] "GET /payment_alipay/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:38:11,630 12205 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:11] "GET /payment_ingenico/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:38:11,632 12205 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:11] "GET /base/static/img/icons/website_calendar.png HTTP/1.1" 304 - - - -
-2022-10-28 08:38:11,643 12205 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:11] "GET /board/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:38:11,645 12205 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:11] "GET /repair/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:38:11,649 12205 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:11] "GET /mass_mailing_sms/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:38:11,654 12205 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:11] "GET /website_forum/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:38:11,655 12205 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:11] "GET /lunch/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:38:11,659 12205 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:11] "GET /base/static/img/icons/stock_barcode.png HTTP/1.1" 304 - - - -
-2022-10-28 08:38:11,662 12205 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:11] "GET /payment_paypal/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:38:11,666 12205 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:11] "GET /payment_sips/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:38:11,673 12205 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:11] "GET /note/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:38:11,676 12205 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:11] "GET /payment_adyen/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:38:14,481 12205 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:14] "POST /web/action/load HTTP/1.1" 200 - 23 0.016 0.050
-2022-10-28 08:38:14,525 12205 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:14] "POST /web/dataset/call_kw/library.book/load_views HTTP/1.1" 200 - 25 0.008 0.030
-2022-10-28 08:38:14,537 12205 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:14] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.001 0.004
-2022-10-28 08:38:14,550 12205 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:38:14] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 2 0.001 0.003
-2022-10-28 08:39:16,803 12205 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:39:16] "POST /web/dataset/call_kw/library.book/onchange HTTP/1.1" 200 - 2 0.002 0.009
-2022-10-28 08:39:16,856 12205 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:39:16] "GET /web/static/src/img/placeholder.png HTTP/1.1" 304 - - - -
-2022-10-28 08:39:16,867 12205 INFO odoo-test odoo.http: <function odoo.addons.web_editor.controllers.main.public_render_template> called ignoring args <kwargs={'context': {'lang': 'en_US', 'tz': 'Europe/Brussels', 'uid': 1, 'allowed_company_ids': [1]}}> 
-2022-10-28 08:39:16,992 12205 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:39:16] "POST /web_editor/public_render_template HTTP/1.1" 200 - 76 0.025 0.104
-2022-10-28 08:39:17,017 12205 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:39:17] "GET /web/content/208-7e645be/web_editor.assets_summernote.css HTTP/1.1" 304 - 2 0.002 0.015
-2022-10-28 08:39:17,017 12205 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:39:17] "GET /web/content/210-ca35478/web_editor.assets_wysiwyg.css HTTP/1.1" 304 - 2 0.002 0.014
-2022-10-28 08:39:17,020 12205 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:39:17] "GET /web/content/209-7e645be/web_editor.assets_summernote.js HTTP/1.1" 304 - 2 0.001 0.013
-2022-10-28 08:39:17,039 12205 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:39:17] "GET /web/content/211-ca35478/web_editor.assets_wysiwyg.js HTTP/1.1" 304 - 2 0.001 0.006
-2022-10-28 08:39:17,107 12205 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:39:17] "GET /web/static/src/fonts/google/Roboto/Roboto-Regular.ttf HTTP/1.1" 200 - - - -
-2022-10-28 08:39:43,030 12843 INFO ? odoo: Odoo version 14.0 
-2022-10-28 08:39:43,031 12843 INFO ? odoo: Using configuration file at /home/trungt/odoo-dev/odoo_14.cfg 
-2022-10-28 08:39:43,031 12843 INFO ? odoo: addons paths: ['/home/trungt/odoo-dev/odoo/odoo/addons', '/home/trungt/odoo-dev/filestores/addons/14.0', '/home/trungt/odoo-dev/odoo/addons', '/home/trungt/odoo-dev/custom-addons', '/home/trungt/odoo-dev/odoo'] 
-2022-10-28 08:39:43,031 12843 INFO ? odoo: database: trungt@localhost:5432 
-2022-10-28 08:39:43,234 12843 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
-2022-10-28 08:39:43,353 12843 INFO ? odoo.service.server: HTTP service (werkzeug) running on localhost:8014 
-2022-10-28 08:39:43,360 12843 INFO odoo-test odoo.modules.loading: loading 1 modules... 
-2022-10-28 08:39:43,377 12843 INFO odoo-test odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries (+0 extra) 
-2022-10-28 08:39:43,490 12843 INFO odoo-test odoo.modules.loading: updating modules list 
-2022-10-28 08:39:43,492 12843 INFO odoo-test odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
-2022-10-28 08:39:44,251 12843 WARNING odoo-test odoo.modules.loading: invalid module names, ignored:  
-2022-10-28 08:39:44,257 12843 INFO odoo-test odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['My Library'] to user __system__ #1 via n/a 
-2022-10-28 08:39:44,257 12843 INFO odoo-test odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['My Library'] to user __system__ #1 via n/a 
-2022-10-28 08:39:45,082 12843 INFO odoo-test odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user __system__ #1 via n/a 
-2022-10-28 08:39:45,117 12843 INFO odoo-test odoo.modules.loading: loading 8 modules... 
-2022-10-28 08:39:45,117 12843 INFO odoo-test odoo.modules.loading: Loading module my_library (2/8) 
-2022-10-28 08:39:45,170 12843 INFO odoo-test odoo.modules.registry: module my_library: creating or updating database tables 
-2022-10-28 08:39:45,336 12843 INFO odoo-test odoo.modules.loading: loading my_library/security/groups.xml 
-2022-10-28 08:39:45,388 12843 INFO odoo-test odoo.modules.loading: loading my_library/security/ir.model.access.csv 
-2022-10-28 08:39:45,417 12843 INFO odoo-test odoo.modules.loading: loading my_library/views/library_book.xml 
-2022-10-28 08:39:45,477 12843 INFO odoo-test odoo.modules.loading: Module my_library loaded in 0.36s, 179 queries 
-2022-10-28 08:39:45,520 12843 INFO odoo-test odoo.modules.loading: 8 modules loaded in 0.40s, 179 queries (+0 extra) 
-2022-10-28 08:39:45,697 12843 INFO odoo-test odoo.modules.registry: verifying fields for every extended model 
-2022-10-28 08:39:45,802 12843 INFO odoo-test odoo.modules.loading: Modules loaded. 
-2022-10-28 08:39:50,727 12843 INFO ? odoo.http: HTTP Configuring static files 
-2022-10-28 08:39:50,731 12843 INFO odoo-test odoo.addons.base.models.ir_http: Generating routing map for key None 
-2022-10-28 08:39:50,901 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:39:50] "POST /web/dataset/search_read HTTP/1.1" 200 - 4 0.001 0.170
-2022-10-28 08:39:52,740 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:39:52] "GET /web HTTP/1.1" 200 - 249 0.067 0.416
-2022-10-28 08:39:52,775 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:39:52] "GET /web/content/206-65e9648/web.assets_backend.js HTTP/1.1" 304 - 2 0.002 0.020
-2022-10-28 08:39:52,775 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:39:52] "GET /web/content/205-3cfd167/web.assets_common.js HTTP/1.1" 304 - 2 0.003 0.020
-2022-10-28 08:39:52,794 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:39:52] "GET /web/content/207-803b2ae/web.assets_backend_prod_only.js HTTP/1.1" 304 - 2 0.003 0.033
-2022-10-28 08:39:52,799 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:39:52] "GET /web/content/198-3cfd167/web.assets_common.css HTTP/1.1" 304 - 2 0.003 0.026
-2022-10-28 08:39:52,800 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:39:52] "GET /web/content/204-65e9648/web.assets_backend.css HTTP/1.1" 304 - 2 0.003 0.021
-2022-10-28 08:39:52,808 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:39:52] "GET /web/webclient/load_menus/3d002ceb957949e7111c1c2f68c5463c8d5eefc0fa9f3b2baf2866732a9adec1 HTTP/1.1" 200 - 1 0.000 0.004
-2022-10-28 08:39:52,874 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:39:52] "GET /web/webclient/qweb/2e7b81bbe436b652dea55a392b998f3993bf113a9de59d9428e159e32f729522?mods=base,web,auth_totp,base_import,web_editor,web_kanban_gauge,web_tour HTTP/1.1" 200 - 1 0.000 0.010
-2022-10-28 08:39:52,929 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:39:52] "GET /web/static/src/xml/debug.xml?debug=1666946392923 HTTP/1.1" 200 - - - -
-2022-10-28 08:39:52,936 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:39:52] "GET /web/static/src/img/user_menu_avatar.png HTTP/1.1" 200 - - - -
-2022-10-28 08:39:52,980 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:39:52] "POST /web/dataset/call_kw/ir.rule/check_access_rights HTTP/1.1" 200 - 1 0.001 0.031
-2022-10-28 08:39:52,984 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:39:52] "POST /web/dataset/call_kw/ir.ui.view/check_access_rights HTTP/1.1" 200 - 1 0.002 0.018
-2022-10-28 08:39:52,984 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:39:52] "POST /web/dataset/call_kw/ir.model.access/check_access_rights HTTP/1.1" 200 - 1 0.001 0.023
-2022-10-28 08:39:52,985 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:39:52] "GET /web/image?model=res.users&field=image_128&id=1 HTTP/1.1" 200 - 4 0.012 0.038
-2022-10-28 08:39:53,088 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:39:53] "POST /web/action/load HTTP/1.1" 200 - 23 0.010 0.088
-2022-10-28 08:39:53,139 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:39:53] "POST /web/dataset/call_kw/library.book/load_views HTTP/1.1" 200 - 25 0.012 0.033
-2022-10-28 08:39:53,161 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:39:53] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.001 0.006
-2022-10-28 08:39:53,179 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:39:53] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 2 0.002 0.006
-2022-10-28 08:39:56,696 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:39:56] "POST /web/dataset/call_kw/ir.exports/search_read HTTP/1.1" 200 - 2 0.003 0.015
-2022-10-28 08:39:56,727 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:39:56] "GET /web/static/src/img/spin.png HTTP/1.1" 200 - - - -
-2022-10-28 08:39:56,749 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:39:56] "POST /web/export/xlsx HTTP/1.1" 200 - 5 0.003 0.022
-2022-10-28 08:40:00,211 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:00] "POST /web/dataset/call_kw/library.book/onchange HTTP/1.1" 200 - 2 0.001 0.009
-2022-10-28 08:40:00,271 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:00] "GET /web/static/src/img/placeholder.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:00,282 12843 INFO odoo-test odoo.http: <function odoo.addons.web_editor.controllers.main.public_render_template> called ignoring args <kwargs={'context': {'lang': 'en_US', 'tz': 'Europe/Brussels', 'uid': 1, 'allowed_company_ids': [1]}}> 
-2022-10-28 08:40:00,402 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:00] "POST /web_editor/public_render_template HTTP/1.1" 200 - 76 0.024 0.100
-2022-10-28 08:40:00,420 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:00] "GET /web/content/208-7e645be/web_editor.assets_summernote.css HTTP/1.1" 304 - 2 0.003 0.011
-2022-10-28 08:40:00,428 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:00] "GET /web/content/210-ca35478/web_editor.assets_wysiwyg.css HTTP/1.1" 304 - 2 0.003 0.016
-2022-10-28 08:40:00,429 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:00] "GET /web/content/209-7e645be/web_editor.assets_summernote.js HTTP/1.1" 304 - 2 0.001 0.011
-2022-10-28 08:40:00,452 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:00] "GET /web/content/211-ca35478/web_editor.assets_wysiwyg.js HTTP/1.1" 304 - 2 0.001 0.008
-2022-10-28 08:40:04,178 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:04] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.001 0.003
-2022-10-28 08:40:06,528 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:06] "POST /web/action/load HTTP/1.1" 200 - 26 0.014 0.046
-2022-10-28 08:40:06,627 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:06] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 - 65 0.019 0.070
-2022-10-28 08:40:06,668 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:06] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 40 0.010 0.018
-2022-10-28 08:40:06,682 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:06] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.001 0.008
-2022-10-28 08:40:06,727 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:06] "GET /sale_management/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:06,732 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:06] "GET /crm/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:06,735 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:06] "GET /account/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:06,741 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:06] "GET /base/static/img/icons/mrp_workorder.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:06,742 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:06] "GET /website/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:06,745 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:06] "GET /stock/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:06,746 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:06] "GET /base/static/img/icons/account_accountant.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:06,752 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:06] "GET /purchase/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:06,754 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:06] "GET /point_of_sale/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:06,756 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:06] "GET /project/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:06,758 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:06] "GET /website_sale/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:06,761 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:06] "GET /mrp/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:06,762 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:06] "GET /mass_mailing/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:06,768 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:06] "GET /base/static/img/icons/timesheet_grid.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:06,773 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:06] "GET /hr_expense/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:06,775 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:06] "GET /base/static/img/icons/web_studio.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:06,778 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:06] "GET /hr_holidays/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:06,779 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:06] "GET /hr_recruitment/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:06,784 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:06] "GET /hr/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:06,788 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:06] "GET /maintenance/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:06,790 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:06] "GET /base/static/img/icons/sign.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:06,792 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:06] "GET /base/static/img/icons/helpdesk.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:06,795 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:06] "GET /base/static/img/icons/sale_subscription.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:06,800 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:06] "GET /website_slides/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:06,800 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:06] "GET /base/static/img/icons/quality_control.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:06,804 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:06] "GET /base/static/img/icons/planning.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:06,807 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:06] "GET /mail/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:06,808 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:06] "GET /website_event/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:06,810 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:06] "GET /contacts/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:06,813 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:06] "GET /base/static/img/icons/mrp_plm.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:06,818 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:06] "GET /calendar/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:06,824 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:06] "GET /base/static/img/icons/hr_appraisal.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:06,825 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:06] "GET /fleet/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:06,826 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:06] "GET /base/static/img/icons/marketing_automation.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:06,829 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:06] "GET /website_blog/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:06,830 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:06] "GET /im_livechat/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:06,843 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:06] "GET /survey/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:06,843 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:06] "GET /base/static/img/icons/website_calendar.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:06,851 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:06] "GET /board/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:06,853 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:06] "GET /base/static/img/icons/web_mobile.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:06,863 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:06] "GET /hr_attendance/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:06,869 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:06] "GET /repair/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:06,872 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:06] "GET /mass_mailing_sms/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:06,876 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:06] "GET /base/static/img/icons/stock_barcode.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:06,884 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:06] "GET /note/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:06,884 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:06] "GET /website_forum/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:06,887 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:06] "GET /hr_skills/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:06,902 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:06] "GET /base/static/img/icons/voip.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:06,904 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:06] "GET /website_hr_recruitment/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:06,908 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:06] "GET /lunch/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:06,917 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:06] "GET /base/static/img/icons/sale_ebay.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:06,924 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:06] "GET /base/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:06,928 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:06] "GET /payment_adyen/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:06,938 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:06] "GET /payment_alipay/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:06,940 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:06] "GET /payment_authorize/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:06,944 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:06] "GET /payment_buckaroo/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:06,958 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:06] "GET /payment_ingenico/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:06,961 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:06] "GET /payment_paypal/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:06,965 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:06] "GET /payment_payumoney/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:06,972 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:06] "GET /payment_stripe/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:06,977 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:06] "GET /payment_sips/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:08,900 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:08] "POST /web/dataset/search_read HTTP/1.1" 200 - 4 0.007 0.025
-2022-10-28 08:40:08,938 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:08] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.035 0.039
-2022-10-28 08:40:09,019 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:09] "GET /l10n_ar_website_sale/static/description/icon.png HTTP/1.1" 200 - - - -
-2022-10-28 08:40:11,952 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:11] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.017 0.021
-2022-10-28 08:40:11,970 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:11] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.003 0.007
-2022-10-28 08:40:15,335 12843 INFO odoo-test odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_upgrade on ['My Library'] to user __system__ #1 via 127.0.0.1 
-2022-10-28 08:40:15,338 12843 INFO odoo-test odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['My Library'] to user __system__ #1 via 127.0.0.1 
-2022-10-28 08:40:15,339 12843 INFO odoo-test odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['My Library'] to user __system__ #1 via 127.0.0.1 
-2022-10-28 08:40:16,107 12843 INFO odoo-test odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user __system__ #1 via 127.0.0.1 
-2022-10-28 08:40:16,133 12843 INFO odoo-test odoo.modules.loading: loading 1 modules... 
-2022-10-28 08:40:16,149 12843 INFO odoo-test odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries (+0 extra) 
-2022-10-28 08:40:16,254 12843 INFO odoo-test odoo.modules.loading: updating modules list 
-2022-10-28 08:40:16,256 12843 INFO odoo-test odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
-2022-10-28 08:40:17,005 12843 INFO odoo-test odoo.modules.loading: loading 8 modules... 
-2022-10-28 08:40:17,005 12843 INFO odoo-test odoo.modules.loading: Loading module my_library (2/8) 
-2022-10-28 08:40:17,052 12843 INFO odoo-test odoo.modules.registry: module my_library: creating or updating database tables 
-2022-10-28 08:40:17,142 12843 INFO odoo-test odoo.modules.loading: loading my_library/security/groups.xml 
-2022-10-28 08:40:17,196 12843 INFO odoo-test odoo.modules.loading: loading my_library/security/ir.model.access.csv 
-2022-10-28 08:40:17,218 12843 INFO odoo-test odoo.modules.loading: loading my_library/views/library_book.xml 
-2022-10-28 08:40:17,275 12843 INFO odoo-test odoo.modules.loading: Module my_library loaded in 0.27s, 176 queries 
-2022-10-28 08:40:17,293 12843 INFO odoo-test odoo.modules.loading: 8 modules loaded in 0.29s, 176 queries (+0 extra) 
-2022-10-28 08:40:17,365 12843 INFO odoo-test odoo.modules.registry: verifying fields for every extended model 
-2022-10-28 08:40:17,465 12843 INFO odoo-test odoo.modules.loading: Modules loaded. 
-2022-10-28 08:40:17,469 12843 INFO odoo-test odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
-2022-10-28 08:40:17,471 12843 INFO odoo-test odoo.modules.registry: Registry changed, signaling through the database 
-2022-10-28 08:40:17,472 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:17] "POST /web/dataset/call_button HTTP/1.1" 200 - 2364 0.537 1.630
-2022-10-28 08:40:17,488 12843 INFO odoo-test odoo.addons.base.models.ir_http: Generating routing map for key None 
-2022-10-28 08:40:18,157 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:18] "GET /web HTTP/1.1" 200 - 250 0.083 0.588
-2022-10-28 08:40:18,214 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:18] "GET /web/content/205-3cfd167/web.assets_common.js HTTP/1.1" 304 - 2 0.003 0.028
-2022-10-28 08:40:18,215 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:18] "GET /web/content/206-65e9648/web.assets_backend.js HTTP/1.1" 304 - 2 0.004 0.025
-2022-10-28 08:40:18,220 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:18] "GET /web/content/207-803b2ae/web.assets_backend_prod_only.js HTTP/1.1" 304 - 2 0.004 0.026
-2022-10-28 08:40:18,228 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:18] "GET /web/content/198-3cfd167/web.assets_common.css HTTP/1.1" 200 - 2 0.007 0.024
-2022-10-28 08:40:18,228 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:18] "GET /web/content/204-65e9648/web.assets_backend.css HTTP/1.1" 304 - 2 0.002 0.019
-2022-10-28 08:40:18,242 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:18] "GET /web/webclient/load_menus/3d002ceb957949e7111c1c2f68c5463c8d5eefc0fa9f3b2baf2866732a9adec1 HTTP/1.1" 200 - 1 0.000 0.010
-2022-10-28 08:40:18,311 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:18] "GET /web/webclient/qweb/2e7b81bbe436b652dea55a392b998f3993bf113a9de59d9428e159e32f729522?mods=base,web,auth_totp,base_import,web_editor,web_kanban_gauge,web_tour HTTP/1.1" 200 - 1 0.000 0.010
-2022-10-28 08:40:18,366 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:18] "GET /web/static/src/xml/debug.xml?debug=1666946418364 HTTP/1.1" 200 - - - -
-2022-10-28 08:40:18,401 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:18] "POST /web/dataset/call_kw/ir.rule/check_access_rights HTTP/1.1" 200 - 1 0.002 0.010
-2022-10-28 08:40:18,409 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:18] "POST /web/dataset/call_kw/ir.model.access/check_access_rights HTTP/1.1" 200 - 1 0.001 0.012
-2022-10-28 08:40:18,413 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:18] "POST /web/dataset/call_kw/ir.ui.view/check_access_rights HTTP/1.1" 200 - 1 0.001 0.012
-2022-10-28 08:40:18,417 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:18] "GET /web/image?model=res.users&field=image_128&id=1 HTTP/1.1" 200 - 4 0.005 0.037
-2022-10-28 08:40:18,435 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:18] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 - 2 0.000 0.004
-2022-10-28 08:40:18,556 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:18] "POST /web/action/load HTTP/1.1" 200 - 23 0.015 0.093
-2022-10-28 08:40:18,607 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:18] "POST /web/dataset/call_kw/library.book/load_views HTTP/1.1" 200 - 25 0.010 0.030
-2022-10-28 08:40:18,629 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:18] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.001 0.006
-2022-10-28 08:40:18,649 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:18] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 2 0.001 0.005
-2022-10-28 08:40:20,733 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:20] "POST /web/action/load HTTP/1.1" 200 - 26 0.026 0.095
-2022-10-28 08:40:20,852 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:20] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 - 65 0.017 0.094
-2022-10-28 08:40:20,912 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:20] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 40 0.015 0.027
-2022-10-28 08:40:20,931 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:20] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.002 0.011
-2022-10-28 08:40:20,973 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:20] "GET /sale_management/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:20,975 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:20] "GET /account/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:20,981 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:20] "GET /crm/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:20,985 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:20] "GET /base/static/img/icons/mrp_workorder.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:20,990 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:20] "GET /website/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:20,993 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:20] "GET /stock/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:20,995 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:20] "GET /base/static/img/icons/account_accountant.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:20,998 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:20] "GET /purchase/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:21,000 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:21] "GET /point_of_sale/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:21,003 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:21] "GET /project/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:21,007 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:21] "GET /website_sale/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:21,012 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:21] "GET /mrp/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:21,014 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:21] "GET /mass_mailing/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:21,017 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:21] "GET /base/static/img/icons/timesheet_grid.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:21,017 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:21] "GET /hr_expense/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:21,022 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:21] "GET /base/static/img/icons/web_studio.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:21,025 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:21] "GET /hr_holidays/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:21,028 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:21] "GET /hr_recruitment/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:21,031 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:21] "GET /hr/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:21,034 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:21] "GET /maintenance/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:21,039 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:21] "GET /base/static/img/icons/sign.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:21,040 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:21] "GET /base/static/img/icons/helpdesk.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:21,044 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:21] "GET /base/static/img/icons/sale_subscription.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:21,047 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:21] "GET /base/static/img/icons/quality_control.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:21,049 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:21] "GET /website_slides/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:21,049 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:21] "GET /base/static/img/icons/planning.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:21,054 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:21] "GET /website_event/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:21,056 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:21] "GET /mail/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:21,061 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:21] "GET /contacts/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:21,062 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:21] "GET /base/static/img/icons/mrp_plm.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:21,063 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:21] "GET /calendar/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:21,066 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:21] "GET /fleet/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:21,074 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:21] "GET /base/static/img/icons/marketing_automation.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:21,077 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:21] "GET /website_blog/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:21,081 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:21] "GET /base/static/img/icons/hr_appraisal.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:21,086 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:21] "GET /im_livechat/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:21,092 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:21] "GET /base/static/img/icons/website_calendar.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:21,096 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:21] "GET /survey/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:21,104 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:21] "GET /base/static/img/icons/web_mobile.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:21,111 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:21] "GET /board/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:21,117 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:21] "GET /repair/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:21,119 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:21] "GET /hr_attendance/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:21,123 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:21] "GET /mass_mailing_sms/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:21,126 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:21] "GET /base/static/img/icons/stock_barcode.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:21,129 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:21] "GET /note/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:21,132 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:21] "GET /hr_skills/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:21,133 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:21] "GET /website_forum/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:21,138 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:21] "GET /base/static/img/icons/voip.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:21,142 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:21] "GET /lunch/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:21,147 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:21] "GET /website_hr_recruitment/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:21,149 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:21] "GET /base/static/img/icons/sale_ebay.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:21,152 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:21] "GET /base/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:21,161 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:21] "GET /payment_adyen/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:21,167 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:21] "GET /payment_alipay/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:21,173 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:21] "GET /payment_authorize/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:21,181 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:21] "GET /payment_buckaroo/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:21,185 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:21] "GET /payment_ingenico/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:21,192 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:21] "GET /payment_paypal/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:21,194 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:21] "GET /payment_payumoney/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:21,195 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:21] "GET /payment_stripe/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:21,198 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:21] "GET /payment_sips/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:45,681 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:45] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.002 0.007
-2022-10-28 08:40:45,703 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:45] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.001 0.007
-2022-10-28 08:40:47,239 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:47] "POST /web/dataset/call_kw/library.book/onchange HTTP/1.1" 200 - 2 0.001 0.004
-2022-10-28 08:40:47,272 12843 INFO ? werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:47] "GET /web/static/src/img/placeholder.png HTTP/1.1" 304 - - - -
-2022-10-28 08:40:47,280 12843 INFO odoo-test odoo.http: <function odoo.addons.web_editor.controllers.main.public_render_template> called ignoring args <kwargs={'context': {'lang': 'en_US', 'tz': 'Europe/Brussels', 'uid': 1, 'allowed_company_ids': [1]}}> 
-2022-10-28 08:40:47,411 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:47] "POST /web_editor/public_render_template HTTP/1.1" 200 - 76 0.024 0.109
-2022-10-28 08:40:47,429 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:47] "GET /web/content/208-7e645be/web_editor.assets_summernote.css HTTP/1.1" 304 - 2 0.003 0.007
-2022-10-28 08:40:47,437 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:47] "GET /web/content/210-ca35478/web_editor.assets_wysiwyg.css HTTP/1.1" 304 - 2 0.002 0.014
-2022-10-28 08:40:47,439 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:47] "GET /web/content/209-7e645be/web_editor.assets_summernote.js HTTP/1.1" 304 - 2 0.002 0.011
-2022-10-28 08:40:47,458 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:47] "GET /web/content/211-ca35478/web_editor.assets_wysiwyg.js HTTP/1.1" 304 - 2 0.001 0.006
-2022-10-28 08:40:52,958 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:52] "POST /web/dataset/call_kw/res.partner/name_search HTTP/1.1" 200 - 3 0.001 0.006
-2022-10-28 08:40:54,317 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:40:54] "POST /web/dataset/call_kw/res.partner/read HTTP/1.1" 200 - 2 0.001 0.005
-2022-10-28 08:41:01,667 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:41:01] "POST /web/dataset/call_kw/library.book/create HTTP/1.1" 200 - 4 0.015 0.012
-2022-10-28 08:41:01,688 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:41:01] "POST /web/dataset/call_kw/library.book/read HTTP/1.1" 200 - 5 0.002 0.010
-2022-10-28 08:41:01,701 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:41:01] "POST /web/dataset/call_kw/res.partner/read HTTP/1.1" 200 - 2 0.000 0.003
-2022-10-28 08:41:04,493 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:41:04] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.003 0.016
-2022-10-28 08:41:07,026 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:41:07] "POST /web/dataset/call_kw/library.book/read HTTP/1.1" 200 - 5 0.002 0.009
-2022-10-28 08:41:07,041 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:41:07] "POST /web/dataset/call_kw/res.partner/read HTTP/1.1" 200 - 2 0.001 0.005
-2022-10-28 08:41:12,894 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:41:12] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.001 0.003
-2022-10-28 08:41:16,185 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:41:16] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.027 0.032
-2022-10-28 08:41:16,191 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:41:16] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.019 0.022
-2022-10-28 08:41:16,212 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:41:16] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.003 0.015
-2022-10-28 08:41:16,225 12843 INFO odoo-test werkzeug: 127.0.0.1 - - [28/Oct/2022 08:41:16] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.003 0.014
-2022-10-31 01:51:49,564 2712 INFO ? odoo: Odoo version 14.0 
-2022-10-31 01:51:49,565 2712 INFO ? odoo: Using configuration file at /home/trungt/odoo-dev/odoo_14.cfg 
-2022-10-31 01:51:49,565 2712 INFO ? odoo: addons paths: ['/home/trungt/odoo-dev/odoo/odoo/addons', '/home/trungt/odoo-dev/filestores/addons/14.0', '/home/trungt/odoo-dev/odoo/addons', '/home/trungt/odoo-dev/custom-addons', '/home/trungt/odoo-dev/odoo'] 
-2022-10-31 01:51:49,565 2712 INFO ? odoo: database: trungt@localhost:5432 
-2022-10-31 01:51:49,905 2712 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
-2022-10-31 01:51:50,178 2712 INFO ? odoo.service.server: HTTP service (werkzeug) running on localhost:8014 
-2022-10-31 01:51:50,250 2712 INFO odoo-test odoo.modules.loading: loading 1 modules... 
-2022-10-31 01:51:50,304 2712 INFO odoo-test odoo.modules.loading: 1 modules loaded in 0.05s, 0 queries (+0 extra) 
-2022-10-31 01:51:50,451 2712 INFO odoo-test odoo.modules.loading: updating modules list 
-2022-10-31 01:51:50,456 2712 INFO odoo-test odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
-2022-10-31 01:51:51,412 2712 WARNING odoo-test odoo.modules.loading: invalid module names, ignored:  
-2022-10-31 01:51:51,419 2712 INFO odoo-test odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['My Library'] to user __system__ #1 via n/a 
-2022-10-31 01:51:51,419 2712 INFO odoo-test odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['My Library'] to user __system__ #1 via n/a 
-2022-10-31 01:51:52,268 2712 INFO odoo-test odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user __system__ #1 via n/a 
-2022-10-31 01:51:52,326 2712 INFO odoo-test odoo.modules.loading: loading 8 modules... 
-2022-10-31 01:51:52,326 2712 INFO odoo-test odoo.modules.loading: Loading module my_library (2/8) 
-2022-10-31 01:51:52,382 2712 INFO odoo-test odoo.modules.registry: module my_library: creating or updating database tables 
-2022-10-31 01:51:52,742 2712 INFO odoo-test odoo.modules.loading: loading my_library/security/groups.xml 
-2022-10-31 01:51:52,974 2712 INFO odoo-test odoo.modules.loading: loading my_library/security/ir.model.access.csv 
-2022-10-31 01:51:53,066 2712 INFO odoo-test odoo.modules.loading: loading my_library/views/library_book.xml 
-2022-10-31 01:51:53,194 2712 INFO odoo-test odoo.modules.loading: Module my_library loaded in 0.87s, 179 queries 
-2022-10-31 01:51:53,275 2712 INFO odoo-test odoo.modules.loading: 8 modules loaded in 0.95s, 179 queries (+0 extra) 
-2022-10-31 01:51:53,706 2712 INFO odoo-test odoo.modules.registry: verifying fields for every extended model 
-2022-10-31 01:51:53,931 2712 INFO odoo-test odoo.modules.loading: Modules loaded. 
-2022-10-31 01:52:00,805 2712 INFO ? odoo.http: HTTP Configuring static files 
-2022-10-31 01:52:00,812 2712 INFO odoo-test odoo.addons.base.models.ir_http: Generating routing map for key None 
-2022-10-31 01:52:01,023 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:01] "GET / HTTP/1.1" 303 - 2 0.003 0.212
-2022-10-31 01:52:01,599 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:01] "GET /web HTTP/1.1" 200 - 249 0.089 0.483
-2022-10-31 01:52:01,662 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:01] "GET /web/content/198-3cfd167/web.assets_common.css HTTP/1.1" 200 - 2 0.004 0.032
-2022-10-31 01:52:01,663 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:01] "GET /web/content/207-803b2ae/web.assets_backend_prod_only.js HTTP/1.1" 200 - 2 0.002 0.034
-2022-10-31 01:52:01,692 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:01] "GET /web/content/204-65e9648/web.assets_backend.css HTTP/1.1" 304 - 2 0.004 0.047
-2022-10-31 01:52:01,692 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:01] "GET /web/content/206-65e9648/web.assets_backend.js HTTP/1.1" 304 - 2 0.006 0.042
-2022-10-31 01:52:01,693 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:01] "GET /web/content/205-3cfd167/web.assets_common.js HTTP/1.1" 304 - 2 0.010 0.048
-2022-10-31 01:52:01,704 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:01] "GET /web/webclient/load_menus/3d002ceb957949e7111c1c2f68c5463c8d5eefc0fa9f3b2baf2866732a9adec1 HTTP/1.1" 200 - 1 0.001 0.007
-2022-10-31 01:52:01,806 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:01] "GET /web/webclient/qweb/2e7b81bbe436b652dea55a392b998f3993bf113a9de59d9428e159e32f729522?mods=base,web,auth_totp,base_import,web_editor,web_kanban_gauge,web_tour HTTP/1.1" 200 - 1 0.000 0.013
-2022-10-31 01:52:01,823 2712 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:01] "GET /web/static/src/img/favicon.ico HTTP/1.1" 200 - - - -
-2022-10-31 01:52:01,883 2712 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:01] "GET /web/static/src/xml/debug.xml?debug=1667181121880 HTTP/1.1" 200 - - - -
-2022-10-31 01:52:01,898 2712 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:01] "GET /web/static/src/img/user_menu_avatar.png HTTP/1.1" 200 - - - -
-2022-10-31 01:52:01,932 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:01] "GET /web/image?model=res.users&field=image_128&id=1 HTTP/1.1" 200 - 4 0.006 0.033
-2022-10-31 01:52:01,968 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:01] "POST /web/dataset/call_kw/ir.rule/check_access_rights HTTP/1.1" 200 - 1 0.001 0.015
-2022-10-31 01:52:01,980 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:01] "POST /web/dataset/call_kw/ir.model.access/check_access_rights HTTP/1.1" 200 - 1 0.006 0.019
-2022-10-31 01:52:01,981 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:01] "POST /web/dataset/call_kw/ir.ui.view/check_access_rights HTTP/1.1" 200 - 1 0.001 0.014
-2022-10-31 01:52:02,002 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:02] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 - 2 0.001 0.006
-2022-10-31 01:52:02,171 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:02] "POST /web/action/load HTTP/1.1" 200 - 23 0.026 0.124
-2022-10-31 01:52:02,253 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:02] "POST /web/dataset/call_kw/library.book/load_views HTTP/1.1" 200 - 25 0.016 0.036
-2022-10-31 01:52:02,276 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:02] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.002 0.006
-2022-10-31 01:52:02,292 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:02] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 2 0.002 0.006
-2022-10-31 01:52:06,840 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:06] "POST /web/action/load HTTP/1.1" 200 - 26 0.015 0.043
-2022-10-31 01:52:06,982 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:06] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 - 65 0.035 0.096
-2022-10-31 01:52:07,039 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:07] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 40 0.014 0.027
-2022-10-31 01:52:07,064 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:07] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.002 0.012
-2022-10-31 01:52:07,108 2712 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:07] "GET /sale_management/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-31 01:52:07,113 2712 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:07] "GET /account/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-31 01:52:07,117 2712 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:07] "GET /base/static/img/icons/mrp_workorder.png HTTP/1.1" 304 - - - -
-2022-10-31 01:52:07,119 2712 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:07] "GET /crm/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-31 01:52:07,123 2712 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:07] "GET /website/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-31 01:52:07,125 2712 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:07] "GET /stock/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-31 01:52:07,149 2712 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:07] "GET /base/static/img/icons/account_accountant.png HTTP/1.1" 304 - - - -
-2022-10-31 01:52:07,154 2712 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:07] "GET /purchase/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-31 01:52:07,160 2712 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:07] "GET /point_of_sale/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-31 01:52:07,167 2712 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:07] "GET /project/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-31 01:52:07,168 2712 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:07] "GET /website_sale/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-31 01:52:07,174 2712 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:07] "GET /mrp/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-31 01:52:07,178 2712 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:07] "GET /mass_mailing/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-31 01:52:07,184 2712 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:07] "GET /hr_recruitment/static/description/icon.png HTTP/1.1" 200 - - - -
-2022-10-31 01:52:07,185 2712 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:07] "GET /base/static/img/icons/timesheet_grid.png HTTP/1.1" 304 - - - -
-2022-10-31 01:52:07,188 2712 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:07] "GET /hr/static/description/icon.png HTTP/1.1" 200 - - - -
-2022-10-31 01:52:07,189 2712 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:07] "GET /maintenance/static/description/icon.png HTTP/1.1" 200 - - - -
-2022-10-31 01:52:07,195 2712 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:07] "GET /hr_expense/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-31 01:52:07,197 2712 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:07] "GET /base/static/img/icons/sign.png HTTP/1.1" 200 - - - -
-2022-10-31 01:52:07,204 2712 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:07] "GET /base/static/img/icons/helpdesk.png HTTP/1.1" 200 - - - -
-2022-10-31 01:52:07,204 2712 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:07] "GET /base/static/img/icons/sale_subscription.png HTTP/1.1" 200 - - - -
-2022-10-31 01:52:07,214 2712 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:07] "GET /base/static/img/icons/quality_control.png HTTP/1.1" 200 - - - -
-2022-10-31 01:52:07,219 2712 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:07] "GET /website_slides/static/description/icon.png HTTP/1.1" 200 - - - -
-2022-10-31 01:52:07,222 2712 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:07] "GET /base/static/img/icons/planning.png HTTP/1.1" 200 - - - -
-2022-10-31 01:52:07,222 2712 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:07] "GET /website_event/static/description/icon.png HTTP/1.1" 200 - - - -
-2022-10-31 01:52:07,228 2712 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:07] "GET /base/static/img/icons/web_studio.png HTTP/1.1" 304 - - - -
-2022-10-31 01:52:07,230 2712 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:07] "GET /hr_holidays/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-31 01:52:07,236 2712 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:07] "GET /mail/static/description/icon.png HTTP/1.1" 200 - - - -
-2022-10-31 01:52:07,246 2712 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:07] "GET /base/static/img/icons/mrp_plm.png HTTP/1.1" 200 - - - -
-2022-10-31 01:52:07,248 2712 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:07] "GET /contacts/static/description/icon.png HTTP/1.1" 200 - - - -
-2022-10-31 01:52:07,253 2712 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:07] "GET /calendar/static/description/icon.png HTTP/1.1" 200 - - - -
-2022-10-31 01:52:07,260 2712 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:07] "GET /base/static/img/icons/hr_appraisal.png HTTP/1.1" 200 - - - -
-2022-10-31 01:52:07,264 2712 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:07] "GET /fleet/static/description/icon.png HTTP/1.1" 200 - - - -
-2022-10-31 01:52:07,269 2712 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:07] "GET /base/static/img/icons/marketing_automation.png HTTP/1.1" 200 - - - -
-2022-10-31 01:52:07,269 2712 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:07] "GET /website_blog/static/description/icon.png HTTP/1.1" 200 - - - -
-2022-10-31 01:52:07,282 2712 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:07] "GET /base/static/img/icons/website_calendar.png HTTP/1.1" 200 - - - -
-2022-10-31 01:52:07,283 2712 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:07] "GET /im_livechat/static/description/icon.png HTTP/1.1" 200 - - - -
-2022-10-31 01:52:07,288 2712 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:07] "GET /survey/static/description/icon.png HTTP/1.1" 200 - - - -
-2022-10-31 01:52:07,289 2712 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:07] "GET /base/static/img/icons/web_mobile.png HTTP/1.1" 200 - - - -
-2022-10-31 01:52:07,297 2712 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:07] "GET /board/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-31 01:52:07,304 2712 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:07] "GET /repair/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-31 01:52:07,310 2712 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:07] "GET /hr_attendance/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-31 01:52:07,313 2712 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:07] "GET /mass_mailing_sms/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-31 01:52:07,321 2712 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:07] "GET /base/static/img/icons/stock_barcode.png HTTP/1.1" 304 - - - -
-2022-10-31 01:52:07,332 2712 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:07] "GET /note/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-31 01:52:07,337 2712 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:07] "GET /website_forum/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-31 01:52:07,345 2712 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:07] "GET /hr_skills/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-31 01:52:07,347 2712 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:07] "GET /base/static/img/icons/voip.png HTTP/1.1" 304 - - - -
-2022-10-31 01:52:07,351 2712 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:07] "GET /lunch/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-31 01:52:07,352 2712 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:07] "GET /website_hr_recruitment/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-31 01:52:07,365 2712 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:07] "GET /base/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-31 01:52:07,367 2712 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:07] "GET /base/static/img/icons/sale_ebay.png HTTP/1.1" 304 - - - -
-2022-10-31 01:52:07,375 2712 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:07] "GET /payment_adyen/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-31 01:52:07,386 2712 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:07] "GET /payment_alipay/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-31 01:52:07,391 2712 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:07] "GET /payment_authorize/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-31 01:52:07,397 2712 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:07] "GET /payment_buckaroo/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-31 01:52:07,400 2712 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:07] "GET /payment_ingenico/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-31 01:52:07,406 2712 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:07] "GET /payment_paypal/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-31 01:52:07,422 2712 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:07] "GET /payment_sips/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-31 01:52:07,423 2712 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:07] "GET /payment_payumoney/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-31 01:52:07,424 2712 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2022 01:52:07] "GET /payment_stripe/static/description/icon.png HTTP/1.1" 304 - - - -
-2022-10-31 01:52:54,021 2712 INFO odoo-test odoo.addons.base.models.ir_cron: Starting job `Base: Auto-vacuum internal data`. 
-2022-10-31 01:52:54,100 2712 INFO odoo-test odoo.addons.base.models.ir_attachment: filestore gc 4 checked, 0 removed 
-2022-10-31 01:52:54,145 2712 INFO odoo-test odoo.addons.base.models.res_users: GC'd 0 user log entries 
-2022-10-31 01:52:54,164 2712 INFO odoo-test odoo.models.unlink: User #1 deleted base.module.update records with IDs: [1] 
-2022-10-31 01:52:54,196 2712 INFO odoo-test odoo.addons.base.models.ir_cron: Job `Base: Auto-vacuum internal data` done. 
-2022-10-31 02:04:31,635 2712 INFO odoo-test odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_install on ['Invoicing'] to user __system__ #1 via 127.0.0.1 
-2022-10-31 02:04:31,635 2712 INFO odoo-test odoo.addons.base.models.ir_module: User #1 triggered module installation 
-2022-10-31 02:04:31,636 2712 INFO odoo-test odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['Invoicing'] to user __system__ #1 via 127.0.0.1 
-2022-10-31 02:04:31,930 2712 INFO odoo-test odoo.modules.loading: loading 1 modules... 
-2022-10-31 02:04:31,947 2712 INFO odoo-test odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries (+0 extra) 
-2022-10-31 02:04:32,059 2712 INFO odoo-test odoo.modules.loading: updating modules list 
-2022-10-31 02:04:32,060 2712 INFO odoo-test odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
-2022-10-31 02:04:32,800 2712 INFO odoo-test odoo.modules.loading: loading 8 modules... 
-2022-10-31 02:04:32,820 2712 INFO odoo-test odoo.modules.loading: 8 modules loaded in 0.02s, 0 queries (+0 extra) 
-2022-10-31 02:04:32,836 2712 INFO odoo-test odoo.modules.loading: loading 37 modules... 
-2022-10-31 02:04:32,836 2712 INFO odoo-test odoo.modules.loading: Loading module uom (3/37) 
-2022-10-31 02:04:32,904 2712 INFO odoo-test odoo.modules.registry: module uom: creating or updating database tables 
-2022-10-31 02:04:33,060 2712 INFO odoo-test odoo.modules.loading: loading uom/data/uom_data.xml 
-2022-10-31 02:04:33,153 2712 INFO odoo-test odoo.modules.loading: loading uom/security/uom_security.xml 
-2022-10-31 02:04:33,221 2712 INFO odoo-test odoo.modules.loading: loading uom/security/ir.model.access.csv 
-2022-10-31 02:04:33,247 2712 INFO odoo-test odoo.modules.loading: loading uom/views/uom_uom_views.xml 
-2022-10-31 02:04:33,304 2712 INFO odoo-test odoo.modules.loading: Module uom: loading demo 
-2022-10-31 02:04:33,319 2712 INFO odoo-test odoo.modules.loading: Module uom loaded in 0.48s, 356 queries 
-2022-10-31 02:04:33,319 2712 INFO odoo-test odoo.modules.loading: Loading module base_setup (7/37) 
-2022-10-31 02:04:33,379 2712 INFO odoo-test odoo.modules.registry: module base_setup: creating or updating database tables 
-2022-10-31 02:04:33,492 2712 INFO odoo-test odoo.modules.loading: loading base_setup/data/base_setup_data.xml 
-2022-10-31 02:04:33,499 2712 INFO odoo-test odoo.modules.loading: loading base_setup/views/res_config_settings_views.xml 
-2022-10-31 02:04:33,572 2712 INFO odoo-test odoo.modules.loading: loading base_setup/views/res_partner_views.xml 
-2022-10-31 02:04:33,592 2712 INFO odoo-test odoo.modules.loading: loading base_setup/views/assets.xml 
-2022-10-31 02:04:33,610 2712 INFO odoo-test odoo.modules.loading: Module base_setup: loading demo 
-2022-10-31 02:04:33,624 2712 INFO odoo-test odoo.modules.loading: Module base_setup loaded in 0.31s, 203 queries 
-2022-10-31 02:04:33,624 2712 INFO odoo-test odoo.modules.loading: Loading module bus (8/37) 
-2022-10-31 02:04:33,688 2712 INFO odoo-test odoo.modules.registry: module bus: creating or updating database tables 
-2022-10-31 02:04:33,826 2712 INFO odoo-test odoo.modules.loading: loading bus/views/bus.xml 
-2022-10-31 02:04:33,904 2712 INFO odoo-test odoo.modules.loading: loading bus/security/ir.model.access.csv 
-2022-10-31 02:04:33,919 2712 INFO odoo-test odoo.modules.loading: Module bus: loading demo 
-2022-10-31 02:04:33,936 2712 INFO odoo-test odoo.modules.loading: Module bus loaded in 0.31s, 209 queries 
-2022-10-31 02:04:33,936 2712 INFO odoo-test odoo.modules.loading: Loading module http_routing (9/37) 
-2022-10-31 02:04:34,033 2712 INFO odoo-test odoo.modules.registry: module http_routing: creating or updating database tables 
-2022-10-31 02:04:34,076 2712 INFO odoo-test odoo.modules.loading: loading http_routing/views/http_routing_template.xml 
-2022-10-31 02:04:34,211 2712 INFO odoo-test odoo.modules.loading: loading http_routing/views/res_lang_views.xml 
-2022-10-31 02:04:34,241 2712 INFO odoo-test odoo.modules.loading: Module http_routing: loading demo 
-2022-10-31 02:04:34,254 2712 INFO odoo-test odoo.modules.loading: Module http_routing loaded in 0.32s, 167 queries 
-2022-10-31 02:04:34,255 2712 INFO odoo-test odoo.modules.loading: Loading module resource (10/37) 
-2022-10-31 02:04:34,346 2712 INFO odoo-test odoo.modules.registry: module resource: creating or updating database tables 
-2022-10-31 02:04:34,652 2712 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2022 02:04:34] "GET /web/static/src/img/spin.png HTTP/1.1" 304 - - - -
-2022-10-31 02:04:34,756 2712 INFO odoo-test odoo.modules.loading: loading resource/data/resource_data.xml 
-2022-10-31 02:04:34,847 2712 INFO odoo-test odoo.modules.loading: loading resource/security/ir.model.access.csv 
-2022-10-31 02:04:34,891 2712 INFO odoo-test odoo.modules.loading: loading resource/security/resource_security.xml 
-2022-10-31 02:04:34,921 2712 INFO odoo-test odoo.modules.loading: loading resource/views/resource_views.xml 
-2022-10-31 02:04:35,164 2712 INFO odoo-test odoo.modules.loading: loading resource/views/resource.xml 
-2022-10-31 02:04:35,191 2712 INFO odoo-test odoo.modules.loading: Module resource: loading demo 
-2022-10-31 02:04:35,218 2712 INFO odoo-test odoo.modules.loading: Module resource loaded in 0.96s, 602 queries 
-2022-10-31 02:04:35,218 2712 INFO odoo-test odoo.modules.loading: Loading module iap (14/37) 
-2022-10-31 02:04:35,298 2712 INFO odoo-test odoo.modules.registry: module iap: creating or updating database tables 
-2022-10-31 02:04:35,483 2712 INFO odoo-test odoo.modules.loading: loading iap/security/ir.model.access.csv 
-2022-10-31 02:04:35,500 2712 INFO odoo-test odoo.modules.loading: loading iap/security/ir_rule.xml 
-2022-10-31 02:04:35,514 2712 INFO odoo-test odoo.modules.loading: loading iap/views/assets.xml 
-2022-10-31 02:04:35,561 2712 INFO odoo-test odoo.modules.loading: loading iap/views/iap_views.xml 
-2022-10-31 02:04:35,604 2712 INFO odoo-test odoo.modules.loading: loading iap/views/res_config_settings.xml 
-2022-10-31 02:04:35,686 2712 INFO odoo-test odoo.modules.loading: Module iap: loading demo 
-2022-10-31 02:04:35,713 2712 INFO odoo-test odoo.modules.loading: Module iap loaded in 0.50s, 237 queries 
-2022-10-31 02:04:35,713 2712 INFO odoo-test odoo.modules.loading: Loading module mail (15/37) 
-2022-10-31 02:04:36,094 2712 INFO odoo-test odoo.modules.registry: module mail: creating or updating database tables 
-2022-10-31 02:04:37,522 2712 INFO odoo-test odoo.models: Storing computed values of res.partner.email_normalized 
-2022-10-31 02:04:38,364 2712 INFO odoo-test odoo.modules.loading: loading mail/views/assets.xml 
-2022-10-31 02:04:38,487 2712 INFO odoo-test odoo.modules.loading: loading mail/views/mail_menus.xml 
-2022-10-31 02:04:38,494 2712 INFO odoo-test odoo.modules.loading: loading mail/wizard/invite_view.xml 
-2022-10-31 02:04:38,508 2712 INFO odoo-test odoo.modules.loading: loading mail/wizard/mail_blacklist_remove_view.xml 
-2022-10-31 02:04:38,518 2712 INFO odoo-test odoo.modules.loading: loading mail/wizard/mail_compose_message_view.xml 
-2022-10-31 02:04:38,542 2712 INFO odoo-test odoo.modules.loading: loading mail/wizard/mail_resend_cancel_views.xml 
-2022-10-31 02:04:38,555 2712 INFO odoo-test odoo.modules.loading: loading mail/wizard/mail_resend_message_views.xml 
-2022-10-31 02:04:38,572 2712 INFO odoo-test odoo.modules.loading: loading mail/wizard/mail_template_preview_views.xml 
-2022-10-31 02:04:38,597 2712 INFO odoo-test odoo.modules.loading: loading mail/views/mail_message_subtype_views.xml 
-2022-10-31 02:04:38,623 2712 INFO odoo-test odoo.modules.loading: loading mail/views/mail_tracking_views.xml 
-2022-10-31 02:04:38,650 2712 INFO odoo-test odoo.modules.loading: loading mail/views/mail_notification_views.xml 
-2022-10-31 02:04:38,681 2712 INFO odoo-test odoo.modules.loading: loading mail/views/mail_message_views.xml 
-2022-10-31 02:04:38,763 2712 INFO odoo-test odoo.modules.loading: loading mail/views/mail_mail_views.xml 
-2022-10-31 02:04:38,830 2712 INFO odoo-test odoo.modules.loading: loading mail/views/mail_followers_views.xml 
-2022-10-31 02:04:38,859 2712 INFO odoo-test odoo.modules.loading: loading mail/views/mail_moderation_views.xml 
-2022-10-31 02:04:38,885 2712 INFO odoo-test odoo.modules.loading: loading mail/views/mail_channel_views.xml 
-2022-10-31 02:04:38,984 2712 INFO odoo-test odoo.modules.loading: loading mail/views/mail_shortcode_views.xml 
-2022-10-31 02:04:39,006 2712 INFO odoo-test odoo.modules.loading: loading mail/views/mail_activity_views.xml 
-2022-10-31 02:04:39,142 2712 INFO odoo-test odoo.modules.loading: loading mail/views/res_config_settings_views.xml 
-2022-10-31 02:04:39,218 2712 INFO odoo-test odoo.modules.loading: loading mail/data/mail_data.xml 
-2022-10-31 02:04:39,441 2712 INFO odoo-test odoo.modules.loading: loading mail/data/mail_channel_data.xml 
-2022-10-31 02:04:39,512 2712 INFO odoo-test odoo.modules.loading: loading mail/data/mail_activity_data.xml 
-2022-10-31 02:04:39,532 2712 INFO odoo-test odoo.modules.loading: loading mail/data/ir_cron_data.xml 
-2022-10-31 02:04:39,585 2712 INFO odoo-test odoo.modules.loading: loading mail/security/mail_security.xml 
-2022-10-31 02:04:39,669 2712 INFO odoo-test odoo.modules.loading: loading mail/security/ir.model.access.csv 
-2022-10-31 02:04:39,856 2712 INFO odoo-test odoo.modules.loading: loading mail/views/mail_alias_views.xml 
-2022-10-31 02:04:39,895 2712 INFO odoo-test odoo.modules.loading: loading mail/views/res_users_views.xml 
-2022-10-31 02:04:39,971 2712 INFO odoo-test odoo.modules.loading: loading mail/views/mail_template_views.xml 
-2022-10-31 02:04:40,018 2712 INFO odoo-test odoo.modules.loading: loading mail/views/ir_actions_views.xml 
-2022-10-31 02:04:40,056 2712 INFO odoo-test odoo.modules.loading: loading mail/views/ir_model_views.xml 
-2022-10-31 02:04:40,130 2712 INFO odoo-test odoo.modules.loading: loading mail/views/res_partner_views.xml 
-2022-10-31 02:04:40,267 2712 INFO odoo-test odoo.modules.loading: loading mail/views/mail_blacklist_views.xml 
-2022-10-31 02:04:40,305 2712 INFO odoo-test odoo.modules.loading: Module mail: loading demo 
-2022-10-31 02:04:40,305 2712 INFO odoo-test odoo.modules.loading: loading mail/data/mail_channel_demo.xml 
-2022-10-31 02:04:40,445 2712 INFO odoo-test odoo.modules.loading: Module mail loaded in 4.73s, 3746 queries 
-2022-10-31 02:04:40,445 2712 INFO odoo-test odoo.modules.loading: Loading module web_unsplash (16/37) 
-2022-10-31 02:04:40,539 2712 INFO odoo-test odoo.modules.registry: module web_unsplash: creating or updating database tables 
-2022-10-31 02:04:40,661 2712 INFO odoo-test odoo.modules.loading: loading web_unsplash/views/res_config_settings_view.xml 
-2022-10-31 02:04:40,728 2712 INFO odoo-test odoo.modules.loading: loading web_unsplash/views/web_unsplash_templates.xml 
-2022-10-31 02:04:40,756 2712 INFO odoo-test odoo.modules.loading: Module web_unsplash: loading demo 
-2022-10-31 02:04:40,770 2712 INFO odoo-test odoo.modules.loading: Module web_unsplash loaded in 0.32s, 151 queries 
-2022-10-31 02:04:40,770 2712 INFO odoo-test odoo.modules.loading: Loading module analytic (17/37) 
-2022-10-31 02:04:40,862 2712 INFO odoo-test odoo.modules.registry: module analytic: creating or updating database tables 
-2022-10-31 02:04:41,251 2712 INFO odoo-test odoo.modules.loading: loading analytic/security/analytic_security.xml 
-2022-10-31 02:04:41,285 2712 INFO odoo-test odoo.modules.loading: loading analytic/security/ir.model.access.csv 
-2022-10-31 02:04:41,310 2712 INFO odoo-test odoo.modules.loading: loading analytic/views/analytic_account_views.xml 
-2022-10-31 02:04:41,501 2712 INFO odoo-test odoo.modules.loading: Module analytic: loading demo 
-2022-10-31 02:04:41,501 2712 INFO odoo-test odoo.modules.loading: loading analytic/data/analytic_demo.xml 
-2022-10-31 02:04:41,505 2712 INFO odoo-test odoo.modules.loading: loading analytic/data/analytic_account_demo.xml 
-2022-10-31 02:04:41,718 2712 INFO odoo-test odoo.modules.loading: Module analytic loaded in 0.95s, 654 queries 
-2022-10-31 02:04:41,718 2712 INFO odoo-test odoo.modules.loading: Loading module auth_signup (18/37) 
-2022-10-31 02:04:41,824 2712 INFO odoo-test odoo.modules.registry: module auth_signup: creating or updating database tables 
-2022-10-31 02:04:42,014 2712 INFO odoo-test odoo.modules.loading: loading auth_signup/data/auth_signup_data.xml 
-2022-10-31 02:04:42,046 2712 INFO odoo-test odoo.modules.loading: loading auth_signup/data/ir_cron_data.xml 
-2022-10-31 02:04:42,056 2712 INFO odoo-test odoo.modules.loading: loading auth_signup/views/res_config_settings_views.xml 
-2022-10-31 02:04:42,126 2712 INFO odoo-test odoo.modules.loading: loading auth_signup/views/res_users_views.xml 
-2022-10-31 02:04:42,199 2712 INFO odoo-test odoo.modules.loading: loading auth_signup/views/auth_signup_login_templates.xml 
-2022-10-31 02:04:42,234 2712 INFO odoo-test odoo.modules.loading: loading auth_signup/views/auth_signup_assets.xml 
-2022-10-31 02:04:42,252 2712 INFO odoo-test odoo.modules.loading: Module auth_signup: loading demo 
-2022-10-31 02:04:42,266 2712 INFO odoo-test odoo.modules.loading: Module auth_signup loaded in 0.55s, 319 queries 
-2022-10-31 02:04:42,266 2712 INFO odoo-test odoo.modules.loading: Loading module fetchmail (19/37) 
-2022-10-31 02:04:42,363 2712 INFO odoo-test odoo.modules.registry: module fetchmail: creating or updating database tables 
-2022-10-31 02:04:42,521 2712 INFO odoo-test odoo.modules.loading: loading fetchmail/data/fetchmail_data.xml 
-2022-10-31 02:04:42,530 2712 INFO odoo-test odoo.modules.loading: loading fetchmail/security/ir.model.access.csv 
-2022-10-31 02:04:42,544 2712 INFO odoo-test odoo.modules.loading: loading fetchmail/views/fetchmail_views.xml 
-2022-10-31 02:04:42,589 2712 INFO odoo-test odoo.modules.loading: loading fetchmail/views/mail_mail_views.xml 
-2022-10-31 02:04:42,611 2712 INFO odoo-test odoo.modules.loading: loading fetchmail/views/res_config_settings_views.xml 
-2022-10-31 02:04:42,677 2712 INFO odoo-test odoo.modules.loading: Module fetchmail: loading demo 
-2022-10-31 02:04:42,696 2712 INFO odoo-test odoo.modules.loading: Module fetchmail loaded in 0.43s, 258 queries 
-2022-10-31 02:04:42,696 2712 INFO odoo-test odoo.modules.loading: Loading module iap_mail (20/37) 
-2022-10-31 02:04:42,791 2712 INFO odoo-test odoo.modules.loading: loading iap_mail/views/mail_templates.xml 
-2022-10-31 02:04:42,884 2712 INFO odoo-test odoo.modules.loading: Module iap_mail: loading demo 
-2022-10-31 02:04:42,896 2712 INFO odoo-test odoo.modules.loading: Module iap_mail loaded in 0.20s, 34 queries 
-2022-10-31 02:04:42,896 2712 INFO odoo-test odoo.modules.loading: Loading module mail_bot (21/37) 
-2022-10-31 02:04:43,011 2712 INFO odoo-test odoo.modules.registry: module mail_bot: creating or updating database tables 
-2022-10-31 02:04:43,184 2712 INFO odoo-test odoo.modules.loading: loading mail_bot/views/assets.xml 
-2022-10-31 02:04:43,243 2712 INFO odoo-test odoo.modules.loading: loading mail_bot/views/res_users_views.xml 
-2022-10-31 02:04:43,323 2712 INFO odoo-test odoo.modules.loading: loading mail_bot/data/mailbot_data.xml 
-2022-10-31 02:04:43,330 2712 INFO odoo-test odoo.modules.loading: Module mail_bot: loading demo 
-2022-10-31 02:04:43,330 2712 INFO odoo-test odoo.modules.loading: loading mail_bot/data/mailbot_demo.xml 
-2022-10-31 02:04:43,360 2712 INFO odoo-test odoo.modules.loading: Module mail_bot loaded in 0.46s, 260 queries 
-2022-10-31 02:04:43,360 2712 INFO odoo-test odoo.modules.loading: Loading module phone_validation (22/37) 
-2022-10-31 02:04:43,472 2712 INFO odoo-test odoo.modules.registry: module phone_validation: creating or updating database tables 
-2022-10-31 02:04:43,682 2712 INFO odoo-test odoo.modules.loading: loading phone_validation/security/ir.model.access.csv 
-2022-10-31 02:04:43,697 2712 INFO odoo-test odoo.modules.loading: loading phone_validation/views/phone_blacklist_views.xml 
-2022-10-31 02:04:43,741 2712 INFO odoo-test odoo.modules.loading: loading phone_validation/wizard/phone_blacklist_remove_view.xml 
-2022-10-31 02:04:43,751 2712 INFO odoo-test odoo.modules.loading: Module phone_validation: loading demo 
-2022-10-31 02:04:43,769 2712 INFO odoo-test odoo.modules.loading: Module phone_validation loaded in 0.41s, 209 queries 
-2022-10-31 02:04:43,769 2712 INFO odoo-test odoo.modules.loading: Loading module product (23/37) 
-2022-10-31 02:04:43,930 2712 INFO odoo-test odoo.modules.registry: module product: creating or updating database tables 
-2022-10-31 02:04:44,871 2712 INFO odoo-test odoo.modules.loading: loading product/data/product_data.xml 
-2022-10-31 02:04:44,896 2712 INFO odoo-test odoo.modules.loading: loading product/security/product_security.xml 
-2022-10-31 02:04:44,949 2712 INFO odoo-test odoo.modules.loading: loading product/security/ir.model.access.csv 
-2022-10-31 02:04:45,030 2712 INFO odoo-test odoo.modules.loading: loading product/views/res_config_settings_views.xml 
-2022-10-31 02:04:45,099 2712 INFO odoo-test odoo.modules.loading: loading product/views/product_attribute_views.xml 
-2022-10-31 02:04:45,183 2712 INFO odoo-test odoo.modules.loading: loading product/views/product_views.xml 
-2022-10-31 02:04:45,482 2712 INFO odoo-test odoo.modules.loading: loading product/views/product_template_views.xml 
-2022-10-31 02:04:45,561 2712 INFO odoo-test odoo.modules.loading: loading product/views/product_pricelist_views.xml 
-2022-10-31 02:04:45,710 2712 INFO odoo-test odoo.modules.loading: loading product/views/product_templates.xml 
-2022-10-31 02:04:45,753 2712 INFO odoo-test odoo.modules.loading: loading product/views/res_partner_views.xml 
-2022-10-31 02:04:45,803 2712 INFO odoo-test odoo.modules.loading: loading product/report/product_reports.xml 
-2022-10-31 02:04:45,820 2712 INFO odoo-test odoo.modules.loading: loading product/report/product_product_templates.xml 
-2022-10-31 02:04:45,853 2712 INFO odoo-test odoo.modules.loading: loading product/report/product_template_templates.xml 
-2022-10-31 02:04:45,868 2712 INFO odoo-test odoo.modules.loading: loading product/report/product_packaging.xml 
-2022-10-31 02:04:45,877 2712 INFO odoo-test odoo.modules.loading: loading product/report/product_pricelist_report_templates.xml 
-2022-10-31 02:04:45,894 2712 INFO odoo-test odoo.modules.loading: Module product: loading demo 
-2022-10-31 02:04:45,894 2712 INFO odoo-test odoo.modules.loading: loading product/data/product_demo.xml 
-2022-10-31 02:04:46,462 2712 INFO odoo-test odoo.models.unlink: User #1 deleted mail.message records with IDs: [46] 
-2022-10-31 02:04:46,476 2712 INFO odoo-test odoo.models.unlink: User #1 deleted ir.property records with IDs: [9] 
-2022-10-31 02:04:46,479 2712 INFO odoo-test odoo.models.unlink: User #1 deleted product.product records with IDs: [9] 
-2022-10-31 02:04:46,484 2712 INFO odoo-test odoo.models.unlink: User #1 deleted mail.followers records with IDs: [40] 
-2022-10-31 02:04:46,611 2712 INFO odoo-test odoo.models.unlink: User #1 deleted mail.message records with IDs: [48, 47] 
-2022-10-31 02:04:46,625 2712 INFO odoo-test odoo.models.unlink: User #1 deleted product.product records with IDs: [11, 10] 
-2022-10-31 02:04:46,631 2712 INFO odoo-test odoo.models.unlink: User #1 deleted mail.followers records with IDs: [41, 42] 
-2022-10-31 02:04:47,293 2712 INFO odoo-test odoo.models.unlink: User #1 deleted mail.message records with IDs: [66] 
-2022-10-31 02:04:47,307 2712 INFO odoo-test odoo.models.unlink: User #1 deleted ir.property records with IDs: [19] 
-2022-10-31 02:04:47,309 2712 INFO odoo-test odoo.models.unlink: User #1 deleted product.product records with IDs: [22] 
-2022-10-31 02:04:47,314 2712 INFO odoo-test odoo.models.unlink: User #1 deleted mail.followers records with IDs: [60] 
-2022-10-31 02:04:48,165 2712 INFO odoo-test odoo.modules.loading: Module product loaded in 4.40s, 3747 queries 
-2022-10-31 02:04:48,166 2712 INFO odoo-test odoo.modules.loading: Loading module partner_autocomplete (24/37) 
-2022-10-31 02:04:48,307 2712 INFO odoo-test odoo.modules.registry: module partner_autocomplete: creating or updating database tables 
-2022-10-31 02:04:48,531 2712 INFO odoo-test odoo.modules.loading: loading partner_autocomplete/security/ir.model.access.csv 
-2022-10-31 02:04:48,550 2712 INFO odoo-test odoo.modules.loading: loading partner_autocomplete/views/partner_autocomplete_assets.xml 
-2022-10-31 02:04:48,621 2712 INFO odoo-test odoo.modules.loading: loading partner_autocomplete/views/res_partner_views.xml 
-2022-10-31 02:04:48,694 2712 INFO odoo-test odoo.modules.loading: loading partner_autocomplete/views/res_company_views.xml 
-2022-10-31 02:04:48,713 2712 INFO odoo-test odoo.modules.loading: loading partner_autocomplete/views/res_config_settings_views.xml 
-2022-10-31 02:04:48,783 2712 INFO odoo-test odoo.modules.loading: loading partner_autocomplete/data/cron.xml 
-2022-10-31 02:04:48,792 2712 INFO odoo-test odoo.modules.loading: Module partner_autocomplete: loading demo 
-2022-10-31 02:04:48,814 2712 INFO odoo-test odoo.modules.loading: Module partner_autocomplete loaded in 0.65s, 336 queries 
-2022-10-31 02:04:48,814 2712 INFO odoo-test odoo.modules.loading: Loading module portal (25/37) 
-2022-10-31 02:04:48,973 2712 INFO odoo-test odoo.modules.registry: module portal: creating or updating database tables 
-2022-10-31 02:04:49,310 2712 INFO odoo-test odoo.modules.loading: loading portal/security/ir.model.access.csv 
-2022-10-31 02:04:49,327 2712 INFO odoo-test odoo.modules.loading: loading portal/data/portal_data.xml 
-2022-10-31 02:04:49,344 2712 INFO odoo-test odoo.modules.loading: loading portal/views/assets.xml 
-2022-10-31 02:04:49,416 2712 INFO odoo-test odoo.modules.loading: loading portal/views/portal_templates.xml 
-2022-10-31 02:04:49,632 2712 INFO odoo-test odoo.modules.loading: loading portal/wizard/portal_share_views.xml 
-2022-10-31 02:04:49,649 2712 INFO odoo-test odoo.modules.loading: loading portal/wizard/portal_wizard_views.xml 
-2022-10-31 02:04:49,667 2712 INFO odoo-test odoo.modules.loading: Module portal: loading demo 
-2022-10-31 02:04:49,686 2712 INFO odoo-test odoo.modules.loading: Module portal loaded in 0.87s, 678 queries 
-2022-10-31 02:04:49,687 2712 INFO odoo-test odoo.modules.loading: Loading module sms (26/37) 
-2022-10-31 02:04:49,870 2712 INFO odoo-test odoo.modules.registry: module sms: creating or updating database tables 
-2022-10-31 02:04:50,205 2712 INFO odoo-test odoo.models: Storing computed values of res.partner.phone_sanitized 
-2022-10-31 02:04:50,382 2712 INFO odoo-test odoo.addons.phone_validation.tools.phone_validation: The `phonenumbers` Python module is not installed, contact numbers will not be verified. Please install the `phonenumbers` Python module. 
-2022-10-31 02:04:50,450 2712 INFO odoo-test odoo.modules.loading: loading sms/data/ir_cron_data.xml 
-2022-10-31 02:04:50,459 2712 INFO odoo-test odoo.modules.loading: loading sms/wizard/sms_cancel_views.xml 
-2022-10-31 02:04:50,478 2712 INFO odoo-test odoo.modules.loading: loading sms/wizard/sms_composer_views.xml 
-2022-10-31 02:04:50,499 2712 INFO odoo-test odoo.modules.loading: loading sms/wizard/sms_template_preview_views.xml 
-2022-10-31 02:04:50,522 2712 INFO odoo-test odoo.modules.loading: loading sms/wizard/sms_resend_views.xml 
-2022-10-31 02:04:50,540 2712 INFO odoo-test odoo.modules.loading: loading sms/views/ir_actions_views.xml 
-2022-10-31 02:04:50,574 2712 INFO odoo-test odoo.modules.loading: loading sms/views/mail_notification_views.xml 
-2022-10-31 02:04:50,601 2712 INFO odoo-test odoo.modules.loading: loading sms/views/res_config_settings_views.xml 
-2022-10-31 02:04:50,670 2712 INFO odoo-test odoo.modules.loading: loading sms/views/res_partner_views.xml 
-2022-10-31 02:04:50,736 2712 INFO odoo-test odoo.modules.loading: loading sms/views/assets.xml 
-2022-10-31 02:04:50,781 2712 INFO odoo-test odoo.modules.loading: loading sms/views/sms_sms_views.xml 
-2022-10-31 02:04:50,818 2712 INFO odoo-test odoo.modules.loading: loading sms/views/sms_template_views.xml 
-2022-10-31 02:04:50,860 2712 INFO odoo-test odoo.modules.loading: loading sms/security/ir.model.access.csv 
-2022-10-31 02:04:50,898 2712 INFO odoo-test odoo.modules.loading: loading sms/security/sms_security.xml 
-2022-10-31 02:04:50,907 2712 INFO odoo-test odoo.modules.loading: Module sms: loading demo 
-2022-10-31 02:04:50,907 2712 INFO odoo-test odoo.modules.loading: loading sms/data/sms_demo.xml 
-2022-10-31 02:04:50,911 2712 INFO odoo-test odoo.modules.loading: loading sms/data/mail_demo.xml 
-2022-10-31 02:04:50,988 2712 INFO odoo-test odoo.modules.loading: Module sms loaded in 1.30s, 882 queries 
-2022-10-31 02:04:50,988 2712 INFO odoo-test odoo.modules.loading: Loading module snailmail (27/37) 
-2022-10-31 02:04:51,138 2712 INFO odoo-test odoo.modules.registry: module snailmail: creating or updating database tables 
-2022-10-31 02:04:51,495 2712 INFO odoo-test odoo.modules.loading: loading snailmail/data/snailmail_data.xml 
-2022-10-31 02:04:51,506 2712 INFO odoo-test odoo.modules.loading: loading snailmail/views/report_assets.xml 
-2022-10-31 02:04:51,541 2712 INFO odoo-test odoo.modules.loading: loading snailmail/views/snailmail_views.xml 
-2022-10-31 02:04:51,573 2712 INFO odoo-test odoo.modules.loading: loading snailmail/views/assets.xml 
-2022-10-31 02:04:51,637 2712 INFO odoo-test odoo.modules.loading: loading snailmail/wizard/snailmail_confirm_views.xml 
-2022-10-31 02:04:51,648 2712 INFO odoo-test odoo.modules.loading: loading snailmail/wizard/snailmail_letter_cancel_views.xml 
-2022-10-31 02:04:51,662 2712 INFO odoo-test odoo.modules.loading: loading snailmail/wizard/snailmail_letter_format_error_views.xml 
-2022-10-31 02:04:51,677 2712 INFO odoo-test odoo.modules.loading: loading snailmail/wizard/snailmail_letter_missing_required_fields_views.xml 
-2022-10-31 02:04:51,693 2712 INFO odoo-test odoo.modules.loading: loading snailmail/security/ir.model.access.csv 
-2022-10-31 02:04:51,717 2712 INFO odoo-test odoo.modules.loading: Module snailmail: loading demo 
-2022-10-31 02:04:51,737 2712 INFO odoo-test odoo.modules.loading: Module snailmail loaded in 0.75s, 506 queries 
-2022-10-31 02:04:51,738 2712 INFO odoo-test odoo.modules.loading: Loading module auth_totp_portal (28/37) 
-2022-10-31 02:04:51,857 2712 INFO odoo-test odoo.modules.loading: loading auth_totp_portal/security/security.xml 
-2022-10-31 02:04:52,013 2712 INFO odoo-test odoo.modules.loading: loading auth_totp_portal/views/templates.xml 
-2022-10-31 02:04:52,067 2712 INFO odoo-test odoo.modules.loading: Module auth_totp_portal: loading demo 
-2022-10-31 02:04:52,082 2712 INFO odoo-test odoo.modules.loading: Module auth_totp_portal loaded in 0.34s, 107 queries 
-2022-10-31 02:04:52,082 2712 INFO odoo-test odoo.modules.loading: Loading module digest (29/37) 
-2022-10-31 02:04:52,208 2712 INFO odoo-test odoo.modules.registry: module digest: creating or updating database tables 
-2022-10-31 02:04:52,507 2712 INFO odoo-test odoo.modules.loading: loading digest/security/ir.model.access.csv 
-2022-10-31 02:04:52,525 2712 INFO odoo-test odoo.modules.loading: loading digest/data/digest_data.xml 
-2022-10-31 02:04:52,559 2712 INFO odoo-test odoo.modules.loading: loading digest/data/digest_tips_data.xml 
-2022-10-31 02:04:52,577 2712 INFO odoo-test odoo.modules.loading: loading digest/data/ir_cron_data.xml 
-2022-10-31 02:04:52,586 2712 INFO odoo-test odoo.modules.loading: loading digest/data/res_config_settings_data.xml 
-2022-10-31 02:04:52,592 2712 INFO odoo-test odoo.modules.loading: loading digest/views/digest_views.xml 
-2022-10-31 02:04:52,697 2712 INFO odoo-test odoo.modules.loading: loading digest/views/digest_templates.xml 
-2022-10-31 02:04:52,706 2712 INFO odoo-test odoo.modules.loading: loading digest/views/res_config_settings_views.xml 
-2022-10-31 02:04:52,777 2712 INFO odoo-test odoo.modules.loading: Module digest: loading demo 
-2022-10-31 02:04:52,797 2712 INFO odoo-test odoo.modules.loading: Module digest loaded in 0.72s, 430 queries 
-2022-10-31 02:04:52,797 2712 INFO odoo-test odoo.modules.loading: Loading module account (30/37) 
-2022-10-31 02:04:53,206 2712 INFO odoo-test odoo.modules.registry: module account: creating or updating database tables 
-2022-10-31 02:04:55,226 2712 INFO odoo-test odoo.models: Storing computed values of res.company.account_tax_fiscal_country_id 
-2022-10-31 02:04:56,950 2712 INFO odoo-test odoo.modules.loading: loading account/security/account_security.xml 
-2022-10-31 02:04:57,287 2712 INFO odoo-test odoo.modules.loading: loading account/security/ir.model.access.csv 
-2022-10-31 02:04:57,687 2712 INFO odoo-test odoo.modules.loading: loading account/data/data_account_type.xml 
-2022-10-31 02:04:57,764 2712 INFO odoo-test odoo.modules.loading: loading account/data/account_data.xml 
-2022-10-31 02:04:57,843 2712 INFO odoo-test odoo.modules.loading: loading account/data/digest_data.xml 
-2022-10-31 02:04:57,850 2712 INFO odoo-test odoo.modules.loading: loading account/views/account_payment_view.xml 
-2022-10-31 02:04:57,985 2712 INFO odoo-test odoo.modules.loading: loading account/wizard/account_automatic_entry_wizard_views.xml 
-2022-10-31 02:04:58,008 2712 INFO odoo-test odoo.modules.loading: loading account/wizard/account_unreconcile_view.xml 
-2022-10-31 02:04:58,022 2712 INFO odoo-test odoo.modules.loading: loading account/wizard/account_move_reversal_view.xml 
-2022-10-31 02:04:58,040 2712 INFO odoo-test odoo.modules.loading: loading account/wizard/account_resequence_views.xml 
-2022-10-31 02:04:58,055 2712 INFO odoo-test odoo.modules.loading: loading account/wizard/account_payment_register_views.xml 
-2022-10-31 02:04:58,077 2712 INFO odoo-test odoo.modules.loading: loading account/views/account_move_views.xml 
-2022-10-31 02:04:58,808 2712 INFO odoo-test odoo.modules.loading: loading account/wizard/setup_wizards_view.xml 
-2022-10-31 02:04:58,849 2712 INFO odoo-test odoo.modules.loading: loading account/wizard/pos_box.xml 
-2022-10-31 02:04:58,862 2712 INFO odoo-test odoo.modules.loading: loading account/views/partner_view.xml 
-2022-10-31 02:04:59,049 2712 INFO odoo-test odoo.modules.loading: loading account/views/account_account_type_views.xml 
-2022-10-31 02:04:59,078 2712 INFO odoo-test odoo.modules.loading: loading account/views/account_account_views.xml 
-2022-10-31 02:04:59,133 2712 INFO odoo-test odoo.modules.loading: loading account/views/account_group_views.xml 
-2022-10-31 02:04:59,164 2712 INFO odoo-test odoo.modules.loading: loading account/views/account_journal_views.xml 
-2022-10-31 02:04:59,267 2712 INFO odoo-test odoo.modules.loading: loading account/views/account_account_tag_views.xml 
-2022-10-31 02:04:59,295 2712 INFO odoo-test odoo.modules.loading: loading account/views/account_bank_statement_views.xml 
-2022-10-31 02:04:59,478 2712 INFO odoo-test odoo.modules.loading: loading account/views/account_reconcile_model_views.xml 
-2022-10-31 02:04:59,548 2712 INFO odoo-test odoo.modules.loading: loading account/views/account_tax_views.xml 
-2022-10-31 02:04:59,640 2712 INFO odoo-test odoo.modules.loading: loading account/views/account_full_reconcile_views.xml 
-2022-10-31 02:04:59,651 2712 INFO odoo-test odoo.modules.loading: loading account/views/account_payment_term_views.xml 
-2022-10-31 02:04:59,715 2712 INFO odoo-test odoo.modules.loading: loading account/views/account_chart_template_views.xml 
-2022-10-31 02:04:59,843 2712 INFO odoo-test odoo.modules.loading: loading account/views/res_partner_bank_views.xml 
-2022-10-31 02:04:59,863 2712 INFO odoo-test odoo.modules.loading: loading account/views/report_statement.xml 
-2022-10-31 02:04:59,875 2712 INFO odoo-test odoo.modules.loading: loading account/views/account_report.xml 
-2022-10-31 02:04:59,894 2712 INFO odoo-test odoo.modules.loading: loading account/data/mail_template_data.xml 
-2022-10-31 02:04:59,899 2712 INFO odoo-test odoo.modules.loading: loading account/wizard/account_validate_move_view.xml 
-2022-10-31 02:04:59,913 2712 INFO odoo-test odoo.modules.loading: loading account/views/res_company_views.xml 
-2022-10-31 02:04:59,938 2712 INFO odoo-test odoo.modules.loading: loading account/views/product_view.xml 
-2022-10-31 02:05:00,006 2712 INFO odoo-test odoo.modules.loading: loading account/views/account_analytic_view.xml 
-2022-10-31 02:05:00,067 2712 INFO odoo-test odoo.modules.loading: loading account/views/account.xml 
-2022-10-31 02:05:00,171 2712 INFO odoo-test odoo.modules.loading: loading account/views/report_invoice.xml 
-2022-10-31 02:05:00,208 2712 INFO odoo-test odoo.modules.loading: loading account/report/account_invoice_report_view.xml 
-2022-10-31 02:05:00,274 2712 INFO odoo-test odoo.modules.loading: loading account/views/account_cash_rounding_view.xml 
-2022-10-31 02:05:00,306 2712 INFO odoo-test odoo.modules.loading: loading account/wizard/account_report_common_view.xml 
-2022-10-31 02:05:00,317 2712 INFO odoo-test odoo.modules.loading: loading account/views/report_journal.xml 
-2022-10-31 02:05:00,328 2712 INFO odoo-test odoo.modules.loading: loading account/views/tax_adjustments.xml 
-2022-10-31 02:05:00,332 2712 INFO odoo-test odoo.modules.loading: loading account/wizard/wizard_tax_adjustments_view.xml 
-2022-10-31 02:05:00,348 2712 INFO odoo-test odoo.modules.loading: loading account/views/res_config_settings_views.xml 
-2022-10-31 02:05:00,481 2712 INFO odoo-test odoo.modules.loading: loading account/views/account_journal_dashboard_view.xml 
-2022-10-31 02:05:00,530 2712 INFO odoo-test odoo.modules.loading: loading account/views/account_portal_templates.xml 
-2022-10-31 02:05:00,592 2712 INFO odoo-test odoo.modules.loading: loading account/views/report_payment_receipt_templates.xml 
-2022-10-31 02:05:00,610 2712 INFO odoo-test odoo.modules.loading: loading account/data/payment_receipt_data.xml 
-2022-10-31 02:05:00,620 2712 INFO odoo-test odoo.modules.loading: loading account/views/account_onboarding_templates.xml 
-2022-10-31 02:05:00,709 2712 INFO odoo-test odoo.modules.loading: loading account/data/service_cron.xml 
-2022-10-31 02:05:00,717 2712 INFO odoo-test odoo.modules.loading: loading account/views/account_incoterms_view.xml 
-2022-10-31 02:05:00,749 2712 INFO odoo-test odoo.modules.loading: loading account/data/account_incoterms_data.xml 
-2022-10-31 02:05:00,768 2712 INFO odoo-test odoo.modules.loading: loading account/views/digest_views.xml 
-2022-10-31 02:05:00,817 2712 INFO odoo-test odoo.modules.loading: loading account/wizard/account_invoice_send_views.xml 
-2022-10-31 02:05:00,841 2712 INFO odoo-test odoo.modules.loading: loading account/views/account_tax_report_views.xml 
-2022-10-31 02:05:00,890 2712 INFO odoo-test odoo.modules.loading: loading account/report/account_hash_integrity_templates.xml 
-2022-10-31 02:05:00,901 2712 INFO odoo-test odoo.modules.loading: loading account/views/res_currency.xml 
-2022-10-31 02:05:00,918 2712 INFO odoo-test odoo.modules.loading: loading account/views/account_menuitem.xml 
-2022-10-31 02:05:01,153 2712 INFO odoo-test odoo.modules.loading: loading account/views/account_analytic_default_view.xml 
-2022-10-31 02:05:01,211 2712 INFO odoo-test odoo.modules.loading: loading account/wizard/account_tour_upload_bill.xml 
-2022-10-31 02:05:01,234 2712 INFO odoo-test odoo.modules.loading: Module account: loading demo 
-2022-10-31 02:05:01,234 2712 INFO odoo-test odoo.modules.loading: loading account/demo/account_demo.xml 
-2022-10-31 02:05:01,549 2712 INFO odoo-test odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['Check Printing Base', 'United States - Accounting'] to user __system__ #1 via 127.0.0.1 
-2022-10-31 02:05:01,709 2712 INFO odoo-test odoo.modules.loading: Module account loaded in 8.91s, 8037 queries 
-2022-10-31 02:05:01,709 2712 INFO odoo-test odoo.modules.loading: Loading module account_edi (31/37) 
-2022-10-31 02:05:01,934 2712 INFO odoo-test odoo.modules.registry: module account_edi: creating or updating database tables 
-2022-10-31 02:05:02,433 2712 INFO odoo-test odoo.modules.loading: loading account_edi/security/ir.model.access.csv 
-2022-10-31 02:05:02,452 2712 INFO odoo-test odoo.modules.loading: loading account_edi/wizard/account_invoice_send_views.xml 
-2022-10-31 02:05:02,475 2712 INFO odoo-test odoo.modules.loading: loading account_edi/views/account_edi_document_views.xml 
-2022-10-31 02:05:02,488 2712 INFO odoo-test odoo.modules.loading: loading account_edi/views/account_move_views.xml 
-2022-10-31 02:05:02,618 2712 INFO odoo-test odoo.modules.loading: loading account_edi/views/account_payment_views.xml 
-2022-10-31 02:05:02,665 2712 INFO odoo-test odoo.modules.loading: loading account_edi/views/account_journal_views.xml 
-2022-10-31 02:05:02,706 2712 INFO odoo-test odoo.modules.loading: loading account_edi/data/cron.xml 
-2022-10-31 02:05:02,714 2712 INFO odoo-test odoo.modules.loading: Module account_edi: loading demo 
-2022-10-31 02:05:02,733 2712 INFO odoo-test odoo.modules.loading: Module account_edi loaded in 1.02s, 389 queries 
-2022-10-31 02:05:02,733 2712 INFO odoo-test odoo.modules.loading: Loading module payment (32/37) 
-2022-10-31 02:05:02,969 2712 INFO odoo-test odoo.modules.registry: module payment: creating or updating database tables 
-2022-10-31 02:05:03,821 2712 INFO odoo-test odoo.modules.loading: loading payment/data/account_data.xml 
-2022-10-31 02:05:03,827 2712 INFO odoo-test odoo.modules.loading: loading payment/data/payment_icon_data.xml 
-2022-10-31 02:05:04,003 2712 INFO odoo-test odoo.modules.loading: loading payment/data/payment_acquirer_data.xml 
-2022-10-31 02:05:04,178 2712 INFO odoo-test odoo.modules.loading: loading payment/data/payment_cron.xml 
-2022-10-31 02:05:04,187 2712 INFO odoo-test odoo.modules.loading: loading payment/views/payment_views.xml 
-2022-10-31 02:05:04,378 2712 INFO odoo-test odoo.modules.loading: loading payment/views/account_payment_views.xml 
-2022-10-31 02:05:04,428 2712 INFO odoo-test odoo.modules.loading: loading payment/views/account_invoice_views.xml 
-2022-10-31 02:05:04,561 2712 INFO odoo-test odoo.modules.loading: loading payment/views/payment_acquirer_onboarding_templates.xml 
-2022-10-31 02:05:04,588 2712 INFO odoo-test odoo.modules.loading: loading payment/views/payment_templates.xml 
-2022-10-31 02:05:04,634 2712 INFO odoo-test odoo.modules.loading: loading payment/views/payment_portal_templates.xml 
-2022-10-31 02:05:04,679 2712 INFO odoo-test odoo.modules.loading: loading payment/views/assets.xml 
-2022-10-31 02:05:04,702 2712 INFO odoo-test odoo.modules.loading: loading payment/views/res_partner_views.xml 
-2022-10-31 02:05:04,785 2712 INFO odoo-test odoo.modules.loading: loading payment/security/ir.model.access.csv 
-2022-10-31 02:05:04,831 2712 INFO odoo-test odoo.modules.loading: loading payment/security/payment_security.xml 
-2022-10-31 02:05:04,866 2712 INFO odoo-test odoo.modules.loading: loading payment/wizards/payment_link_wizard_views.xml 
-2022-10-31 02:05:04,884 2712 INFO odoo-test odoo.modules.loading: Module payment: loading demo 
-2022-10-31 02:05:04,907 2712 INFO odoo-test odoo.modules.loading: Module payment loaded in 2.17s, 1174 queries 
-2022-10-31 02:05:04,907 2712 INFO odoo-test odoo.modules.loading: Loading module snailmail_account (33/37) 
-2022-10-31 02:05:05,134 2712 INFO odoo-test odoo.modules.registry: module snailmail_account: creating or updating database tables 
-2022-10-31 02:05:05,529 2712 INFO odoo-test odoo.modules.loading: loading snailmail_account/views/res_config_settings_views.xml 
-2022-10-31 02:05:05,691 2712 INFO odoo-test odoo.modules.loading: loading snailmail_account/views/assets.xml 
-2022-10-31 02:05:05,718 2712 INFO odoo-test odoo.modules.loading: loading snailmail_account/wizard/account_invoice_send_views.xml 
-2022-10-31 02:05:05,749 2712 INFO odoo-test odoo.modules.loading: loading snailmail_account/security/ir.model.access.csv 
-2022-10-31 02:05:05,759 2712 INFO odoo-test odoo.modules.loading: Module snailmail_account: loading demo 
-2022-10-31 02:05:05,776 2712 INFO odoo-test odoo.modules.loading: Module snailmail_account loaded in 0.87s, 223 queries 
-2022-10-31 02:05:05,776 2712 INFO odoo-test odoo.modules.loading: Loading module account_edi_facturx (34/37) 
-2022-10-31 02:05:05,963 2712 INFO odoo-test odoo.modules.registry: module account_edi_facturx: creating or updating database tables 
-2022-10-31 02:05:06,002 2712 INFO odoo-test odoo.modules.loading: loading account_edi_facturx/data/account_edi_data.xml 
-2022-10-31 02:05:06,339 2712 INFO odoo-test odoo.modules.loading: loading account_edi_facturx/data/facturx_templates.xml 
-2022-10-31 02:05:06,391 2712 INFO odoo-test odoo.modules.loading: Module account_edi_facturx: loading demo 
-2022-10-31 02:05:06,397 2712 INFO odoo-test odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['Import/Export electronic invoices with UBL/CII'] to user __system__ #1 via 127.0.0.1 
-2022-10-31 02:05:06,524 2712 INFO odoo-test odoo.modules.loading: Module account_edi_facturx loaded in 0.75s, 170 queries 
-2022-10-31 02:05:06,525 2712 INFO odoo-test odoo.modules.loading: Loading module account_edi_ubl (35/37) 
-2022-10-31 02:05:06,719 2712 INFO odoo-test odoo.modules.registry: module account_edi_ubl: creating or updating database tables 
-2022-10-31 02:05:06,847 2712 INFO odoo-test odoo.modules.loading: loading account_edi_ubl/data/ubl_templates.xml 
-2022-10-31 02:05:07,163 2712 INFO odoo-test odoo.modules.loading: Module account_edi_ubl: loading demo 
-2022-10-31 02:05:07,202 2712 INFO odoo-test odoo.modules.loading: Module account_edi_ubl loaded in 0.68s, 97 queries 
-2022-10-31 02:05:07,202 2712 INFO odoo-test odoo.modules.loading: Loading module payment_fix_register_token (36/37) 
-2022-10-31 02:05:07,392 2712 INFO odoo-test odoo.modules.registry: module payment_fix_register_token: creating or updating database tables 
-2022-10-31 02:05:07,727 2712 INFO odoo-test odoo.modules.loading: loading payment_fix_register_token/views/account_payment_register_views.xml 
-2022-10-31 02:05:07,767 2712 INFO odoo-test odoo.modules.loading: Module payment_fix_register_token: loading demo 
-2022-10-31 02:05:07,781 2712 INFO odoo-test odoo.modules.loading: Module payment_fix_register_token loaded in 0.58s, 73 queries 
-2022-10-31 02:05:07,781 2712 INFO odoo-test odoo.modules.loading: Loading module payment_transfer (37/37) 
-2022-10-31 02:05:07,970 2712 INFO odoo-test odoo.modules.registry: module payment_transfer: creating or updating database tables 
-2022-10-31 02:05:08,301 2712 INFO odoo-test odoo.modules.loading: loading payment_transfer/views/payment_views.xml 
-2022-10-31 02:05:08,341 2712 INFO odoo-test odoo.modules.loading: loading payment_transfer/views/payment_transfer_templates.xml 
-2022-10-31 02:05:08,350 2712 INFO odoo-test odoo.modules.loading: loading payment_transfer/data/payment_acquirer_data.xml 
-2022-10-31 02:05:08,369 2712 INFO odoo-test odoo.modules.loading: Module payment_transfer: loading demo 
-2022-10-31 02:05:08,392 2712 INFO odoo-test odoo.modules.loading: Module payment_transfer loaded in 0.61s, 119 queries 
-2022-10-31 02:05:08,392 2712 INFO odoo-test odoo.modules.loading: 37 modules loaded in 35.56s, 24373 queries (+0 extra) 
-2022-10-31 02:05:08,396 2712 INFO odoo-test odoo.modules.loading: loading 41 modules... 
-2022-10-31 02:05:08,396 2712 INFO odoo-test odoo.modules.loading: Loading module account_check_printing (31/41) 
-2022-10-31 02:05:08,632 2712 INFO odoo-test odoo.modules.registry: module account_check_printing: creating or updating database tables 
-2022-10-31 02:05:09,233 2712 INFO odoo-test odoo.modules.loading: loading account_check_printing/security/ir.model.access.csv 
-2022-10-31 02:05:09,242 2712 INFO odoo-test odoo.modules.loading: loading account_check_printing/data/account_check_printing_data.xml 
-2022-10-31 02:05:09,253 2712 INFO odoo-test odoo.modules.loading: loading account_check_printing/views/account_journal_views.xml 
-2022-10-31 02:05:09,341 2712 INFO odoo-test odoo.modules.loading: loading account_check_printing/views/account_move_views.xml 
-2022-10-31 02:05:09,363 2712 INFO odoo-test odoo.modules.loading: loading account_check_printing/views/account_payment_views.xml 
-2022-10-31 02:05:09,439 2712 INFO odoo-test odoo.modules.loading: loading account_check_printing/views/res_config_settings_views.xml 
-2022-10-31 02:05:09,568 2712 INFO odoo-test odoo.modules.loading: loading account_check_printing/views/res_partner_views.xml 
-2022-10-31 02:05:09,641 2712 INFO odoo-test odoo.modules.loading: loading account_check_printing/wizard/print_prenumbered_checks_views.xml 
-2022-10-31 02:05:09,652 2712 INFO odoo-test odoo.modules.loading: Module account_check_printing: loading demo 
-2022-10-31 02:05:09,668 2712 INFO odoo-test odoo.modules.loading: Module account_check_printing loaded in 1.27s, 525 queries 
-2022-10-31 02:05:09,668 2712 INFO odoo-test odoo.modules.loading: Loading module l10n_generic_coa (33/41) 
-2022-10-31 02:05:09,866 2712 INFO odoo-test odoo.modules.loading: loading l10n_generic_coa/data/l10n_generic_coa.xml 
-2022-10-31 02:05:10,180 2712 INFO odoo-test odoo.modules.loading: loading l10n_generic_coa/data/account.account.template.csv 
-2022-10-31 02:05:10,290 2712 INFO odoo-test odoo.modules.loading: loading l10n_generic_coa/data/l10n_generic_coa_post.xml 
-2022-10-31 02:05:10,714 2712 INFO odoo-test odoo.modules.loading: Module l10n_generic_coa: loading demo 
-2022-10-31 02:05:10,715 2712 INFO odoo-test odoo.modules.loading: loading l10n_generic_coa/demo/account_bank_statement_demo.xml 
-2022-10-31 02:05:11,478 2712 INFO odoo-test odoo.modules.loading: loading l10n_generic_coa/demo/account_invoice_demo.xml 
-2022-10-31 02:05:14,619 2712 INFO odoo-test odoo.tests: skip sending email in test mode 
-2022-10-31 02:05:14,620 2712 INFO odoo-test odoo.addons.mail.models.mail_mail: Mail with ID 1 and Message-Id '<480073645571302.1667181914.561102867126465-openerp-message-notify@trungt-GF63-Thin-10SC>' successfully sent 
-2022-10-31 02:05:14,635 2712 INFO odoo-test odoo.models.unlink: User #1 deleted mail.mail records with IDs: [1] 
-2022-10-31 02:05:14,635 2712 INFO odoo-test odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
-2022-10-31 02:05:14,743 2712 INFO odoo-test odoo.tests: skip sending email in test mode 
-2022-10-31 02:05:14,744 2712 INFO odoo-test odoo.addons.mail.models.mail_mail: Mail with ID 2 and Message-Id '<466167827384774.1667181914.691728830337524-openerp-message-notify@trungt-GF63-Thin-10SC>' successfully sent 
-2022-10-31 02:05:14,758 2712 INFO odoo-test odoo.models.unlink: User #1 deleted mail.mail records with IDs: [2] 
-2022-10-31 02:05:14,758 2712 INFO odoo-test odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
-2022-10-31 02:05:14,874 2712 INFO odoo-test odoo.tests: skip sending email in test mode 
-2022-10-31 02:05:14,875 2712 INFO odoo-test odoo.addons.mail.models.mail_mail: Mail with ID 3 and Message-Id '<833277665918061.1667181914.822483301162720-openerp-message-notify@trungt-GF63-Thin-10SC>' successfully sent 
-2022-10-31 02:05:14,887 2712 INFO odoo-test odoo.models.unlink: User #1 deleted mail.mail records with IDs: [3] 
-2022-10-31 02:05:14,887 2712 INFO odoo-test odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
-2022-10-31 02:05:14,992 2712 INFO odoo-test odoo.tests: skip sending email in test mode 
-2022-10-31 02:05:14,993 2712 INFO odoo-test odoo.addons.mail.models.mail_mail: Mail with ID 4 and Message-Id '<004491359834258.1667181914.941251516342163-openerp-message-notify@trungt-GF63-Thin-10SC>' successfully sent 
-2022-10-31 02:05:15,005 2712 INFO odoo-test odoo.models.unlink: User #1 deleted mail.mail records with IDs: [4] 
-2022-10-31 02:05:15,005 2712 INFO odoo-test odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
-2022-10-31 02:05:15,013 2712 INFO odoo-test odoo.modules.loading: loading l10n_generic_coa/demo/account_reconcile_model.xml 
-2022-10-31 02:05:15,050 2712 INFO odoo-test odoo.modules.loading: Module l10n_generic_coa loaded in 5.38s, 2653 queries (+1 other) 
-2022-10-31 02:05:15,050 2712 INFO odoo-test odoo.modules.loading: Loading module account_edi_ubl_cii (38/41) 
-2022-10-31 02:05:15,416 2712 INFO odoo-test odoo.modules.registry: module account_edi_ubl_cii: creating or updating database tables 
-2022-10-31 02:05:15,768 2712 INFO odoo-test odoo.modules.loading: loading account_edi_ubl_cii/data/account_edi_data.xml 
-2022-10-31 02:05:15,797 2712 INFO odoo-test odoo.modules.loading: loading account_edi_ubl_cii/data/cii_22_templates.xml 
-2022-10-31 02:05:15,853 2712 INFO odoo-test odoo.modules.loading: loading account_edi_ubl_cii/data/ubl_20_templates.xml 
-2022-10-31 02:05:15,936 2712 INFO odoo-test odoo.modules.loading: loading account_edi_ubl_cii/data/ubl_21_templates.xml 
-2022-10-31 02:05:15,965 2712 INFO odoo-test odoo.modules.loading: Module account_edi_ubl_cii: loading demo 
-2022-10-31 02:05:15,993 2712 INFO odoo-test odoo.modules.loading: Module account_edi_ubl_cii loaded in 0.94s, 282 queries 
-2022-10-31 02:05:15,994 2712 INFO odoo-test odoo.modules.loading: Loading module l10n_us (39/41) 
-2022-10-31 02:05:16,182 2712 INFO odoo-test odoo.modules.registry: module l10n_us: creating or updating database tables 
-2022-10-31 02:05:16,546 2712 INFO odoo-test odoo.modules.loading: loading l10n_us/data/res_company_data.xml 
-2022-10-31 02:05:16,568 2712 INFO odoo-test odoo.modules.loading: loading l10n_us/views/res_partner_bank_views.xml 
-2022-10-31 02:05:16,594 2712 INFO odoo-test odoo.modules.loading: Module l10n_us: loading demo 
-2022-10-31 02:05:16,608 2712 INFO odoo-test odoo.modules.loading: Module l10n_us loaded in 0.61s, 82 queries 
-2022-10-31 02:05:16,608 2712 INFO odoo-test odoo.modules.loading: 41 modules loaded in 8.21s, 3542 queries (+1 extra) 
-2022-10-31 02:05:17,285 2712 INFO odoo-test odoo.modules.loading: Modules loaded. 
-2022-10-31 02:05:17,301 2712 INFO odoo-test odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
-2022-10-31 02:05:17,305 2712 INFO odoo-test odoo.modules.registry: Registry changed, signaling through the database 
-2022-10-31 02:05:17,306 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 02:05:17] "POST /web/dataset/call_button HTTP/1.1" 200 - 29629 12.044 33.633
-2022-10-31 02:05:17,318 2712 INFO odoo-test odoo.addons.base.models.ir_http: Generating routing map for key None 
-2022-10-31 02:05:20,599 2712 INFO odoo-test odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
-2022-10-31 02:05:20,600 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 02:05:20] "GET /web HTTP/1.1" 200 - 449 0.143 3.141
-2022-10-31 02:05:20,664 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 02:05:20] "GET /web/content/403-f640d8c/web.assets_backend.css HTTP/1.1" 200 - 4 0.006 0.039
-2022-10-31 02:05:20,664 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 02:05:20] "GET /web/content/402-71107e5/web.assets_common.css HTTP/1.1" 200 - 3 0.005 0.043
-2022-10-31 02:05:20,668 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 02:05:20] "GET /web/content/404-71107e5/web.assets_common.js HTTP/1.1" 200 - 2 0.005 0.041
-2022-10-31 02:05:20,669 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 02:05:20] "GET /web/content/405-f640d8c/web.assets_backend.js HTTP/1.1" 200 - 2 0.004 0.039
-2022-10-31 02:05:20,672 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 02:05:20] "GET /web/content/406-95f2e37/web.assets_backend_prod_only.js HTTP/1.1" 200 - 2 0.003 0.035
-2022-10-31 02:05:20,904 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 02:05:20] "GET /web/webclient/load_menus/afb9a74978830aeb005140989865ae829d36845ce5716375eecf67359120d616 HTTP/1.1" 200 - 120 0.038 0.184
-2022-10-31 02:05:20,918 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 02:05:20] "GET /web/webclient/qweb/c655793e6c005993e97ef82f7e719270856d878c997c7c6a00bfd47c261e9e4e?mods=base,web,base_setup,bus,web_tour,mail,product,web_editor,http_routing,auth_signup,portal,resource,digest,account,account_check_printing,auth_totp,auth_totp_portal,base_import,iap,l10n_generic_coa,l10n_us,mail_bot,partner_autocomplete,payment,payment_transfer,sms,snailmail,snailmail_account,web_kanban_gauge,web_unsplash HTTP/1.1" 200 - 1 0.001 0.091
-2022-10-31 02:05:20,961 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 02:05:20] "GET /web/webclient/translations/5227498d9df4b403b0244c75aac21e0c091e50ce?mods=base%2Cweb%2Cbase_setup%2Cbus%2Cweb_tour%2Cmail%2Cproduct%2Cweb_editor%2Chttp_routing%2Cauth_signup%2Cportal%2Cresource%2Cdigest%2Caccount%2Caccount_check_printing%2Cauth_totp%2Cauth_totp_portal%2Cbase_import%2Ciap%2Cl10n_generic_coa%2Cl10n_us%2Cmail_bot%2Cpartner_autocomplete%2Cpayment%2Cpayment_transfer%2Csms%2Csnailmail%2Csnailmail_account%2Cweb_kanban_gauge%2Cweb_unsplash&lang=en_US HTTP/1.1" 200 - 3 0.002 0.006
-2022-10-31 02:05:21,036 2712 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2022 02:05:21] "GET /web/static/src/xml/debug.xml?debug=1667181921018 HTTP/1.1" 200 - - - -
-2022-10-31 02:05:21,036 2712 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2022 02:05:21] "GET /web/static/src/img/user_menu_avatar.png HTTP/1.1" 200 - - - -
-2022-10-31 02:05:21,043 2712 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
-2022-10-31 02:05:21,076 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 02:05:21] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 2 0.007 0.031
-2022-10-31 02:05:21,094 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 02:05:21] "POST /web/dataset/call_kw/ir.rule/check_access_rights HTTP/1.1" 200 - 1 0.003 0.042
-2022-10-31 02:05:21,099 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 02:05:21] "POST /web/dataset/call_kw/ir.model.access/check_access_rights HTTP/1.1" 200 - 1 0.001 0.045
-2022-10-31 02:05:21,106 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 02:05:21] "GET /web/image?model=res.users&field=image_128&id=1 HTTP/1.1" 200 - 5 0.016 0.047
-2022-10-31 02:05:21,119 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 02:05:21] "POST /web/dataset/call_kw/ir.ui.view/check_access_rights HTTP/1.1" 200 - 1 0.003 0.013
-2022-10-31 02:05:21,125 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 02:05:21] "POST /mail/init_messaging HTTP/1.1" 200 - 50 0.070 0.057
-2022-10-31 02:05:21,150 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 02:05:21] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 - 2 0.001 0.009
-2022-10-31 02:05:21,172 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 02:05:21] "POST /longpolling/im_status HTTP/1.1" 200 - 3 0.002 0.007
-2022-10-31 02:05:21,198 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 02:05:21] "POST /web/action/load HTTP/1.1" 200 - 9 0.008 0.022
-2022-10-31 02:05:21,251 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 02:05:21] "POST /web/dataset/call_kw/mail.message/load_views HTTP/1.1" 200 - 21 0.012 0.034
-2022-10-31 02:05:21,321 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 02:05:21] "POST /web/dataset/call_kw/mail.message/message_fetch HTTP/1.1" 200 - 5 0.001 0.006
-2022-10-31 02:05:55,011 2712 INFO odoo-test odoo.addons.base.models.ir_cron: Starting job `Post process payment transactions`. 
-2022-10-31 02:05:55,041 2712 INFO odoo-test odoo.addons.base.models.ir_cron: Job `Post process payment transactions` done. 
-2022-10-31 02:05:55,043 2712 INFO odoo-test odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
-2022-10-31 02:05:55,061 2712 INFO odoo-test odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
-2022-10-31 02:05:55,062 2712 INFO odoo-test odoo.addons.base.models.ir_cron: Starting job `Notification: Delete Notifications older than 6 Month`. 
-2022-10-31 02:05:55,076 2712 INFO odoo-test odoo.addons.base.models.ir_cron: Job `Notification: Delete Notifications older than 6 Month` done. 
-2022-10-31 02:05:55,077 2712 INFO odoo-test odoo.addons.base.models.ir_cron: Starting job `Users: Notify About Unregistered Users`. 
-2022-10-31 02:05:55,092 2712 INFO odoo-test odoo.addons.base.models.ir_cron: Job `Users: Notify About Unregistered Users` done. 
-2022-10-31 02:05:55,092 2712 INFO odoo-test odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
-2022-10-31 02:05:55,105 2712 INFO odoo-test odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
-2022-10-31 02:05:55,106 2712 INFO odoo-test odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
-2022-10-31 02:05:55,119 2712 INFO odoo-test odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
-2022-10-31 02:05:55,120 2712 INFO odoo-test odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
-2022-10-31 02:05:55,132 2712 INFO odoo-test odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
-2022-10-31 02:05:55,133 2712 INFO odoo-test odoo.addons.base.models.ir_cron: Starting job `Mail: Notify channel moderators`. 
-2022-10-31 02:05:55,145 2712 INFO odoo-test odoo.addons.base.models.ir_cron: Job `Mail: Notify channel moderators` done. 
-2022-10-31 02:06:11,043 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 02:06:11] "POST /longpolling/poll HTTP/1.1" 200 - 8 0.008 50.031
-2022-10-31 02:06:12,063 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 02:06:12] "POST /longpolling/im_status HTTP/1.1" 200 - 3 0.001 0.004
-2022-10-31 02:07:03,091 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 02:07:03] "POST /longpolling/poll HTTP/1.1" 200 - 8 0.005 50.020
-2022-10-31 02:07:06,133 2712 INFO odoo-test werkzeug: 127.0.0.1 - - [31/Oct/2022 02:07:06] "POST /longpolling/im_status HTTP/1.1" 200 - 3 0.004 0.017
-2022-10-31 02:07:21,031 2712 INFO odoo-test odoo.service.server: Initiating shutdown 
-2022-10-31 02:07:21,031 2712 INFO odoo-test odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
-2022-10-31 02:07:21,131 2712 INFO odoo-test odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 6 connections  
+2022-11-04 10:01:02,687 27301 INFO ? odoo: Odoo version 14.0 
+2022-11-04 10:01:02,688 27301 INFO ? odoo: Using configuration file at /home/trungt/odoo-dev/odoo_14.cfg 
+2022-11-04 10:01:02,688 27301 INFO ? odoo: addons paths: ['/home/trungt/odoo-dev/odoo/odoo/addons', '/home/trungt/odoo-dev/filestores/addons/14.0', '/home/trungt/odoo-dev/odoo/addons', '/home/trungt/odoo-dev/custom-addons', '/home/trungt/odoo-dev/odoo'] 
+2022-11-04 10:01:02,688 27301 INFO ? odoo: database: trungt@localhost:5432 
+2022-11-04 10:01:02,914 27301 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2022-11-04 10:01:03,058 27301 INFO ? odoo.service.server: HTTP service (werkzeug) running on localhost:8014 
+2022-11-04 10:01:03,065 27301 INFO odoo-test odoo.modules.loading: loading 1 modules... 
+2022-11-04 10:01:03,082 27301 INFO odoo-test odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries (+0 extra) 
+2022-11-04 10:01:03,195 27301 INFO odoo-test odoo.modules.loading: updating modules list 
+2022-11-04 10:01:03,198 27301 INFO odoo-test odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2022-11-04 10:01:03,985 27301 WARNING odoo-test odoo.modules.loading: invalid module names, ignored: , my_module 
+2022-11-04 10:01:03,992 27301 INFO odoo-test odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['My Library'] to user __system__ #1 via n/a 
+2022-11-04 10:01:03,992 27301 INFO odoo-test odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['My Library'] to user __system__ #1 via n/a 
+2022-11-04 10:01:04,708 27301 INFO odoo-test odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user __system__ #1 via n/a 
+2022-11-04 10:01:04,744 27301 INFO odoo-test odoo.modules.loading: loading 8 modules... 
+2022-11-04 10:01:04,744 27301 INFO odoo-test odoo.modules.loading: Loading module my_library (2/8) 
+2022-11-04 10:01:04,791 27301 INFO odoo-test odoo.modules.registry: module my_library: creating or updating database tables 
+2022-11-04 10:01:04,943 27301 INFO odoo-test odoo.modules.loading: loading my_library/security/groups.xml 
+2022-11-04 10:01:05,023 27301 INFO odoo-test odoo.modules.loading: loading my_library/security/ir.model.access.csv 
+2022-11-04 10:01:05,055 27301 INFO odoo-test odoo.modules.loading: loading my_library/views/library_book.xml 
+2022-11-04 10:01:05,097 27301 INFO odoo-test odoo.modules.loading: Module my_library: loading demo 
+2022-11-04 10:01:05,113 27301 INFO odoo-test odoo.modules.loading: Module my_library loaded in 0.37s, 175 queries 
+2022-11-04 10:01:05,155 27301 INFO odoo-test odoo.modules.loading: 8 modules loaded in 0.41s, 175 queries (+0 extra) 
+2022-11-04 10:01:05,345 27301 INFO odoo-test odoo.modules.registry: verifying fields for every extended model 
+2022-11-04 10:01:05,431 27301 INFO odoo-test odoo.modules.loading: Modules loaded. 
+2022-11-04 10:01:11,364 27301 INFO ? odoo.http: HTTP Configuring static files 
+2022-11-04 10:01:11,368 27301 INFO odoo-test odoo.addons.base.models.ir_http: Generating routing map for key None 
+2022-11-04 10:01:11,560 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:01:11] "GET /web/session/logout HTTP/1.1" 303 - 2 0.002 0.192
+2022-11-04 10:01:11,567 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:01:11] "GET /web HTTP/1.1" 303 - 1 0.000 0.003
+2022-11-04 10:01:12,128 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:01:12] "GET /web/login HTTP/1.1" 200 - 272 0.081 0.476
+2022-11-04 10:01:12,171 27301 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2022 10:01:12] "GET /web/static/lib/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 - - - -
+2022-11-04 10:01:12,185 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:01:12] "GET /web/content/200-b34ebd5/web.assets_common_minimal_js.js HTTP/1.1" 304 - 5 0.014 0.019
+2022-11-04 10:01:12,202 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:01:12] "GET /web/content/198-3cfd167/web.assets_common.css HTTP/1.1" 304 - 3 0.007 0.029
+2022-11-04 10:01:12,202 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:01:12] "GET /web/content/201-48bfde0/web.assets_frontend_minimal_js.js HTTP/1.1" 304 - 3 0.006 0.032
+2022-11-04 10:01:12,202 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:01:12] "GET /web/content/199-dbe146d/web.assets_frontend.css HTTP/1.1" 304 - 3 0.007 0.019
+2022-11-04 10:01:12,235 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:01:12] "GET /web/binary/company_logo HTTP/1.1" 200 - 2 0.001 0.006
+2022-11-04 10:01:12,330 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:01:12] "GET /web/webclient/locale/en_US HTTP/1.1" 200 - 1 0.000 0.012
+2022-11-04 10:01:12,334 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:01:12] "GET /web/webclient/translations/1667556072313?mods=&lang= HTTP/1.1" 200 - 9 0.009 0.011
+2022-11-04 10:01:16,739 27301 INFO odoo-test odoo.addons.base.models.res_users: Login successful for db:odoo-test login:demo from 127.0.0.1 
+2022-11-04 10:01:16,749 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:01:16] "POST /web/login HTTP/1.1" 303 - 45 0.017 0.106
+2022-11-04 10:01:17,151 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:01:17] "GET /web HTTP/1.1" 200 - 289 0.091 0.307
+2022-11-04 10:01:17,196 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:01:17] "GET /web/content/209-41481d7/web.assets_backend.js HTTP/1.1" 304 - 2 0.004 0.026
+2022-11-04 10:01:17,199 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:01:17] "GET /web/content/205-3cfd167/web.assets_common.js HTTP/1.1" 304 - 2 0.004 0.031
+2022-11-04 10:01:17,208 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:01:17] "GET /web/content/198-3cfd167/web.assets_common.css HTTP/1.1" 304 - 2 0.002 0.037
+2022-11-04 10:01:17,217 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:01:17] "GET /web/content/207-803b2ae/web.assets_backend_prod_only.js HTTP/1.1" 304 - 2 0.007 0.042
+2022-11-04 10:01:17,218 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:01:17] "GET /web/content/208-41481d7/web.assets_backend.css HTTP/1.1" 304 - 2 0.004 0.031
+2022-11-04 10:01:17,228 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:01:17] "GET /web/webclient/load_menus/0e46f3fb8ff3dbd59516b3e0774e137b54bced83d5af770e8b30cdf685c11147 HTTP/1.1" 200 - 1 0.000 0.005
+2022-11-04 10:01:17,294 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:01:17] "GET /web/webclient/qweb/2e7b81bbe436b652dea55a392b998f3993bf113a9de59d9428e159e32f729522?mods=base,web,auth_totp,base_import,my_library,web_editor,web_kanban_gauge,web_tour HTTP/1.1" 200 - 1 0.000 0.011
+2022-11-04 10:01:17,335 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:01:17] "GET /web/webclient/translations/5227498d9df4b403b0244c75aac21e0c091e50ce?mods=base%2Cweb%2Cauth_totp%2Cbase_import%2Cmy_library%2Cweb_editor%2Cweb_kanban_gauge%2Cweb_tour&lang=en_US HTTP/1.1" 200 - 4 0.002 0.008
+2022-11-04 10:01:17,345 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:01:17] "GET /web/webclient/locale/en_US HTTP/1.1" 200 - 1 0.000 0.006
+2022-11-04 10:01:17,368 27301 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2022 10:01:17] "GET /web/static/src/xml/debug.xml?debug=1667556077362 HTTP/1.1" 200 - - - -
+2022-11-04 10:01:17,430 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:01:17] "POST /web/dataset/call_kw/ir.rule/check_access_rights HTTP/1.1" 200 - 1 0.002 0.027
+2022-11-04 10:01:17,440 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:01:17] "POST /web/dataset/call_kw/ir.model.access/check_access_rights HTTP/1.1" 200 - 1 0.003 0.026
+2022-11-04 10:01:17,447 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:01:17] "GET /web/image?model=res.users&field=image_128&id=6 HTTP/1.1" 304 - 11 0.021 0.043
+2022-11-04 10:01:17,450 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:01:17] "POST /web/dataset/call_kw/ir.ui.view/check_access_rights HTTP/1.1" 200 - 3 0.005 0.017
+2022-11-04 10:01:17,466 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:01:17] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 - 2 0.001 0.007
+2022-11-04 10:01:17,521 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:01:17] "POST /web/action/load HTTP/1.1" 200 - 21 0.014 0.030
+2022-11-04 10:01:17,617 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:01:17] "POST /web/dataset/call_kw/library.book/load_views HTTP/1.1" 200 - 39 0.035 0.050
+2022-11-04 10:01:17,646 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:01:17] "POST /web/dataset/search_read HTTP/1.1" 200 - 6 0.006 0.006
+2022-11-04 10:01:17,659 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:01:17] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 2 0.001 0.004
+2022-11-04 10:01:32,616 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:01:32] "POST /web/dataset/call_kw/library.book/read HTTP/1.1" 200 - 12 0.009 0.023
+2022-11-04 10:01:32,641 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:01:32] "POST /web/dataset/call_kw/res.partner/read HTTP/1.1" 200 - 7 0.004 0.011
+2022-11-04 10:01:39,142 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:01:39] "POST /web/dataset/search_read HTTP/1.1" 200 - 6 0.006 0.012
+2022-11-04 10:01:47,826 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:01:47] "GET /web?debug= HTTP/1.1" 200 - 106 0.043 0.164
+2022-11-04 10:01:47,879 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:01:47] "GET /web/content/205-3cfd167/web.assets_common.js HTTP/1.1" 304 - 2 0.002 0.033
+2022-11-04 10:01:47,879 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:01:47] "GET /web/content/207-803b2ae/web.assets_backend_prod_only.js HTTP/1.1" 304 - 2 0.005 0.028
+2022-11-04 10:01:47,880 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:01:47] "GET /web/content/209-41481d7/web.assets_backend.js HTTP/1.1" 304 - 2 0.003 0.032
+2022-11-04 10:01:47,880 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:01:47] "GET /web/content/198-3cfd167/web.assets_common.css HTTP/1.1" 200 - 2 0.001 0.025
+2022-11-04 10:01:47,890 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:01:47] "GET /web/content/208-41481d7/web.assets_backend.css HTTP/1.1" 304 - 2 0.002 0.027
+2022-11-04 10:01:47,905 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:01:47] "GET /web/webclient/load_menus/0e46f3fb8ff3dbd59516b3e0774e137b54bced83d5af770e8b30cdf685c11147 HTTP/1.1" 200 - 1 0.000 0.008
+2022-11-04 10:01:47,999 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:01:47] "GET /web/webclient/qweb/2e7b81bbe436b652dea55a392b998f3993bf113a9de59d9428e159e32f729522?mods=base,web,auth_totp,base_import,my_library,web_editor,web_kanban_gauge,web_tour HTTP/1.1" 200 - 1 0.000 0.021
+2022-11-04 10:01:48,019 27301 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2022 10:01:48] "GET /web/static/src/img/favicon.ico HTTP/1.1" 200 - - - -
+2022-11-04 10:01:48,078 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:01:48] "GET /web/webclient/translations/5227498d9df4b403b0244c75aac21e0c091e50ce?mods=base%2Cweb%2Cauth_totp%2Cbase_import%2Cmy_library%2Cweb_editor%2Cweb_kanban_gauge%2Cweb_tour&lang=en_US HTTP/1.1" 200 - 4 0.005 0.010
+2022-11-04 10:01:48,095 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:01:48] "GET /web/webclient/locale/en_US HTTP/1.1" 200 - 1 0.001 0.008
+2022-11-04 10:01:48,138 27301 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2022 10:01:48] "GET /web/static/src/img/user_menu_avatar.png HTTP/1.1" 200 - - - -
+2022-11-04 10:01:48,178 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:01:48] "GET /web/image?model=res.users&field=image_128&id=6 HTTP/1.1" 304 - 10 0.011 0.030
+2022-11-04 10:01:48,191 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:01:48] "POST /web/action/load HTTP/1.1" 200 - 17 0.014 0.026
+2022-11-04 10:01:48,249 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:01:48] "POST /web/dataset/call_kw/library.book/load_views HTTP/1.1" 200 - 29 0.018 0.033
+2022-11-04 10:01:48,279 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:01:48] "POST /web/dataset/search_read HTTP/1.1" 200 - 6 0.006 0.008
+2022-11-04 10:01:48,298 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:01:48] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 1 0.000 0.004
+2022-11-04 10:01:49,872 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:01:49] "POST /web/dataset/call_kw/library.book/read HTTP/1.1" 200 - 12 0.005 0.016
+2022-11-04 10:01:49,894 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:01:49] "POST /web/dataset/call_kw/res.partner/read HTTP/1.1" 200 - 7 0.004 0.008
+2022-11-04 10:01:52,948 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:01:52] "POST /web/dataset/call_kw/library.book/load_views HTTP/1.1" 200 - 23 0.010 0.026
+2022-11-04 10:01:52,964 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:01:52] "POST /web/dataset/search_read HTTP/1.1" 200 - 6 0.002 0.005
+2022-11-04 10:01:54,597 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:01:54] "POST /web/dataset/call_kw/library.book/read HTTP/1.1" 200 - 12 0.006 0.013
+2022-11-04 10:01:54,617 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:01:54] "POST /web/dataset/call_kw/res.partner/read HTTP/1.1" 200 - 7 0.003 0.010
+2022-11-04 10:01:58,552 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:01:58] "GET /web/session/logout HTTP/1.1" 303 - 1 0.001 0.015
+2022-11-04 10:01:58,569 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:01:58] "GET /web HTTP/1.1" 303 - 1 0.000 0.006
+2022-11-04 10:01:58,717 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:01:58] "GET /web/login HTTP/1.1" 200 - 53 0.017 0.126
+2022-11-04 10:01:58,749 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:01:58] "GET /web/content/200-b34ebd5/web.assets_common_minimal_js.js HTTP/1.1" 304 - 3 0.002 0.016
+2022-11-04 10:01:58,750 27301 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2022 10:01:58] "GET /web/static/lib/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 - - - -
+2022-11-04 10:01:58,753 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:01:58] "GET /web/content/201-48bfde0/web.assets_frontend_minimal_js.js HTTP/1.1" 304 - 3 0.005 0.014
+2022-11-04 10:01:58,765 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:01:58] "GET /web/content/199-dbe146d/web.assets_frontend.css HTTP/1.1" 304 - 3 0.003 0.011
+2022-11-04 10:01:58,792 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:01:58] "GET /web/binary/company_logo HTTP/1.1" 200 - 2 0.001 0.006
+2022-11-04 10:01:58,906 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:01:58] "GET /web/webclient/translations/1667556118879?mods=&lang= HTTP/1.1" 200 - 7 0.006 0.016
+2022-11-04 10:02:03,128 27301 INFO odoo-test odoo.addons.base.models.res_users: Login successful for db:odoo-test login:admin from 127.0.0.1 
+2022-11-04 10:02:03,141 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:02:03] "POST /web/login HTTP/1.1" 303 - 46 0.016 0.053
+2022-11-04 10:02:03,368 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:02:03] "GET /web HTTP/1.1" 200 - 161 0.054 0.167
+2022-11-04 10:02:03,393 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:02:03] "GET /web/webclient/load_menus/53c781f06edbf48e4b945c5686fc3370edf6d642a80ce3670b4baf23cfbe1afc HTTP/1.1" 200 - 1 0.000 0.007
+2022-11-04 10:02:03,539 27301 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2022 10:02:03] "GET /web/static/src/img/user_menu_avatar.png HTTP/1.1" 200 - - - -
+2022-11-04 10:02:03,569 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:02:03] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 - 2 0.004 0.015
+2022-11-04 10:02:03,580 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:02:03] "GET /web/image?model=res.users&field=image_128&id=2 HTTP/1.1" 200 - 11 0.012 0.030
+2022-11-04 10:02:03,603 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:02:03] "POST /web/action/load HTTP/1.1" 200 - 19 0.017 0.034
+2022-11-04 10:02:03,671 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:02:03] "POST /web/dataset/call_kw/library.book/load_views HTTP/1.1" 200 - 36 0.017 0.037
+2022-11-04 10:02:03,700 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:02:03] "POST /web/dataset/search_read HTTP/1.1" 200 - 6 0.004 0.009
+2022-11-04 10:02:03,718 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:02:03] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 2 0.001 0.007
+2022-11-04 10:02:05,528 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:02:05] "POST /web/dataset/call_kw/library.book/read HTTP/1.1" 200 - 12 0.009 0.021
+2022-11-04 10:02:05,552 27301 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:02:05] "POST /web/dataset/call_kw/res.partner/read HTTP/1.1" 200 - 7 0.005 0.010
+2022-11-04 10:02:56,330 28054 INFO ? odoo: Odoo version 14.0 
+2022-11-04 10:02:56,331 28054 INFO ? odoo: Using configuration file at /home/trungt/odoo-dev/odoo_14.cfg 
+2022-11-04 10:02:56,331 28054 INFO ? odoo: addons paths: ['/home/trungt/odoo-dev/odoo/odoo/addons', '/home/trungt/odoo-dev/filestores/addons/14.0', '/home/trungt/odoo-dev/odoo/addons', '/home/trungt/odoo-dev/custom-addons', '/home/trungt/odoo-dev/odoo'] 
+2022-11-04 10:02:56,331 28054 INFO ? odoo: database: trungt@localhost:5432 
+2022-11-04 10:02:56,555 28054 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2022-11-04 10:02:56,696 28054 INFO ? odoo.service.server: HTTP service (werkzeug) running on localhost:8014 
+2022-11-04 10:02:56,704 28054 INFO odoo-test odoo.modules.loading: loading 1 modules... 
+2022-11-04 10:02:56,722 28054 INFO odoo-test odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries (+0 extra) 
+2022-11-04 10:02:56,851 28054 INFO odoo-test odoo.modules.loading: updating modules list 
+2022-11-04 10:02:56,854 28054 INFO odoo-test odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2022-11-04 10:02:57,696 28054 WARNING odoo-test odoo.modules.loading: invalid module names, ignored: , my_module 
+2022-11-04 10:02:57,702 28054 INFO odoo-test odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['My Library'] to user __system__ #1 via n/a 
+2022-11-04 10:02:57,702 28054 INFO odoo-test odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['My Library'] to user __system__ #1 via n/a 
+2022-11-04 10:02:58,387 28054 INFO odoo-test odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user __system__ #1 via n/a 
+2022-11-04 10:02:58,419 28054 INFO odoo-test odoo.modules.loading: loading 8 modules... 
+2022-11-04 10:02:58,419 28054 INFO odoo-test odoo.modules.loading: Loading module my_library (2/8) 
+2022-11-04 10:02:58,461 28054 INFO odoo-test odoo.modules.registry: module my_library: creating or updating database tables 
+2022-11-04 10:02:58,604 28054 INFO odoo-test odoo.modules.loading: loading my_library/security/groups.xml 
+2022-11-04 10:02:58,723 28054 INFO odoo-test odoo.modules.loading: loading my_library/security/ir.model.access.csv 
+2022-11-04 10:02:58,766 28054 INFO odoo-test odoo.modules.loading: loading my_library/views/library_book.xml 
+2022-11-04 10:02:58,842 28054 INFO odoo-test odoo.modules.loading: Module my_library: loading demo 
+2022-11-04 10:02:58,911 28054 INFO odoo-test odoo.modules.loading: Module my_library loaded in 0.49s, 175 queries 
+2022-11-04 10:02:58,977 28054 INFO odoo-test odoo.modules.loading: 8 modules loaded in 0.56s, 175 queries (+0 extra) 
+2022-11-04 10:02:59,170 28054 INFO odoo-test odoo.modules.registry: verifying fields for every extended model 
+2022-11-04 10:02:59,265 28054 INFO odoo-test odoo.modules.loading: Modules loaded. 
+2022-11-04 10:02:59,702 28054 INFO ? odoo.http: HTTP Configuring static files 
+2022-11-04 10:02:59,706 28054 INFO odoo-test odoo.addons.base.models.ir_http: Generating routing map for key None 
+2022-11-04 10:03:00,352 28054 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:03:00] "GET /web HTTP/1.1" 200 - 298 0.080 0.568
+2022-11-04 10:03:00,389 28054 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:03:00] "GET /web/content/198-3cfd167/web.assets_common.css HTTP/1.1" 200 - 2 0.002 0.023
+2022-11-04 10:03:00,391 28054 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:03:00] "GET /web/content/208-41481d7/web.assets_backend.css HTTP/1.1" 200 - 2 0.001 0.024
+2022-11-04 10:03:00,420 28054 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:03:00] "GET /web/content/209-41481d7/web.assets_backend.js HTTP/1.1" 200 - 2 0.005 0.042
+2022-11-04 10:03:00,420 28054 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:03:00] "GET /web/content/205-3cfd167/web.assets_common.js HTTP/1.1" 200 - 2 0.005 0.045
+2022-11-04 10:03:00,420 28054 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:03:00] "GET /web/content/207-803b2ae/web.assets_backend_prod_only.js HTTP/1.1" 200 - 2 0.009 0.029
+2022-11-04 10:03:00,434 28054 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:03:00] "GET /web/webclient/load_menus/53c781f06edbf48e4b945c5686fc3370edf6d642a80ce3670b4baf23cfbe1afc HTTP/1.1" 200 - 1 0.001 0.008
+2022-11-04 10:03:00,570 28054 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:03:00] "GET /web/webclient/qweb/2e7b81bbe436b652dea55a392b998f3993bf113a9de59d9428e159e32f729522?mods=base,web,auth_totp,base_import,my_library,web_editor,web_kanban_gauge,web_tour HTTP/1.1" 200 - 1 0.000 0.010
+2022-11-04 10:03:00,581 28054 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2022 10:03:00] "GET /web/static/src/img/favicon.ico HTTP/1.1" 200 - - - -
+2022-11-04 10:03:00,630 28054 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2022 10:03:00] "GET /web/static/src/img/user_menu_avatar.png HTTP/1.1" 200 - - - -
+2022-11-04 10:03:00,671 28054 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:03:00] "GET /web/image?model=res.users&field=image_128&id=2 HTTP/1.1" 200 - 11 0.011 0.034
+2022-11-04 10:03:00,750 28054 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:03:00] "POST /web/action/load HTTP/1.1" 200 - 21 0.023 0.093
+2022-11-04 10:03:00,809 28054 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:03:00] "POST /web/dataset/call_kw/library.book/load_views HTTP/1.1" 200 - 36 0.019 0.033
+2022-11-04 10:03:00,846 28054 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:03:00] "POST /web/dataset/call_kw/library.book/read HTTP/1.1" 200 - 12 0.007 0.014
+2022-11-04 10:03:00,869 28054 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:03:00] "POST /web/dataset/call_kw/res.partner/read HTTP/1.1" 200 - 7 0.005 0.009
+2022-11-04 10:03:03,824 28054 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:03:03] "GET /web/session/logout HTTP/1.1" 303 - 1 0.001 0.017
+2022-11-04 10:03:03,849 28054 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:03:03] "GET /web HTTP/1.1" 303 - 1 0.001 0.009
+2022-11-04 10:03:04,240 28054 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:03:04] "GET /web/login HTTP/1.1" 200 - 246 0.061 0.324
+2022-11-04 10:03:04,340 28054 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:03:04] "GET /web/webclient/translations/1667556184321?mods=&lang= HTTP/1.1" 200 - 10 0.007 0.009
+2022-11-04 10:03:16,081 28054 INFO odoo-test odoo.addons.base.models.res_users: Login successful for db:odoo-test login:demo from 127.0.0.1 
+2022-11-04 10:03:16,089 28054 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:03:16] "POST /web/login HTTP/1.1" 303 - 45 0.015 0.053
+2022-11-04 10:03:16,274 28054 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:03:16] "GET /web HTTP/1.1" 200 - 174 0.049 0.133
+2022-11-04 10:03:16,438 28054 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:03:16] "GET /web/webclient/qweb/2e7b81bbe436b652dea55a392b998f3993bf113a9de59d9428e159e32f729522?mods=base,web,auth_totp,base_import,my_library,web_editor,web_kanban_gauge,web_tour HTTP/1.1" 200 - 1 0.001 0.013
+2022-11-04 10:03:16,496 28054 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2022 10:03:16] "GET /web/static/src/img/user_menu_avatar.png HTTP/1.1" 200 - - - -
+2022-11-04 10:03:16,530 28054 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:03:16] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 - 2 0.007 0.012
+2022-11-04 10:03:16,544 28054 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:03:16] "GET /web/image?model=res.users&field=image_128&id=6 HTTP/1.1" 304 - 11 0.015 0.031
+2022-11-04 10:03:16,559 28054 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:03:16] "POST /web/action/load HTTP/1.1" 200 - 19 0.015 0.030
+2022-11-04 10:03:16,626 28054 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:03:16] "POST /web/dataset/call_kw/library.book/load_views HTTP/1.1" 200 - 39 0.024 0.036
+2022-11-04 10:03:16,644 28054 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:03:16] "POST /web/dataset/search_read HTTP/1.1" 200 - 6 0.003 0.005
+2022-11-04 10:03:16,659 28054 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:03:16] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 2 0.001 0.005
+2022-11-04 10:03:18,372 28054 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:03:18] "POST /web/dataset/call_kw/library.book/read HTTP/1.1" 200 - 12 0.004 0.013
+2022-11-04 10:03:18,394 28054 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:03:18] "POST /web/dataset/call_kw/res.partner/read HTTP/1.1" 200 - 7 0.005 0.009
+2022-11-04 10:07:37,945 28054 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:07:37] "GET /web HTTP/1.1" 200 - 51 0.016 0.081
+2022-11-04 10:07:37,982 28054 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:07:37] "GET /web/content/205-3cfd167/web.assets_common.js HTTP/1.1" 304 - 2 0.002 0.015
+2022-11-04 10:07:38,005 28054 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:07:38] "GET /web/content/209-41481d7/web.assets_backend.js HTTP/1.1" 304 - 2 0.001 0.036
+2022-11-04 10:07:38,008 28054 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:07:38] "GET /web/content/198-3cfd167/web.assets_common.css HTTP/1.1" 200 - 2 0.009 0.019
+2022-11-04 10:07:38,009 28054 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:07:38] "GET /web/content/207-803b2ae/web.assets_backend_prod_only.js HTTP/1.1" 304 - 2 0.004 0.032
+2022-11-04 10:07:38,010 28054 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:07:38] "GET /web/content/208-41481d7/web.assets_backend.css HTTP/1.1" 304 - 2 0.001 0.020
+2022-11-04 10:07:38,024 28054 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:07:38] "GET /web/webclient/load_menus/0e46f3fb8ff3dbd59516b3e0774e137b54bced83d5af770e8b30cdf685c11147 HTTP/1.1" 200 - 1 0.000 0.009
+2022-11-04 10:07:38,142 28054 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:07:38] "GET /web/webclient/qweb/2e7b81bbe436b652dea55a392b998f3993bf113a9de59d9428e159e32f729522?mods=base,web,auth_totp,base_import,my_library,web_editor,web_kanban_gauge,web_tour HTTP/1.1" 200 - 1 0.000 0.010
+2022-11-04 10:07:38,195 28054 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2022 10:07:38] "GET /web/static/src/img/user_menu_avatar.png HTTP/1.1" 200 - - - -
+2022-11-04 10:07:38,225 28054 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:07:38] "POST /web/action/load HTTP/1.1" 200 - 8 0.012 0.008
+2022-11-04 10:07:38,226 28054 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:07:38] "GET /web/image?model=res.users&field=image_128&id=6 HTTP/1.1" 304 - 10 0.009 0.024
+2022-11-04 10:07:40,638 28054 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:07:40] "POST /web/action/load HTTP/1.1" 200 - 17 0.007 0.018
+2022-11-04 10:07:40,682 28054 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:07:40] "POST /web/dataset/call_kw/library.book/load_views HTTP/1.1" 200 - 29 0.009 0.028
+2022-11-04 10:07:40,700 28054 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:07:40] "POST /web/dataset/search_read HTTP/1.1" 200 - 6 0.002 0.005
+2022-11-04 10:07:40,709 28054 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:07:40] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 1 0.000 0.003
+2022-11-04 10:07:42,280 28054 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:07:42] "POST /web/dataset/call_kw/library.book/read HTTP/1.1" 200 - 12 0.006 0.017
+2022-11-04 10:07:42,297 28054 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:07:42] "POST /web/dataset/call_kw/res.partner/read HTTP/1.1" 200 - 7 0.002 0.008
+2022-11-04 10:11:13,266 28054 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:11:13] "GET /web HTTP/1.1" 200 - 51 0.017 0.085
+2022-11-04 10:11:13,306 28054 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:11:13] "GET /web/content/198-3cfd167/web.assets_common.css HTTP/1.1" 200 - 2 0.003 0.024
+2022-11-04 10:11:13,321 28054 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:11:13] "GET /web/content/208-41481d7/web.assets_backend.css HTTP/1.1" 200 - 2 0.005 0.035
+2022-11-04 10:11:13,332 28054 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:11:13] "GET /web/content/205-3cfd167/web.assets_common.js HTTP/1.1" 200 - 2 0.005 0.044
+2022-11-04 10:11:13,334 28054 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:11:13] "GET /web/content/209-41481d7/web.assets_backend.js HTTP/1.1" 200 - 2 0.002 0.045
+2022-11-04 10:11:13,339 28054 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:11:13] "GET /web/content/207-803b2ae/web.assets_backend_prod_only.js HTTP/1.1" 200 - 2 0.019 0.022
+2022-11-04 10:11:13,352 28054 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:11:13] "GET /web/webclient/load_menus/0e46f3fb8ff3dbd59516b3e0774e137b54bced83d5af770e8b30cdf685c11147 HTTP/1.1" 200 - 1 0.001 0.009
+2022-11-04 10:11:13,489 28054 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:11:13] "GET /web/webclient/qweb/2e7b81bbe436b652dea55a392b998f3993bf113a9de59d9428e159e32f729522?mods=base,web,auth_totp,base_import,my_library,web_editor,web_kanban_gauge,web_tour HTTP/1.1" 200 - 1 0.000 0.009
+2022-11-04 10:11:13,499 28054 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2022 10:11:13] "GET /web/static/src/img/favicon.ico HTTP/1.1" 200 - - - -
+2022-11-04 10:11:13,573 28054 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:11:13] "GET /web/image?model=res.users&field=image_128&id=6 HTTP/1.1" 200 - 10 0.010 0.020
+2022-11-04 10:11:13,590 28054 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:11:13] "POST /web/action/load HTTP/1.1" 200 - 17 0.015 0.026
+2022-11-04 10:11:13,636 28054 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:11:13] "POST /web/dataset/call_kw/library.book/load_views HTTP/1.1" 200 - 29 0.009 0.028
+2022-11-04 10:11:13,674 28054 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:11:13] "POST /web/dataset/call_kw/library.book/read HTTP/1.1" 200 - 12 0.007 0.016
+2022-11-04 10:11:13,700 28054 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:11:13] "POST /web/dataset/call_kw/res.partner/read HTTP/1.1" 200 - 7 0.005 0.011
+2022-11-04 10:11:23,859 28689 INFO ? odoo: Odoo version 14.0 
+2022-11-04 10:11:23,859 28689 INFO ? odoo: Using configuration file at /home/trungt/odoo-dev/odoo_14.cfg 
+2022-11-04 10:11:23,859 28689 INFO ? odoo: addons paths: ['/home/trungt/odoo-dev/odoo/odoo/addons', '/home/trungt/odoo-dev/filestores/addons/14.0', '/home/trungt/odoo-dev/odoo/addons', '/home/trungt/odoo-dev/custom-addons', '/home/trungt/odoo-dev/odoo'] 
+2022-11-04 10:11:23,860 28689 INFO ? odoo: database: trungt@localhost:5432 
+2022-11-04 10:11:24,091 28689 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2022-11-04 10:11:24,275 28689 INFO ? odoo.service.server: HTTP service (werkzeug) running on localhost:8014 
+2022-11-04 10:11:24,286 28689 INFO odoo-test odoo.modules.loading: loading 1 modules... 
+2022-11-04 10:11:24,306 28689 INFO odoo-test odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries (+0 extra) 
+2022-11-04 10:11:24,446 28689 INFO odoo-test odoo.modules.loading: updating modules list 
+2022-11-04 10:11:24,450 28689 INFO odoo-test odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2022-11-04 10:11:25,396 28689 WARNING odoo-test odoo.modules.loading: invalid module names, ignored: , my_module 
+2022-11-04 10:11:25,403 28689 INFO odoo-test odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['My Library'] to user __system__ #1 via n/a 
+2022-11-04 10:11:25,403 28689 INFO odoo-test odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['My Library'] to user __system__ #1 via n/a 
+2022-11-04 10:11:26,261 28689 INFO odoo-test odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user __system__ #1 via n/a 
+2022-11-04 10:11:26,294 28689 INFO odoo-test odoo.modules.loading: loading 8 modules... 
+2022-11-04 10:11:26,294 28689 INFO odoo-test odoo.modules.loading: Loading module my_library (2/8) 
+2022-11-04 10:11:26,336 28689 INFO odoo-test odoo.modules.registry: module my_library: creating or updating database tables 
+2022-11-04 10:11:26,477 28689 INFO odoo-test odoo.modules.loading: loading my_library/security/groups.xml 
+2022-11-04 10:11:26,595 28689 INFO odoo-test odoo.modules.loading: loading my_library/security/ir.model.access.csv 
+2022-11-04 10:11:26,624 28689 INFO odoo-test odoo.modules.loading: loading my_library/views/library_book.xml 
+2022-11-04 10:11:26,665 28689 INFO odoo-test odoo.modules.loading: Module my_library: loading demo 
+2022-11-04 10:11:26,683 28689 INFO odoo-test odoo.modules.loading: Module my_library loaded in 0.39s, 175 queries 
+2022-11-04 10:11:26,733 28689 INFO odoo-test odoo.modules.loading: 8 modules loaded in 0.44s, 175 queries (+0 extra) 
+2022-11-04 10:11:26,946 28689 INFO odoo-test odoo.modules.registry: verifying fields for every extended model 
+2022-11-04 10:11:27,042 28689 INFO odoo-test odoo.modules.loading: Modules loaded. 
+2022-11-04 10:11:30,150 28689 INFO ? odoo.http: HTTP Configuring static files 
+2022-11-04 10:11:30,156 28689 INFO odoo-test odoo.addons.base.models.ir_http: Generating routing map for key None 
+2022-11-04 10:11:30,790 28689 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:11:30] "GET /web HTTP/1.1" 200 - 311 0.078 0.559
+2022-11-04 10:11:30,819 28689 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:11:30] "GET /web/content/205-3cfd167/web.assets_common.js HTTP/1.1" 304 - 2 0.002 0.016
+2022-11-04 10:11:30,823 28689 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:11:30] "GET /web/content/209-41481d7/web.assets_backend.js HTTP/1.1" 304 - 2 0.001 0.020
+2022-11-04 10:11:30,824 28689 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:11:30] "GET /web/content/207-803b2ae/web.assets_backend_prod_only.js HTTP/1.1" 304 - 2 0.001 0.017
+2022-11-04 10:11:30,830 28689 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:11:30] "GET /web/webclient/load_menus/0e46f3fb8ff3dbd59516b3e0774e137b54bced83d5af770e8b30cdf685c11147 HTTP/1.1" 200 - 1 0.000 0.004
+2022-11-04 10:11:30,951 28689 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:11:30] "GET /web/webclient/qweb/2e7b81bbe436b652dea55a392b998f3993bf113a9de59d9428e159e32f729522?mods=base,web,auth_totp,base_import,my_library,web_editor,web_kanban_gauge,web_tour HTTP/1.1" 200 - 1 0.000 0.010
+2022-11-04 10:11:31,002 28689 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2022 10:11:31] "GET /web/static/src/img/user_menu_avatar.png HTTP/1.1" 200 - - - -
+2022-11-04 10:11:31,041 28689 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:11:31] "GET /web/image?model=res.users&field=image_128&id=6 HTTP/1.1" 304 - 11 0.015 0.022
+2022-11-04 10:11:31,122 28689 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:11:31] "POST /web/action/load HTTP/1.1" 200 - 21 0.026 0.091
+2022-11-04 10:11:31,178 28689 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:11:31] "POST /web/dataset/call_kw/library.book/load_views HTTP/1.1" 200 - 39 0.017 0.032
+2022-11-04 10:11:31,211 28689 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:11:31] "POST /web/dataset/call_kw/library.book/read HTTP/1.1" 200 - 12 0.007 0.013
+2022-11-04 10:11:31,231 28689 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:11:31] "POST /web/dataset/call_kw/res.partner/read HTTP/1.1" 200 - 7 0.003 0.008
+2022-11-04 10:13:40,580 29171 INFO ? odoo: Odoo version 14.0 
+2022-11-04 10:13:40,580 29171 INFO ? odoo: Using configuration file at /home/trungt/odoo-dev/odoo_14.cfg 
+2022-11-04 10:13:40,581 29171 INFO ? odoo: addons paths: ['/home/trungt/odoo-dev/odoo/odoo/addons', '/home/trungt/odoo-dev/filestores/addons/14.0', '/home/trungt/odoo-dev/odoo/addons', '/home/trungt/odoo-dev/custom-addons', '/home/trungt/odoo-dev/odoo'] 
+2022-11-04 10:13:40,581 29171 INFO ? odoo: database: trungt@localhost:5432 
+2022-11-04 10:13:40,848 29171 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2022-11-04 10:13:41,024 29171 INFO ? odoo.service.server: HTTP service (werkzeug) running on localhost:8014 
+2022-11-04 10:13:41,037 29171 INFO odoo-test odoo.modules.loading: loading 1 modules... 
+2022-11-04 10:13:41,057 29171 INFO odoo-test odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries (+0 extra) 
+2022-11-04 10:13:41,196 29171 INFO odoo-test odoo.modules.loading: updating modules list 
+2022-11-04 10:13:41,200 29171 INFO odoo-test odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2022-11-04 10:13:42,075 29171 WARNING odoo-test odoo.modules.loading: invalid module names, ignored: , my_module 
+2022-11-04 10:13:42,082 29171 INFO odoo-test odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['My Library'] to user __system__ #1 via n/a 
+2022-11-04 10:13:42,083 29171 INFO odoo-test odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['My Library'] to user __system__ #1 via n/a 
+2022-11-04 10:13:42,851 29171 INFO odoo-test odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user __system__ #1 via n/a 
+2022-11-04 10:13:42,883 29171 INFO odoo-test odoo.modules.loading: loading 8 modules... 
+2022-11-04 10:13:42,884 29171 INFO odoo-test odoo.modules.loading: Loading module my_library (2/8) 
+2022-11-04 10:13:42,926 29171 INFO odoo-test odoo.modules.registry: module my_library: creating or updating database tables 
+2022-11-04 10:13:43,061 29171 INFO odoo-test odoo.modules.loading: loading my_library/security/groups.xml 
+2022-11-04 10:13:43,146 29171 INFO odoo-test odoo.modules.loading: loading my_library/security/ir.model.access.csv 
+2022-11-04 10:13:43,186 29171 INFO odoo-test odoo.modules.loading: loading my_library/security/security_rules.xml 
+2022-11-04 10:13:43,203 29171 INFO odoo-test odoo.modules.loading: loading my_library/views/library_book.xml 
+2022-11-04 10:13:43,253 29171 INFO odoo-test odoo.modules.loading: Module my_library: loading demo 
+2022-11-04 10:13:43,297 29171 INFO odoo-test odoo.modules.loading: Module my_library loaded in 0.41s, 200 queries 
+2022-11-04 10:13:43,357 29171 INFO odoo-test odoo.modules.loading: 8 modules loaded in 0.47s, 200 queries (+0 extra) 
+2022-11-04 10:13:43,566 29171 INFO odoo-test odoo.addons.base.models.ir_model: Deleting 1626@ir.model.fields (my_library.field_library_book__hi_guy) 
+2022-11-04 10:13:43,569 29171 INFO odoo-test odoo.addons.base.models.ir_model: Deleting field library.book.hi_guy (hint: fields should be explicitly removed by an upgrade script) 
+2022-11-04 10:13:43,638 29171 INFO odoo-test odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [5555] 
+2022-11-04 10:13:43,638 29171 INFO odoo-test odoo.models.unlink: User #1 deleted ir.model.fields records with IDs: [1626] 
+2022-11-04 10:13:43,638 29171 INFO odoo-test odoo.modules.registry: verifying fields for every extended model 
+2022-11-04 10:13:43,741 29171 INFO odoo-test odoo.modules.loading: Modules loaded. 
+2022-11-04 10:13:48,371 29171 INFO ? odoo.http: HTTP Configuring static files 
+2022-11-04 10:13:48,375 29171 INFO odoo-test odoo.addons.base.models.ir_http: Generating routing map for key None 
+2022-11-04 10:13:49,006 29171 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:13:49] "GET /web HTTP/1.1" 200 - 311 0.079 0.554
+2022-11-04 10:13:49,038 29171 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:13:49] "GET /web/content/205-3cfd167/web.assets_common.js HTTP/1.1" 304 - 2 0.002 0.021
+2022-11-04 10:13:49,040 29171 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:13:49] "GET /web/content/209-41481d7/web.assets_backend.js HTTP/1.1" 304 - 2 0.003 0.019
+2022-11-04 10:13:49,041 29171 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:13:49] "GET /web/content/207-803b2ae/web.assets_backend_prod_only.js HTTP/1.1" 304 - 2 0.005 0.017
+2022-11-04 10:13:49,047 29171 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:13:49] "GET /web/webclient/load_menus/0e46f3fb8ff3dbd59516b3e0774e137b54bced83d5af770e8b30cdf685c11147 HTTP/1.1" 200 - 1 0.000 0.004
+2022-11-04 10:13:49,184 29171 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:13:49] "GET /web/webclient/qweb/2e7b81bbe436b652dea55a392b998f3993bf113a9de59d9428e159e32f729522?mods=base,web,auth_totp,base_import,my_library,web_editor,web_kanban_gauge,web_tour HTTP/1.1" 200 - 1 0.000 0.014
+2022-11-04 10:13:49,229 29171 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2022 10:13:49] "GET /web/static/src/img/user_menu_avatar.png HTTP/1.1" 200 - - - -
+2022-11-04 10:13:49,263 29171 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:13:49] "GET /web/image?model=res.users&field=image_128&id=6 HTTP/1.1" 304 - 11 0.010 0.021
+2022-11-04 10:13:49,286 29171 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:13:49] "POST /web/action/load HTTP/1.1" 200 - 21 0.020 0.027
+2022-11-04 10:13:49,339 29171 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:13:49] "POST /web/dataset/call_kw/library.book/load_views HTTP/1.1" 200 - 39 0.015 0.032
+2022-11-04 10:13:49,363 29171 INFO odoo-test odoo.addons.base.models.ir_rule: Access Denied by record rules for operation: read on record ids: [1], uid: 6, model: library.book 
+2022-11-04 10:13:49,377 29171 WARNING odoo-test odoo.http: Due to security restrictions, you are not allowed to access 'Library Book' (library.book) records.
+
+Records: TH (id=1)
+User: Marc Demo (id=6)
+
+This restriction is due to the following rules:
+- Library: see only own books
+
+Contact your administrator to request access if necessary. 
+2022-11-04 10:13:49,380 29171 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:13:49] "POST /web/dataset/call_kw/library.book/read HTTP/1.1" 200 - 23 0.009 0.018
+2022-11-04 10:13:49,389 29171 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2022 10:13:49] "GET /web/static/src/xml/dialog.xml HTTP/1.1" 200 - - - -
+2022-11-04 10:13:49,393 29171 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2022 10:13:49] "GET /web/static/src/xml/crash_manager.xml HTTP/1.1" 200 - - - -
+2022-11-04 10:13:57,509 29171 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:13:57] "GET /web/session/logout HTTP/1.1" 303 - 1 0.000 0.003
+2022-11-04 10:13:57,515 29171 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:13:57] "GET /web HTTP/1.1" 303 - 1 0.000 0.003
+2022-11-04 10:13:57,909 29171 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:13:57] "GET /web/login HTTP/1.1" 200 - 246 0.061 0.330
+2022-11-04 10:13:57,945 29171 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2022 10:13:57] "GET /web/static/src/fonts/google/Roboto/Roboto-Regular.ttf HTTP/1.1" 304 - - - -
+2022-11-04 10:13:58,016 29171 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:13:58] "GET /web/webclient/translations/1667556838001?mods=&lang= HTTP/1.1" 200 - 10 0.003 0.009
+2022-11-04 10:14:01,382 29171 INFO odoo-test odoo.addons.base.models.res_users: Login successful for db:odoo-test login:admin from 127.0.0.1 
+2022-11-04 10:14:01,411 29171 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:14:01] "POST /web/login HTTP/1.1" 303 - 52 0.024 0.067
+2022-11-04 10:14:01,609 29171 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:14:01] "GET /web HTTP/1.1" 200 - 161 0.042 0.152
+2022-11-04 10:14:01,756 29171 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:14:01] "GET /web/webclient/qweb/2e7b81bbe436b652dea55a392b998f3993bf113a9de59d9428e159e32f729522?mods=base,web,auth_totp,base_import,my_library,web_editor,web_kanban_gauge,web_tour HTTP/1.1" 200 - 1 0.000 0.009
+2022-11-04 10:14:01,785 29171 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:14:01] "GET /web/webclient/translations/5227498d9df4b403b0244c75aac21e0c091e50ce?mods=base%2Cweb%2Cauth_totp%2Cbase_import%2Cmy_library%2Cweb_editor%2Cweb_kanban_gauge%2Cweb_tour&lang=en_US HTTP/1.1" 200 - 4 0.002 0.007
+2022-11-04 10:14:01,828 29171 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2022 10:14:01] "GET /web/static/src/img/user_menu_avatar.png HTTP/1.1" 200 - - - -
+2022-11-04 10:14:01,852 29171 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:14:01] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 - 2 0.001 0.010
+2022-11-04 10:14:01,867 29171 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:14:01] "GET /web/image?model=res.users&field=image_128&id=2 HTTP/1.1" 200 - 11 0.019 0.019
+2022-11-04 10:14:01,883 29171 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:14:01] "POST /web/action/load HTTP/1.1" 200 - 19 0.016 0.026
+2022-11-04 10:14:01,931 29171 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:14:01] "POST /web/dataset/call_kw/library.book/load_views HTTP/1.1" 200 - 36 0.011 0.027
+2022-11-04 10:14:01,956 29171 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:14:01] "POST /web/dataset/search_read HTTP/1.1" 200 - 10 0.004 0.009
+2022-11-04 10:14:01,967 29171 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:14:01] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 2 0.001 0.003
+2022-11-04 10:14:03,875 29171 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:14:03] "POST /web/dataset/call_kw/library.book/read HTTP/1.1" 200 - 14 0.006 0.014
+2022-11-04 10:14:03,895 29171 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:14:03] "POST /web/dataset/call_kw/res.partner/read HTTP/1.1" 200 - 7 0.003 0.009
+2022-11-04 10:15:53,821 29171 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:15:53] "GET /web HTTP/1.1" 200 - 57 0.019 0.084
+2022-11-04 10:15:53,858 29171 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:15:53] "GET /web/content/205-3cfd167/web.assets_common.js HTTP/1.1" 304 - 2 0.005 0.020
+2022-11-04 10:15:53,859 29171 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:15:53] "GET /web/content/207-803b2ae/web.assets_backend_prod_only.js HTTP/1.1" 304 - 2 0.001 0.022
+2022-11-04 10:15:53,860 29171 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:15:53] "GET /web/content/209-41481d7/web.assets_backend.js HTTP/1.1" 304 - 2 0.002 0.023
+2022-11-04 10:15:53,871 29171 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:15:53] "GET /web/webclient/load_menus/53c781f06edbf48e4b945c5686fc3370edf6d642a80ce3670b4baf23cfbe1afc HTTP/1.1" 200 - 1 0.000 0.008
+2022-11-04 10:15:53,964 29171 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:15:53] "GET /web/webclient/qweb/2e7b81bbe436b652dea55a392b998f3993bf113a9de59d9428e159e32f729522?mods=base,web,auth_totp,base_import,my_library,web_editor,web_kanban_gauge,web_tour HTTP/1.1" 200 - 1 0.000 0.016
+2022-11-04 10:15:54,018 29171 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2022 10:15:54] "GET /web/static/src/img/user_menu_avatar.png HTTP/1.1" 200 - - - -
+2022-11-04 10:15:54,053 29171 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:15:54] "GET /web/image?model=res.users&field=image_128&id=2 HTTP/1.1" 304 - 10 0.009 0.025
+2022-11-04 10:15:54,068 29171 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:15:54] "POST /web/action/load HTTP/1.1" 200 - 17 0.016 0.027
+2022-11-04 10:15:54,122 29171 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:15:54] "POST /web/dataset/call_kw/library.book/load_views HTTP/1.1" 200 - 29 0.012 0.034
+2022-11-04 10:15:54,166 29171 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:15:54] "POST /web/dataset/call_kw/library.book/read HTTP/1.1" 200 - 14 0.008 0.018
+2022-11-04 10:15:54,187 29171 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:15:54] "POST /web/dataset/call_kw/res.partner/read HTTP/1.1" 200 - 7 0.005 0.010
+2022-11-04 10:19:09,828 29171 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:19:09] "GET /web HTTP/1.1" 200 - 57 0.017 0.082
+2022-11-04 10:19:09,855 29171 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:19:09] "GET /web/content/205-3cfd167/web.assets_common.js HTTP/1.1" 304 - 2 0.002 0.014
+2022-11-04 10:19:09,865 29171 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:19:09] "GET /web/content/207-803b2ae/web.assets_backend_prod_only.js HTTP/1.1" 304 - 2 0.003 0.014
+2022-11-04 10:19:09,866 29171 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:19:09] "GET /web/content/209-41481d7/web.assets_backend.js HTTP/1.1" 304 - 2 0.001 0.022
+2022-11-04 10:19:09,872 29171 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:19:09] "GET /web/webclient/load_menus/53c781f06edbf48e4b945c5686fc3370edf6d642a80ce3670b4baf23cfbe1afc HTTP/1.1" 200 - 1 0.000 0.005
+2022-11-04 10:19:09,929 29171 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:19:09] "GET /web/webclient/qweb/2e7b81bbe436b652dea55a392b998f3993bf113a9de59d9428e159e32f729522?mods=base,web,auth_totp,base_import,my_library,web_editor,web_kanban_gauge,web_tour HTTP/1.1" 200 - 1 0.000 0.012
+2022-11-04 10:19:09,979 29171 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2022 10:19:09] "GET /web/static/src/img/user_menu_avatar.png HTTP/1.1" 200 - - - -
+2022-11-04 10:19:10,013 29171 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:19:10] "GET /web/image?model=res.users&field=image_128&id=2 HTTP/1.1" 304 - 10 0.008 0.026
+2022-11-04 10:19:10,031 29171 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:19:10] "POST /web/action/load HTTP/1.1" 200 - 17 0.017 0.024
+2022-11-04 10:19:10,086 29171 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:19:10] "POST /web/dataset/call_kw/library.book/load_views HTTP/1.1" 200 - 29 0.011 0.034
+2022-11-04 10:19:10,127 29171 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:19:10] "POST /web/dataset/call_kw/library.book/read HTTP/1.1" 200 - 14 0.007 0.017
+2022-11-04 10:19:10,148 29171 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:19:10] "POST /web/dataset/call_kw/res.partner/read HTTP/1.1" 200 - 7 0.003 0.009
+2022-11-04 10:34:27,079 29171 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:34:27] "POST /web/dataset/call_kw/library.book/load_views HTTP/1.1" 200 - 23 0.012 0.045
+2022-11-04 10:34:27,102 29171 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:34:27] "POST /web/dataset/search_read HTTP/1.1" 200 - 10 0.003 0.009
+2022-11-04 10:34:27,116 29171 INFO odoo-test werkzeug: 127.0.0.1 - - [04/Nov/2022 10:34:27] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 1 0.000 0.003
