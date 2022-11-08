@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<template xml:space="preserve">
+    <!-- <t t-name="PresenceIndicator">
+        <div id="oe_hr_attendance_status" class="fa fa-circle" role="img" aria-label="Available" title="Available">
+        </div>
+    </t> -->
+
+    <t t-name="HrAttendanceMyMainMenu">
+        <div class="o_hr_attendance_kiosk_mode_container o_home_menu_background">
+            <div class="o_hr_attendance_kiosk_mode">
+                
+
+                <p>
+                    Warning : Your user should be linked to an employee to use attendance. Please contact your administrator.
+                </p>
+            </div>
+        </div>
+
+        <!-- <div>
+            
+        <div> -->
+    </t>
+
+</template>
