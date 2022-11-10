@@ -1,24 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <template xml:space="preserve">
-    <!-- <t t-name="PresenceIndicator">
-        <div id="oe_hr_attendance_status" class="fa fa-circle" role="img" aria-label="Available" title="Available">
-        </div>
-    </t> -->
-
     <t t-name="HrAttendanceMyMainMenu">
         <div class="o_hr_attendance_kiosk_mode_container o_home_menu_background">
             <div class="o_hr_attendance_kiosk_mode">
-                
-
-                <p>
-                    Warning : Your user should be linked to an employee to use attendance. Please contact your administrator.
-                </p>
+                <div class="row">
+                    <div class="col-12 mb8 mt8">
+                        <input class="o_hr_attendance_PINbox text-center" type="text"/>
+                    </div>
+                    <!-- <t t-if="widget.employee_list">
+                        <t t-foreach="widget.employee_list" t-as="e">
+                            <h4 class="mt0 mb0 text-muted">
+                                <t t-esc="e['name']"/>
+                            </h4>
+                            <br/>   
+                        </t>
+                    </t> -->
+                </div>
+                <div class="row">
+                    <t t-foreach="['1', '2', '3', '4', '5', '6', '7', '8', '9', ['C', 'btn-warning'], '0', ['ok', 'btn-primary', '='], 
+                    ['divide', 'btn-warning', '÷',], ['multiply', 'btn-success', '×'], ['add', 'btn-danger', '+'], ['minus', 'btn-warning', '-'] ]" t-as="btn_name">
+                        <div class="col-4 mb4">
+                            <a t-attf-class="btn {{btn_name[1]? btn_name[1] : 'btn-secondary'}} btn-block btn-lg {{ 'o_hr_attendance_pin_pad_button_' + btn_name[0] }}">
+                                <t t-if="btn_name[2]">
+                                    <t t-esc="btn_name[2]"/>
+                                </t>
+                                <t t-else="">
+                                    <t t-esc="btn_name[0]"/>
+                                </t>
+                            </a>
+                        </div>
+                    </t>
+                </div>
             </div>
         </div>
-
-        <!-- <div>
-            
-        <div> -->
     </t>
-
 </template>
