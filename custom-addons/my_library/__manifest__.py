@@ -9,15 +9,15 @@ Description related to library.
     """,  # Supports reStructuredText(RST) format
     'author': "Parth Gajjar",
     'website': "http://www.example.com",
-    'category': 'Library',
+    'category': 'Tools',
     'version': '14.0.1',
-    'depends': ['base'],
+    'depends': ['base', 'website'],
 
     'data': [
         'security/groups.xml',
         'security/ir.model.access.csv',
-        'security/security_rules.xml',
-        'views/library_book.xml'
+        'views/library_book.xml',
+        'views/templates.xml'
     ],
 
     # This demo data files will be loaded if db initialize with demo data (commented because file is not added in this example)

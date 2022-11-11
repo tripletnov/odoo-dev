@@ -1,35 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
 <template xml:space="preserve">
     <t t-name="HrAttendanceMyMainMenu">
-        <div class="o_hr_attendance_kiosk_mode_container o_home_menu_background">
-            <div class="o_hr_attendance_kiosk_mode">
-                <div class="row">
-                    <div class="col-12 mb8 mt8">
-                        <input class="o_hr_attendance_PINbox text-center" type="text"/>
-                    </div>
-                    <!-- <t t-if="widget.employee_list">
-                        <t t-foreach="widget.employee_list" t-as="e">
-                            <h4 class="mt0 mb0 text-muted">
-                                <t t-esc="e['name']"/>
-                            </h4>
-                            <br/>   
-                        </t>
-                    </t> -->
-                </div>
-                <div class="row">
-                    <t t-foreach="['1', '2', '3', '4', '5', '6', '7', '8', '9', ['C', 'btn-warning'], '0', ['ok', 'btn-primary', '='], 
-                    ['divide', 'btn-warning', '÷',], ['multiply', 'btn-success', '×'], ['add', 'btn-danger', '+'], ['minus', 'btn-warning', '-'] ]" t-as="btn_name">
-                        <div class="col-4 mb4">
-                            <a t-attf-class="btn {{btn_name[1]? btn_name[1] : 'btn-secondary'}} btn-block btn-lg {{ 'o_hr_attendance_pin_pad_button_' + btn_name[0] }}">
-                                <t t-if="btn_name[2]">
-                                    <t t-esc="btn_name[2]"/>
-                                </t>
-                                <t t-else="">
-                                    <t t-esc="btn_name[0]"/>
-                                </t>
-                            </a>
+        <div id="mmenu_screen" class="container-fluid main_container bg-primary text-white d-flex">
+            <div class="row flex-fill" style="min-height: 100vh;flex:1 1 auto;">
+                <div class="col-sm-6 h-100">
+                    <div class="row h-50 bg-light">
+                        <div class="col-sm-12" id="mmenu_screen--book"><!-- Button for booking -->
+                            <div class="row">
+                                <div class="col-12">
+                                    <textarea class="o_hr_attendance_PINbox text-center" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                    <!-- <input class="o_hr_attendance_PINbox text-center" type="text"/> -->
+                                </div>
+                            </div>
                         </div>
-                    </t>
+                    </div>
+                    <div class="row h-50 bg-success">
+                        <div class="col-sm-12" id="mmenu_screen--information"><!-- Button for information -->
+                            <div class="o_hr_attendance_kiosk_mode text-dark"><!-- <div class="row">
+                                    <div class="col-12">
+                                        <input class="o_hr_attendance_PINbox text-center" type="text"/>
+                                    </div>
+                                    --><!-- <t t-if="widget.employee_list">
+                                        <t t-foreach="widget.employee_list" t-as="each">
+                                            <t t-log="each"/>
+                                        </t>
+                                    </t> --><!-- </div> -->
+                                <div class="row">
+                                    <t t-foreach="[&apos;1&apos;, &apos;2&apos;, &apos;3&apos;, &apos;4&apos;, &apos;5&apos;, &apos;6&apos;, &apos;7&apos;, &apos;8&apos;, &apos;9&apos;, [&apos;C&apos;, &apos;btn-warning&apos;], &apos;0&apos;, [&apos;ok&apos;, &apos;btn-primary&apos;, &apos;=&apos;], 
+                                        [&apos;divide&apos;, &apos;btn-warning&apos;, &apos;÷&apos;,], [&apos;multiply&apos;, &apos;btn-success&apos;, &apos;×&apos;], [&apos;add&apos;, &apos;btn-danger&apos;, &apos;+&apos;], [&apos;minus&apos;, &apos;btn-warning&apos;, &apos;-&apos;] ]" t-as="btn_name">
+                                        <div class="col-4 mb4">
+                                            <a t-attf-class="btn {{btn_name[1]? btn_name[1] : &apos;btn-secondary&apos;}} btn-block btn-lg {{ &apos;o_hr_attendance_pin_pad_button_&apos; + btn_name[0] }}">
+                                                <t t-if="btn_name[2]">
+                                                    <t t-esc="btn_name[2]"/>
+                                                </t>
+                                                <t t-else="">
+                                                    <t t-esc="btn_name[0]"/>
+                                                </t>
+                                            </a>
+                                        </div>
+                                    </t>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 mmenu_screen--direktaction bg-faded flex-fill"><!-- Button for direktaction -->
+                    <ul class="list-group">
+                        <t t-foreach="widget.employee_list" t-as="each">
+                            <li class="list-group-item text-dark">
+                                <img t-att-src="&apos;web/image?model=hr.employee&amp;id=&apos; + each[&apos;id&apos;] + &apos;&amp;field=image_128&apos;" style="border-radius: 50%;
+                                    width: 34px;
+                                    height: 34px;
+                                    object-fit: cover;
+                                    margin-right: 4px;"/>
+                                <t t-if="each[&apos;barcode&apos;]">
+                                    [<t t-esc="each[&apos;barcode&apos;]"/>]
+                                </t>
+                                <t t-esc="each[&apos;name&apos;]"/>
+                                <br></br>
+                            </li>
+                        </t>
+                    </ul>
                 </div>
             </div>
         </div>

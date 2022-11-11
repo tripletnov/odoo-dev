@@ -34,7 +34,7 @@ odoo.define('hr_attendance.my_attendances', function (require) {
                     this.$('.o_hr_attendance_PINbox').val(this.$('.o_hr_attendance_PINbox').val() + newString);
                 } else if (currentString.length == 0) {
                     // if first key pressed is an opearator, don't do anything
-                    console.log("enter a number first");
+                    
                 } else {
                     // else just add the operator pressed to the input
                     //   input.innerHTML += e.target.innerHTML;
@@ -55,7 +55,7 @@ odoo.define('hr_attendance.my_attendances', function (require) {
                     this.$('.o_hr_attendance_PINbox').val(this.$('.o_hr_attendance_PINbox').val() + newString);
                 } else if (currentString.length == 0) {
                     // if first key pressed is an opearator, don't do anything
-                    console.log("enter a number first");
+                    
                 } else {
                     // else just add the operator pressed to the input
                     //   input.innerHTML += e.target.innerHTML;
@@ -75,7 +75,7 @@ odoo.define('hr_attendance.my_attendances', function (require) {
                     this.$('.o_hr_attendance_PINbox').val(this.$('.o_hr_attendance_PINbox').val() + newString);
                 } else if (currentString.length == 0) {
                     // if first key pressed is an opearator, don't do anything
-                    console.log("enter a number first");
+                    
                 } else {
                     // else just add the operator pressed to the input
                     //   input.innerHTML += e.target.innerHTML;
@@ -95,7 +95,7 @@ odoo.define('hr_attendance.my_attendances', function (require) {
                     this.$('.o_hr_attendance_PINbox').val(this.$('.o_hr_attendance_PINbox').val() + newString);
                 } else if (currentString.length == 0) {
                     // if first key pressed is an opearator, don't do anything
-                    console.log("enter a number first");
+                    
                 } else {
                     // else just add the operator pressed to the input
                     //   input.innerHTML += e.target.innerHTML;
@@ -114,10 +114,10 @@ odoo.define('hr_attendance.my_attendances', function (require) {
                 var numbers = inputString.split(/\+|\-|\×|\÷/g);
                 var operators = inputString.replace(/[0-9]|\./g, "").split("");
 
-                // console.log(inputString);
-                // console.log(operators);
-                // console.log(numbers);
-                // console.log("----------------------------");
+                // 
+                // 
+                // 
+                // 
 
                 var divide = operators.indexOf("÷");
                 while (divide != -1) {
@@ -156,11 +156,11 @@ odoo.define('hr_attendance.my_attendances', function (require) {
         },
 
         init: function () {
-            console.log("init 1");
+            
             this._super.apply(this, arguments);
             this.resultDisplayed = false;
             this.update_attendance();
-            console.log("init 2");
+            
         },
 
         willStart: function () {
@@ -178,7 +178,7 @@ odoo.define('hr_attendance.my_attendances', function (require) {
         },
 
         checkNum: function (nb) {
-            console.log('num:' + nb);
+            
 
             var results = '';
             var currentString = this.$('.o_hr_attendance_PINbox').val();
@@ -210,8 +210,12 @@ odoo.define('hr_attendance.my_attendances', function (require) {
                     args: [],
                 })
                 .then(function(result) {
+
+                    var i;
                     if (result) {
-                        console.log(result);
+                        for( i in (Object.keys(result))){
+                            
+                        };
                     } else if (result.warning) {
                         self.do_warn(result.warning);
                     }
@@ -220,10 +224,10 @@ odoo.define('hr_attendance.my_attendances', function (require) {
 
     
         start: function () {
-            console.log("start 1");
+            
             var self = this;
             // self.$el.html(QWeb.render("HrAttendanceKioskConfirm", {widget: self}));
-            // console.log("start 2");
+            // 
             return self._super.apply(this, arguments);
         },
 
